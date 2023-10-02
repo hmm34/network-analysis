@@ -12,8 +12,33 @@ from sage.all import *
 #        sagemath graph G
 #        list Q of all vertex pairs {x,y} of G sorted in nonn-increasing order with respect to d(x,y)
 # output: lambda, the leanness of G
-def compute_leanness(G):
-    return 0
+def compute_leanness(G, Q):
+    leanness = 0
+    for x, y in Q:
+        if distance_matrix[x][y] <= leanness:
+            return leanness
+        
+        # Create empty sets S[i]
+        S = [set() for _ in range(distance_matrix[x][y] + 1)]
+        
+        for w in G:
+            if distance_matrix[x][y] == distance_matrix[x][w] + distance_matrix[y][w]:
+                # Insert w into S[d(x, w)]
+                S[distance_matrix[x][w]].add(w)
+                # Remove pairs {x, w}, {w, y} from Q
+                if (x, w) in Q:
+                    Q.remove((x, w))
+                if (w, y) in Q:
+                    Q.remove((w, y))
+        
+        start = leanness // 2
+        end = distance_matrix[x][y] - leanness // 2
+        
+        for i in range(start, end + 1):
+            for u, v in S[i]:
+                if leanness < distance_matrix[u][v]:
+                    leanness = distance_matrix[u][v]
+    return leanness
 
 
 def compute_alpha_i_metric(G):
@@ -50,6 +75,10 @@ def analyze(fileName):
     G = Graph()
     from_networkx_graph(G, g)
 
+    distance_matrix = G.shortest_path_matrix()
+    Q = [(u, v) for u in G.vertices() for v in G.vertices() if u != v]
+    print(f"compute_leanness(G, Q)")
+
     ######################################
     # display graph
     G.show(method="js", vertex_labels=True, edge_labels=False,         # optional - internet, needs sage.plot
@@ -82,11 +111,7 @@ def analyze(fileName):
 
     print("Degree Centrality Data")
     print(nx.degree_centrality(g))
-
-
     print("ok")
-
-
 
 # load graphs
 fileName = "data/small.txt"
