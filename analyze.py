@@ -17,6 +17,7 @@ from sage.graphs.distances_all_pairs import distances_all_pairs
 # output: lambda, the leanness of G
 def compute_leanness(G, Q, distance_matrix):
     leanness = 0
+    # Iterate through all vertex pairs.
     for x, y in Q:
         if distance_matrix[x][y] <= leanness:
             return leanness
@@ -81,6 +82,8 @@ def analyze(fileName):
     from_networkx_graph(G, g)
     distance_matrix = distances_all_pairs(G)
     print(distance_matrix)
+
+    # Q is a list of all possible pairs of  vertices in G
     Q = [(u, v) for u in G.vertices() for v in G.vertices() if u != v]
     print(f"Leanness: {compute_leanness(G, Q, distance_matrix)}")
 
