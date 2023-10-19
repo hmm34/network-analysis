@@ -28,7 +28,7 @@ def compute_leanness(G, Q, distance_matrix):
 
         for w in G:
             if distance_matrix[x][y] == distance_matrix[x][w] + distance_matrix[y][w]:
-                # Insert pair (x, w) and (w, y) into S[d(x, w)]
+                # Insert pair w  into S[d(x, w)]
                 S[distance_matrix[x][w]].add((w))
                 # Remove pairs (x, w) and (w, y) from Q
                 if (x, w) in Q:
@@ -41,6 +41,7 @@ def compute_leanness(G, Q, distance_matrix):
 
         for i in range(start, end + 1):
             if len(S[i]) > 1:
+                # Iterate through all combinations of pairs in S[i]
                 for u, v in combinations(S[i], 2):
                     if leanness < distance_matrix[u][v]:
                         leanness = distance_matrix[u][v]
@@ -83,7 +84,7 @@ def analyze(fileName):
     distance_matrix = distances_all_pairs(G)
     print(distance_matrix)
 
-    # Q is a list of all possible pairs of  vertices in G
+    # Q is a list of all possible pairs of  vertices in G in non-increasing order
     Q = [(u, v) for u in G.vertices() for v in G.vertices() if u != v]
     Q.sort(key=lambda pair: distance_matrix[pair[0]][pair[1]], reverse=True)
     print("Distances for each pair:")
