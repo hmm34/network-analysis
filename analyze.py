@@ -8,6 +8,7 @@ from sage.graphs.graph_input import from_networkx_graph
 from sage.all import *
 from collections import deque
 from sage.graphs.distances_all_pairs import distances_all_pairs
+from itertools import combinations
 
 
 # Given a sagemath graph, compute the interval thinness (leanness) using AO Mohammed et al approach
@@ -28,8 +29,7 @@ def compute_leanness(G, Q, distance_matrix):
         for w in G:
             if distance_matrix[x][y] == distance_matrix[x][w] + distance_matrix[y][w]:
                 # Insert pair (x, w) and (w, y) into S[d(x, w)]
-                S[distance_matrix[x][w]].add((x, w))
-                S[distance_matrix[x][w]].add((w, y))
+                S[distance_matrix[x][w]].add((w))
                 # Remove pairs (x, w) and (w, y) from Q
                 if (x, w) in Q:
                     Q.remove((x, w))
@@ -40,10 +40,10 @@ def compute_leanness(G, Q, distance_matrix):
         end = distance_matrix[x][y] - leanness // 2
 
         for i in range(start, end + 1):
-            for pair in S[i]:
-                u, v = pair
-                if leanness < distance_matrix[u][v]:
-                    leanness = distance_matrix[u][v]
+            if len(S[i]) > 1:
+                for u, v in combinations(S[i], 2):
+                    if leanness < distance_matrix[u][v]:
+                        leanness = distance_matrix[u][v]
     return leanness
 
 
@@ -85,6 +85,11 @@ def analyze(fileName):
 
     # Q is a list of all possible pairs of  vertices in G
     Q = [(u, v) for u in G.vertices() for v in G.vertices() if u != v]
+    Q.sort(key=lambda pair: distance_matrix[pair[0]][pair[1]], reverse=True)
+    print("Distances for each pair:")
+    for x in Q:
+        print(distance_matrix[x[0]][x[1]])
+
     print(f"Leanness: {compute_leanness(G, Q, distance_matrix)}")
 
     ######################################
@@ -110,9 +115,9 @@ def analyze(fileName):
     print("Hyperbolicity: " + str(L))
 
     # - cluster diameter
-    # - tree length
-    # - tree breadth
-    # - tree width
+    # - tree.txt length
+    # - tree.txt breadth
+    # - tree.txt width
     # - cop win number??
     # - various centrality measures (betweenness, closeness, etc....)
 
@@ -122,5 +127,5 @@ def analyze(fileName):
 
 
 # load graphs
-fileName = "data/small.txt"
+fileName = "data/graphA.txt"
 analyze(fileName)
