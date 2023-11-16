@@ -56,11 +56,11 @@ def compute_alpha_i_metric(G, distance_matrix):
     for edge in G.edges():
         v, w, _ = edge
         for u in G.vertices():
-            if distance_matrix[u][w] != distance_matrix[u][v] + 1:
-                break
+            if u == v or u == w or distance_matrix[u][w] != distance_matrix[u][v] + 1:
+                continue
             for x in G.vertices():
-                if distance_matrix[x][v] != distance_matrix[x][w] + 1:
-                    break
+                if x == v or x == w or distance_matrix[x][v] != distance_matrix[x][w] + 1:
+                    continue
                 k = max(k, distance_matrix[u][v] + distance_matrix[v][x] - distance_matrix[u][x])
     return k
 
@@ -178,5 +178,5 @@ def analyze(fileName):
 
 
 # load graphs
-fileName = "data/Chordal.txt"
+fileName = "data/C9.txt"
 analyze(fileName)
