@@ -179,5 +179,5 @@ def analyze(fileName):
 
 
 # load graphs
-fileName = "data/C9.txt"
+fileName = "data/real-world/ca-AstroPh.txt"
 analyze(fileName)
