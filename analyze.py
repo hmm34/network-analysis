@@ -1,14 +1,17 @@
 # library imports
+import math
 import networkx as nx
 # from pyvis.network import Network
 import matplotlib.pyplot as plt
 from networkx import Graph
+from numpy import Infinity
 from sage.graphs.hyperbolicity import hyperbolicity
 from sage.graphs.graph_input import from_networkx_graph
 from sage.all import *
 from collections import deque
 from sage.graphs.distances_all_pairs import distances_all_pairs
 from itertools import combinations
+import time
 
 
 # Given a sagemath graph, compute the interval thinness (leanness) using AO Mohammed et al approach
@@ -48,8 +51,21 @@ def compute_leanness(G, Q, distance_matrix):
     return leanness
 
 
-def compute_alpha_i_metric(G):
-    return 0
+def compute_alpha_i_metric(G, distance_matrix):
+    k = 0
+    for edge in G.edges():
+        v, w, _ = edge
+        for u in G.vertices():
+            if u == v or u == w or distance_matrix[u][w] != distance_matrix[u][v] + 1:
+                continue
+            for x in G.vertices():
+                if x == v or x == w or distance_matrix[x][v] != distance_matrix[x][w] + 1:
+                    continue
+                k = max(k, distance_matrix[u][v] + distance_matrix[v][x] - distance_matrix[u][x])
+    return k
+
+
+
 
 
 def compute_pseudoconvexity(G):
@@ -83,15 +99,30 @@ def analyze(fileName):
     from_networkx_graph(G, g)
     distance_matrix = distances_all_pairs(G)
     print(distance_matrix)
+    # for i in distance_matrix:
+    #     for j in distance_matrix[i]:
+    #         value = float(distance_matrix[i][j])
+    #         if math.isinf(value):
+    #             distance_matrix[i][j] = 0
 
-    # Q is a list of all possible pairs of  vertices in G in non-increasing order
+    # # Q is a list of all possible pairs of  vertices in G in non-increasing order
     Q = [(u, v) for u in G.vertices() for v in G.vertices() if u != v]
     Q.sort(key=lambda pair: distance_matrix[pair[0]][pair[1]], reverse=True)
-    print("Distances for each pair:")
-    for x in Q:
-        print(distance_matrix[x[0]][x[1]])
-
-    print(f"Leanness: {compute_leanness(G, Q, distance_matrix)}")
+    # # print("Distances for each pair:")
+    # # for x in Q:
+    # #     print(distance_matrix[x[0]][x[1]])
+    #
+    # start_time = time.time()
+    # print(f"Leanness: {compute_leanness(G, Q, distance_matrix)}")
+    # end_time = time.time()
+    # execution_time = end_time - start_time
+    # print(f"Computing Leanness Execution time: {execution_time} seconds")
+    print(G.edges())
+    start_time = time.time()
+    print(f"Alpha-i-metric: {compute_alpha_i_metric(G, distance_matrix)}")
+    end_time = time.time()
+    execution_time = end_time - start_time
+    print(f"Computing Alpha-i-metric Execution time: {execution_time} seconds")
 
     ######################################
     # display graph
@@ -103,17 +134,36 @@ def analyze(fileName):
     plt.draw()
     plt.show()
 
+
     ######################################
     # run analysis (subroutines)
     print("Number of nodes n:", g.number_of_nodes())
     print("Number of edges m:", g.number_of_edges())
-    print("Diameter:", nx.diameter(g))
-    print("Radius:", nx.radius(g))
+
+    # Create your graph 'g' or load it from your data source
+
+    # Find connected components
+    # connected_components = list(nx.connected_components(g))
+    # if len(connected_components) > 0:
+    #     # Find the largest connected component
+    #     largest_component = max(connected_components, key=len)
+    #     largest_subgraph = g.subgraph(largest_component)
+    #     # Calculate the diameter and of the largest connected component
+    #     diameter = nx.diameter(largest_subgraph)
+    #     radius = nx.radius(largest_subgraph)
+    #     print("Diameter of the largest connected component:", diameter)
+    #     print("Radius of the largest connected component:", radius)
+    # print("Diameter:", nx.diameter(g))
+    # print("Radius:", nx.radius(g))
 
     ######################################
     # - hyperbolicity
-    L, C, U = hyperbolicity(G, algorithm='BCCM');
+    start_time = time.time()
+    L, C, U = hyperbolicity(G, algorithm='BCCM')
+    end_time = time.time()
     print("Hyperbolicity: " + str(L))
+    execution_time = end_time - start_time
+    print(f"Computing Hyperbolicity Execution time: {execution_time} seconds")
 
     # - cluster diameter
     # - tree.txt length
@@ -128,5 +178,5 @@ def analyze(fileName):
 
 
 # load graphs
-fileName = "data/graphA.txt"
+fileName = "data/C9.txt"
 analyze(fileName)
