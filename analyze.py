@@ -94,6 +94,12 @@ def analyze(fileName):
     g = nx.read_edgelist(filehandle, nodetype=int)
     filehandle.close()
 
+    # get largest bi-connected component
+    largest_biconnected_comp = max(nx.biconnected_components(g), key=len)
+    g = g.subgraph(largest_biconnected_comp).copy()
+
+
+
     # load to sagemath (capital G) -- sagemath provides different functionality, e.g., hyperbolicity, viewing
     G = Graph()
     from_networkx_graph(G, g)
