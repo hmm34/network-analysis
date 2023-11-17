@@ -1,7 +1,7 @@
 # library imports
 import math
 import networkx as nx
-# from pyvis.network import Network
+import sys
 import matplotlib.pyplot as plt
 from networkx import Graph
 from numpy import Infinity
@@ -125,14 +125,15 @@ def analyze(fileName):
     print(f"Computing Alpha-i-metric Execution time: {execution_time} seconds")
 
     ######################################
-    # display graph
-    G.show(method="js", vertex_labels=True, edge_labels=False,  # optional - internet, needs sage.plot
-           link_distance=200, gravity=.05, charge=-500,
-           edge_partition=[[("11", "12", "2"), ("21", "21", "a")]],
-           edge_thickness=4)
-    # nx.draw(g)
-    plt.draw()
-    plt.show()
+    # display graph (if specified)
+    if (len(sys.argv) >= 2 ) and ((sys.argv[1] == "-s") or (sys.argv[1] == "--show")):
+        G.show(method="js", vertex_labels=True, edge_labels=False,  # optional - internet, needs sage.plot
+               link_distance=200, gravity=.05, charge=-500,
+               edge_partition=[[("11", "12", "2"), ("21", "21", "a")]],
+               edge_thickness=4)
+        # nx.draw(g)
+        plt.draw()
+        plt.show()
 
 
     ######################################
