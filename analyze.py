@@ -5,9 +5,9 @@ import sys
 import matplotlib.pyplot as plt
 from networkx import Graph
 from numpy import Infinity
+from sage.all import *
 from sage.graphs.hyperbolicity import hyperbolicity
 from sage.graphs.graph_input import from_networkx_graph
-from sage.all import *
 from collections import deque
 from sage.graphs.distances_all_pairs import distances_all_pairs
 from itertools import combinations
