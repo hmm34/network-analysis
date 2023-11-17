@@ -94,23 +94,36 @@ def analyze(fileName):
     g = nx.read_edgelist(filehandle, nodetype=int)
     filehandle.close()
 
+    # default values
+    print("Computing size ...")
+    print("Number of nodes n:", g.number_of_nodes())
+    print("Number of edges m:", g.number_of_edges())
+
     # get largest bi-connected component
+    print("Obtaining largest biconnected component ... All remaining values are from LBC")
     largest_biconnected_comp = max(nx.biconnected_components(g), key=len)
     g = g.subgraph(largest_biconnected_comp).copy()
 
-
-
     # load to sagemath (capital G) -- sagemath provides different functionality, e.g., hyperbolicity, viewing
+    print("Converting to sagemath graph object ...")
     G = Graph()
     from_networkx_graph(G, g)
+
+    # default values
+    print("Computing size ...")
+    print("Number of nodes n (of LBC):", g.number_of_nodes())
+    print("Number of edges m (of LBC):", g.number_of_edges())
+
+    print("Computing distance matrix ...")
     distance_matrix = distances_all_pairs(G)
-    print(distance_matrix)
+    #print(distance_matrix)
     # for i in distance_matrix:
     #     for j in distance_matrix[i]:
     #         value = float(distance_matrix[i][j])
     #         if math.isinf(value):
     #             distance_matrix[i][j] = 0
 
+    print("Sorting distance pairs  ...")
     # # Q is a list of all possible pairs of  vertices in G in non-increasing order
     Q = [(u, v) for u in G.vertices() for v in G.vertices() if u != v]
     Q.sort(key=lambda pair: distance_matrix[pair[0]][pair[1]], reverse=True)
@@ -123,7 +136,8 @@ def analyze(fileName):
     # end_time = time.time()
     # execution_time = end_time - start_time
     # print(f"Computing Leanness Execution time: {execution_time} seconds")
-    print(G.edges())
+
+    print("Computing alpha-i metric (of LBC) ...")
     start_time = time.time()
     print(f"Alpha-i-metric: {compute_alpha_i_metric(G, distance_matrix)}")
     end_time = time.time()
@@ -144,8 +158,7 @@ def analyze(fileName):
 
     ######################################
     # run analysis (subroutines)
-    print("Number of nodes n:", g.number_of_nodes())
-    print("Number of edges m:", g.number_of_edges())
+
 
     # Create your graph 'g' or load it from your data source
 
@@ -165,6 +178,7 @@ def analyze(fileName):
 
     ######################################
     # - hyperbolicity
+    print("Computing hyperbolicity (of LBC) ...")
     start_time = time.time()
     L, C, U = hyperbolicity(G, algorithm='BCCM')
     end_time = time.time()
@@ -179,9 +193,9 @@ def analyze(fileName):
     # - cop win number??
     # - various centrality measures (betweenness, closeness, etc....)
 
-    print("Degree Centrality Data")
-    print(nx.degree_centrality(g))
-    print("ok")
+    #print("Degree Centrality Data")
+    #print(nx.degree_centrality(g))
+    print("Analysis complete.")
 
 
 # load graphs
