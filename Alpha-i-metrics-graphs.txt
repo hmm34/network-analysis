@@ -1,0 +1,47 @@
+GRID GRAPHS
+3*3 grid : Alpha-i-metric: 4
+4*4 grid : Alpha-i-metric: 6
+5*5 grid : Alpha-i-metric: 8
+6*6 grid : Alpha-i-metric: 10
+7*7 grid : Alpha-i-metric: 12
+
+1*5 grid : Alpha-i-metric: 0
+2*5 grid : Alpha-i-metric: 8
+3*5 grid : Alpha-i-metric: 8
+4*5 grid : Alpha-i-metric:  8
+6*5  grid : Alpha-i-metric:  10
+7*5  grid : Alpha-i-metric:  12
+
+KING GRID GRAPHS:
+
+3*3 grid : Alpha-i-metric: 2
+4*4 grid : Alpha-i-metric: 4
+5*5 grid : Alpha-i-metric: 6
+6*6 grid : Alpha-i-metric: 8
+
+2*5 grid : Alpha-i-metric: 0
+3*5 grid : Alpha-i-metric: 2
+4*5 grid : Alpha-i-metric:  4
+6*5  grid : Alpha-i-metric:  6
+7*5  grid : Alpha-i-metric:  6
+8*5  grid : Alpha-i-metric:  6
+
+
+TRIANGULAR GRID GRAPHS:
+
+3*3 grid : Alpha-i-metric: 1
+4*4 grid : Alpha-i-metric: 2
+5*5 grid : Alpha-i-metric: 3
+6*6 grid : Alpha-i-metric: 4
+7*7 grid : Alpha-i-metric: 5
+
+2*5 grid : Alpha-i-metric: 1
+3*5 grid : Alpha-i-metric: 2
+4*5 grid : Alpha-i-metric:  3
+6*5  grid : Alpha-i-metric:  4
+7*5  grid : Alpha-i-metric:  4
+8*5  grid : Alpha-i-metric:  4
+
+False twin: Alpha-i-metric: 2
+True twin: Alpha-i-metric: 2
+Pendant vertex: Alpha-i-metric: 2

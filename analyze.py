@@ -178,5 +178,5 @@ def analyze(fileName):
 
 
 # load graphs
-fileName = "data/C9.txt"
+fileName = "data/distance-hereditary-graphs/pendant-vertex"
 analyze(fileName)
