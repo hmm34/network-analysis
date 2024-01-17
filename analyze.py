@@ -187,4 +187,32 @@ def analyze(fileName):
 
     ######################################
     # - hyperbolicity
-    p
+    print("Computing hyperbolicity (of LBC) ...")
+    start_time = time.time()
+    L, C, U = hyperbolicity(G, algorithm='BCCM')
+    end_time = time.time()
+    print("Hyperbolicity: " + str(L))
+    execution_time = end_time - start_time
+    print(f"Computing Hyperbolicity Execution time: {execution_time} seconds")
+
+    # - cluster diameter
+    # - tree.txt length
+    # - tree.txt breadth
+    # - tree.txt width
+    # - cop win number??
+    # - various centrality measures (betweenness, closeness, etc....)
+
+    #print("Degree Centrality Data")
+    #print(nx.degree_centrality(g))
+
+    print("Analysis complete.")
+
+
+# load graphs
+def main():
+    fileName = "data/social-network.txt"
+    analyze(fileName)
+
+if __name__ == '__main__':
+    multiprocessing.freeze_support()
+    main()
