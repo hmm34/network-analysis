@@ -1,17 +1,18 @@
 # library imports
 import math
 import networkx as nx
-# from pyvis.network import Network
+import sys
 import matplotlib.pyplot as plt
 from networkx import Graph
 from numpy import Infinity
+from sage.all import *
 from sage.graphs.hyperbolicity import hyperbolicity
 from sage.graphs.graph_input import from_networkx_graph
-from sage.all import *
 from collections import deque
 from sage.graphs.distances_all_pairs import distances_all_pairs
 from itertools import combinations
 import time
+import multiprocessing
 
 
 # Given a sagemath graph, compute the interval thinness (leanness) using AO Mohammed et al approach
@@ -51,19 +52,27 @@ def compute_leanness(G, Q, distance_matrix):
     return leanness
 
 
-def compute_alpha_i_metric(G, distance_matrix):
+
+def compute_alpha_i_metric(args_list):
+    G, distance_matrix, edge = args_list
+    v, w, _ = edge
     k = 0
-    for edge in G.edges():
-        v, w, _ = edge
-        for u in G.vertices():
-            if u == v or u == w or distance_matrix[u][w] != distance_matrix[u][v] + 1:
+    for u in G.vertices():
+        if u == v or u == w or distance_matrix[u][w] != distance_matrix[u][v] + 1:
+            continue
+        for x in G.vertices():
+            if x == v or x == w or distance_matrix[x][v] != distance_matrix[x][w] + 1:
                 continue
-            for x in G.vertices():
-                if x == v or x == w or distance_matrix[x][v] != distance_matrix[x][w] + 1:
-                    continue
-                k = max(k, distance_matrix[u][v] + distance_matrix[v][x] - distance_matrix[u][x])
+            k = max(k, distance_matrix[u][v] + distance_matrix[v][x] - distance_matrix[u][x])
     return k
 
+
+def compute_alpha_i_metric_parallel(G, distance_matrix):
+    edges = list(G.edges())
+    args_list = [(G, distance_matrix, edge) for edge in edges]
+    with multiprocessing.Pool() as pool:
+        results = pool.map(compute_alpha_i_metric, args_list)
+    return max(results)
 
 
 
@@ -91,12 +100,30 @@ def analyze(fileName):
 
     # load through networkx (lowercase g) -- networkx provides some functionality
     filehandle = open(fileName, "rb")
-    g = nx.read_edgelist(filehandle, nodetype=int)
+    g = nx.read_edgelist(filehandle, nodetype=int, delimiter=',')
     filehandle.close()
 
+    # default values
+    print("Computing size ...")
+    print("Number of nodes n:", g.number_of_nodes())
+    print("Number of edges m:", g.number_of_edges())
+
+    # get largest bi-connected component
+    print("Obtaining largest biconnected component ... All remaining values are from LBC")
+    largest_biconnected_comp = max(nx.biconnected_components(g), key=len)
+    g = g.subgraph(largest_biconnected_comp).copy()
+
     # load to sagemath (capital G) -- sagemath provides different functionality, e.g., hyperbolicity, viewing
+    print("Converting to sagemath graph object ...")
     G = Graph()
     from_networkx_graph(G, g)
+
+    # default values
+    print("Computing size ...")
+    print("Number of nodes n (of LBC):", g.number_of_nodes())
+    print("Number of edges m (of LBC):", g.number_of_edges())
+
+    print("Computing distance matrix ...")
     distance_matrix = distances_all_pairs(G)
     print(distance_matrix)
     # for i in distance_matrix:
@@ -105,6 +132,7 @@ def analyze(fileName):
     #         if math.isinf(value):
     #             distance_matrix[i][j] = 0
 
+    print("Sorting distance pairs  ...")
     # # Q is a list of all possible pairs of  vertices in G in non-increasing order
     Q = [(u, v) for u in G.vertices() for v in G.vertices() if u != v]
     Q.sort(key=lambda pair: distance_matrix[pair[0]][pair[1]], reverse=True)
@@ -117,28 +145,29 @@ def analyze(fileName):
     # end_time = time.time()
     # execution_time = end_time - start_time
     # print(f"Computing Leanness Execution time: {execution_time} seconds")
-    print(G.edges())
+
+    print("Computing alpha-i metric (of LBC) ...")
     start_time = time.time()
-    print(f"Alpha-i-metric: {compute_alpha_i_metric(G, distance_matrix)}")
+    print(f"Alpha-i-metric: {compute_alpha_i_metric_parallel(G, distance_matrix)}")
     end_time = time.time()
     execution_time = end_time - start_time
     print(f"Computing Alpha-i-metric Execution time: {execution_time} seconds")
 
     ######################################
-    # display graph
-    G.show(method="js", vertex_labels=True, edge_labels=False,  # optional - internet, needs sage.plot
-           link_distance=200, gravity=.05, charge=-500,
-           edge_partition=[[("11", "12", "2"), ("21", "21", "a")]],
-           edge_thickness=4)
-    # nx.draw(g)
-    plt.draw()
-    plt.show()
+    # display graph (if specified)
+    if (len(sys.argv) >= 2 ) and ((sys.argv[1] == "-s") or (sys.argv[1] == "--show")):
+        G.show(method="js", vertex_labels=True, edge_labels=False,  # optional - internet, needs sage.plot
+               link_distance=200, gravity=.05, charge=-500,
+               edge_partition=[[("11", "12", "2"), ("21", "21", "a")]],
+               edge_thickness=4)
+        # nx.draw(g)
+        plt.draw()
+        plt.show()
 
 
     ######################################
     # run analysis (subroutines)
-    print("Number of nodes n:", g.number_of_nodes())
-    print("Number of edges m:", g.number_of_edges())
+
 
     # Create your graph 'g' or load it from your data source
 
@@ -158,25 +187,4 @@ def analyze(fileName):
 
     ######################################
     # - hyperbolicity
-    start_time = time.time()
-    L, C, U = hyperbolicity(G, algorithm='BCCM')
-    end_time = time.time()
-    print("Hyperbolicity: " + str(L))
-    execution_time = end_time - start_time
-    print(f"Computing Hyperbolicity Execution time: {execution_time} seconds")
-
-    # - cluster diameter
-    # - tree.txt length
-    # - tree.txt breadth
-    # - tree.txt width
-    # - cop win number??
-    # - various centrality measures (betweenness, closeness, etc....)
-
-    print("Degree Centrality Data")
-    print(nx.degree_centrality(g))
-    print("ok")
-
-
-# load graphs
-fileName = "data/distance-hereditary-graphs/pendant-vertex"
-analyze(fileName)
+    p
