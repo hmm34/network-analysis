@@ -12,6 +12,7 @@ from collections import deque
 from sage.graphs.distances_all_pairs import distances_all_pairs
 from itertools import combinations
 import time
+import multiprocessing
 
 
 # Given a sagemath graph, compute the interval thinness (leanness) using AO Mohammed et al approach
@@ -51,19 +52,27 @@ def compute_leanness(G, Q, distance_matrix):
     return leanness
 
 
-def compute_alpha_i_metric(G, distance_matrix):
+
+def compute_alpha_i_metric(args_list):
+    G, distance_matrix, edge = args_list
+    v, w, _ = edge
     k = 0
-    for edge in G.edges():
-        v, w, _ = edge
-        for u in G.vertices():
-            if u == v or u == w or distance_matrix[u][w] != distance_matrix[u][v] + 1:
+    for u in G.vertices():
+        if u == v or u == w or distance_matrix[u][w] != distance_matrix[u][v] + 1:
+            continue
+        for x in G.vertices():
+            if x == v or x == w or distance_matrix[x][v] != distance_matrix[x][w] + 1:
                 continue
-            for x in G.vertices():
-                if x == v or x == w or distance_matrix[x][v] != distance_matrix[x][w] + 1:
-                    continue
-                k = max(k, distance_matrix[u][v] + distance_matrix[v][x] - distance_matrix[u][x])
+            k = max(k, distance_matrix[u][v] + distance_matrix[v][x] - distance_matrix[u][x])
     return k
 
+
+def compute_alpha_i_metric_parallel(G, distance_matrix):
+    edges = list(G.edges())
+    args_list = [(G, distance_matrix, edge) for edge in edges]
+    with multiprocessing.Pool() as pool:
+        results = pool.map(compute_alpha_i_metric, args_list)
+    return max(results)
 
 
 
@@ -91,7 +100,7 @@ def analyze(fileName):
 
     # load through networkx (lowercase g) -- networkx provides some functionality
     filehandle = open(fileName, "rb")
-    g = nx.read_edgelist(filehandle, nodetype=int)
+    g = nx.read_edgelist(filehandle, nodetype=int, delimiter=',')
     filehandle.close()
 
     # default values
@@ -139,7 +148,7 @@ def analyze(fileName):
 
     print("Computing alpha-i metric (of LBC) ...")
     start_time = time.time()
-    print(f"Alpha-i-metric: {compute_alpha_i_metric(G, distance_matrix)}")
+    print(f"Alpha-i-metric: {compute_alpha_i_metric_parallel(G, distance_matrix)}")
     end_time = time.time()
     execution_time = end_time - start_time
     print(f"Computing Alpha-i-metric Execution time: {execution_time} seconds")
@@ -199,5 +208,11 @@ def analyze(fileName):
 
 
 # load graphs
-fileName = "data/real-world/ca-AstroPh.txt"
-analyze(fileName)
+def main():
+    fileName = "data/social-network.txt"
+    analyze(fileName)
+
+if __name__ == '__main__':
+    multiprocessing.freeze_support()
+    main()
+
