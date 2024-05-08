@@ -1,0 +1,1901 @@
+Loading graphdata
+Computing size ...
+Number of nodes n: 18772
+Number of edges m: 198110
+Computing size ...
+Number of nodes n (of LBC): 15929
+Number of edges m (of LBC): 193978
+Computing distance matrix ...
+Computing alpha-i metric (of LBC) ...
+Setting up pool object and with arguments
+Entering while loop until results are ready
+This is the results so far <multiprocessing.pool.MapResult object at 0x2b1cd18f3a90>
+The current number of edges in the queue is 0 out of 193978
+The number of active proesses is [<ForkProcess(ForkPoolWorker-16, started daemon)>, <ForkProcess(ForkPoolWorker-9, started daemon)>, <ForkProcess(ForkPoolWorker-24, started daemon)>, <ForkProcess(ForkPoolWorker-17, started daemon)>, <ForkProcess(ForkPoolWorker-2, started daemon)>, <ForkProcess(ForkPoolWorker-10, started daemon)>, <ForkProcess(SyncManager-1, started)>, <ForkProcess(ForkPoolWorker-3, started daemon)>, <ForkProcess(ForkPoolWorker-25, started daemon)>, <ForkProcess(ForkPoolWorker-18, started daemon)>, <ForkProcess(ForkPoolWorker-11, started daemon)>, <ForkProcess(ForkPoolWorker-4, started daemon)>, <ForkProcess(ForkPoolWorker-26, started daemon)>, <ForkProcess(ForkPoolWorker-19, started daemon)>, <ForkProcess(ForkPoolWorker-12, started daemon)>, <ForkProcess(ForkPoolWorker-5, started daemon)>, <ForkProcess(ForkPoolWorker-27, started daemon)>, <ForkProcess(ForkPoolWorker-20, started daemon)>, <ForkProcess(ForkPoolWorker-13, started daemon)>, <ForkProcess(ForkPoolWorker-6, started daemon)>, <ForkProcess(ForkPoolWorker-28, started daemon)>, <ForkProcess(ForkPoolWorker-21, started daemon)>, <ForkProcess(ForkPoolWorker-14, started daemon)>, <ForkProcess(ForkPoolWorker-7, started daemon)>, <ForkProcess(ForkPoolWorker-29, started daemon)>, <ForkProcess(ForkPoolWorker-22, started daemon)>, <ForkProcess(ForkPoolWorker-15, started daemon)>, <ForkProcess(ForkPoolWorker-8, started daemon)>, <ForkProcess(ForkPoolWorker-23, started daemon)>]
+Process 3533 is alive: True
+Process 3513 is alive: True
+Process 3549 is alive: True
+Process 3535 is alive: True
+Process 3497 is alive: True
+Process 3516 is alive: True
+Process 3491 is alive: True
+Process 3499 is alive: True
+Process 3551 is alive: True
+Process 3537 is alive: True
+Process 3521 is alive: True
+Process 3501 is alive: True
+Process 3553 is alive: True
+Process 3539 is alive: True
+Process 3523 is alive: True
+Process 3505 is alive: True
+Process 3559 is alive: True
+Process 3541 is alive: True
+Process 3525 is alive: True
+Process 3507 is alive: True
+Process 3561 is alive: True
+Process 3543 is alive: True
+Process 3528 is alive: True
+Process 3509 is alive: True
+Process 3563 is alive: True
+Process 3545 is alive: True
+Process 3530 is alive: True
+Process 3511 is alive: True
+Process 3547 is alive: True
+RAM memory % used: 14.8
+RAM Used (GB): 19.140091904
+This is the results so far <multiprocessing.pool.MapResult object at 0x2b1cd18f3a90>
+The current number of edges in the queue is 3 out of 193978
+The number of active proesses is [<ForkProcess(ForkPoolWorker-16, started daemon)>, <ForkProcess(ForkPoolWorker-9, started daemon)>, <ForkProcess(ForkPoolWorker-24, started daemon)>, <ForkProcess(ForkPoolWorker-17, started daemon)>, <ForkProcess(ForkPoolWorker-2, started daemon)>, <ForkProcess(ForkPoolWorker-10, started daemon)>, <ForkProcess(SyncManager-1, started)>, <ForkProcess(ForkPoolWorker-3, started daemon)>, <ForkProcess(ForkPoolWorker-25, started daemon)>, <ForkProcess(ForkPoolWorker-18, started daemon)>, <ForkProcess(ForkPoolWorker-11, started daemon)>, <ForkProcess(ForkPoolWorker-4, started daemon)>, <ForkProcess(ForkPoolWorker-26, started daemon)>, <ForkProcess(ForkPoolWorker-19, started daemon)>, <ForkProcess(ForkPoolWorker-12, started daemon)>, <ForkProcess(ForkPoolWorker-5, started daemon)>, <ForkProcess(ForkPoolWorker-27, started daemon)>, <ForkProcess(ForkPoolWorker-20, started daemon)>, <ForkProcess(ForkPoolWorker-13, started daemon)>, <ForkProcess(ForkPoolWorker-6, started daemon)>, <ForkProcess(ForkPoolWorker-28, started daemon)>, <ForkProcess(ForkPoolWorker-21, started daemon)>, <ForkProcess(ForkPoolWorker-14, started daemon)>, <ForkProcess(ForkPoolWorker-7, started daemon)>, <ForkProcess(ForkPoolWorker-29, started daemon)>, <ForkProcess(ForkPoolWorker-22, started daemon)>, <ForkProcess(ForkPoolWorker-15, started daemon)>, <ForkProcess(ForkPoolWorker-8, started daemon)>, <ForkProcess(ForkPoolWorker-23, started daemon)>]
+Process 3533 is alive: True
+Process 3513 is alive: True
+Process 3549 is alive: True
+Process 3535 is alive: True
+Process 3497 is alive: True
+Process 3516 is alive: True
+Process 3491 is alive: True
+Process 3499 is alive: True
+Process 3551 is alive: True
+Process 3537 is alive: True
+Process 3521 is alive: True
+Process 3501 is alive: True
+Process 3553 is alive: True
+Process 3539 is alive: True
+Process 3523 is alive: True
+Process 3505 is alive: True
+Process 3559 is alive: True
+Process 3541 is alive: True
+Process 3525 is alive: True
+Process 3507 is alive: True
+Process 3561 is alive: True
+Process 3543 is alive: True
+Process 3528 is alive: True
+Process 3509 is alive: True
+Process 3563 is alive: True
+Process 3545 is alive: True
+Process 3530 is alive: True
+Process 3511 is alive: True
+Process 3547 is alive: True
+RAM memory % used: 36.2
+RAM Used (GB): 47.976951808
+This is the results so far <multiprocessing.pool.MapResult object at 0x2b1cd18f3a90>
+The current number of edges in the queue is 23 out of 193978
+The number of active proesses is [<ForkProcess(ForkPoolWorker-16, started daemon)>, <ForkProcess(ForkPoolWorker-9, started daemon)>, <ForkProcess(ForkPoolWorker-24, started daemon)>, <ForkProcess(ForkPoolWorker-17, started daemon)>, <ForkProcess(ForkPoolWorker-2, started daemon)>, <ForkProcess(ForkPoolWorker-10, started daemon)>, <ForkProcess(SyncManager-1, started)>, <ForkProcess(ForkPoolWorker-3, started daemon)>, <ForkProcess(ForkPoolWorker-25, started daemon)>, <ForkProcess(ForkPoolWorker-18, started daemon)>, <ForkProcess(ForkPoolWorker-11, started daemon)>, <ForkProcess(ForkPoolWorker-4, started daemon)>, <ForkProcess(ForkPoolWorker-26, started daemon)>, <ForkProcess(ForkPoolWorker-19, started daemon)>, <ForkProcess(ForkPoolWorker-12, started daemon)>, <ForkProcess(ForkPoolWorker-5, started daemon)>, <ForkProcess(ForkPoolWorker-27, started daemon)>, <ForkProcess(ForkPoolWorker-20, started daemon)>, <ForkProcess(ForkPoolWorker-13, started daemon)>, <ForkProcess(ForkPoolWorker-6, started daemon)>, <ForkProcess(ForkPoolWorker-28, started daemon)>, <ForkProcess(ForkPoolWorker-21, started daemon)>, <ForkProcess(ForkPoolWorker-14, started daemon)>, <ForkProcess(ForkPoolWorker-7, started daemon)>, <ForkProcess(ForkPoolWorker-29, started daemon)>, <ForkProcess(ForkPoolWorker-22, started daemon)>, <ForkProcess(ForkPoolWorker-15, started daemon)>, <ForkProcess(ForkPoolWorker-8, started daemon)>, <ForkProcess(ForkPoolWorker-23, started daemon)>]
+Process 3533 is alive: True
+Process 3513 is alive: True
+Process 3549 is alive: True
+Process 3535 is alive: True
+Process 3497 is alive: True
+Process 3516 is alive: True
+Process 3491 is alive: True
+Process 3499 is alive: True
+Process 3551 is alive: True
+Process 3537 is alive: True
+Process 3521 is alive: True
+Process 3501 is alive: True
+Process 3553 is alive: True
+Process 3539 is alive: True
+Process 3523 is alive: True
+Process 3505 is alive: True
+Process 3559 is alive: True
+Process 3541 is alive: True
+Process 3525 is alive: True
+Process 3507 is alive: True
+Process 3561 is alive: True
+Process 3543 is alive: True
+Process 3528 is alive: True
+Process 3509 is alive: True
+Process 3563 is alive: True
+Process 3545 is alive: True
+Process 3530 is alive: True
+Process 3511 is alive: True
+Process 3547 is alive: True
+RAM memory % used: 62.8
+RAM Used (GB): 83.981959168
+This is the results so far <multiprocessing.pool.MapResult object at 0x2b1cd18f3a90>
+The current number of edges in the queue is 27 out of 193978
+The number of active proesses is [<ForkProcess(ForkPoolWorker-16, started daemon)>, <ForkProcess(ForkPoolWorker-9, started daemon)>, <ForkProcess(ForkPoolWorker-24, started daemon)>, <ForkProcess(ForkPoolWorker-17, started daemon)>, <ForkProcess(ForkPoolWorker-2, started daemon)>, <ForkProcess(ForkPoolWorker-10, started daemon)>, <ForkProcess(SyncManager-1, started)>, <ForkProcess(ForkPoolWorker-3, started daemon)>, <ForkProcess(ForkPoolWorker-25, started daemon)>, <ForkProcess(ForkPoolWorker-18, started daemon)>, <ForkProcess(ForkPoolWorker-11, started daemon)>, <ForkProcess(ForkPoolWorker-4, started daemon)>, <ForkProcess(ForkPoolWorker-26, started daemon)>, <ForkProcess(ForkPoolWorker-19, started daemon)>, <ForkProcess(ForkPoolWorker-12, started daemon)>, <ForkProcess(ForkPoolWorker-5, started daemon)>, <ForkProcess(ForkPoolWorker-27, started daemon)>, <ForkProcess(ForkPoolWorker-20, started daemon)>, <ForkProcess(ForkPoolWorker-13, started daemon)>, <ForkProcess(ForkPoolWorker-6, started daemon)>, <ForkProcess(ForkPoolWorker-28, started daemon)>, <ForkProcess(ForkPoolWorker-21, started daemon)>, <ForkProcess(ForkPoolWorker-14, started daemon)>, <ForkProcess(ForkPoolWorker-7, started daemon)>, <ForkProcess(ForkPoolWorker-29, started daemon)>, <ForkProcess(ForkPoolWorker-22, started daemon)>, <ForkProcess(ForkPoolWorker-15, started daemon)>, <ForkProcess(ForkPoolWorker-8, started daemon)>, <ForkProcess(ForkPoolWorker-23, started daemon)>]
+Process 3533 is alive: True
+Process 3513 is alive: True
+Process 3549 is alive: True
+Process 3535 is alive: True
+Process 3497 is alive: True
+Process 3516 is alive: True
+Process 3491 is alive: True
+Process 3499 is alive: True
+Process 3551 is alive: True
+Process 3537 is alive: True
+Process 3521 is alive: True
+Process 3501 is alive: True
+Process 3553 is alive: True
+Process 3539 is alive: True
+Process 3523 is alive: True
+Process 3505 is alive: True
+Process 3559 is alive: True
+Process 3541 is alive: True
+Process 3525 is alive: True
+Process 3507 is alive: True
+Process 3561 is alive: True
+Process 3543 is alive: True
+Process 3528 is alive: True
+Process 3509 is alive: True
+Process 3563 is alive: True
+Process 3545 is alive: True
+Process 3530 is alive: True
+Process 3511 is alive: True
+Process 3547 is alive: True
+RAM memory % used: 89.3
+RAM Used (GB): 119.708000256
+This is the results so far <multiprocessing.pool.MapResult object at 0x2b1cd18f3a90>
+The current number of edges in the queue is 28 out of 193978
+The number of active proesses is [<ForkProcess(ForkPoolWorker-16, started daemon)>, <ForkProcess(ForkPoolWorker-9, started daemon)>, <ForkProcess(ForkPoolWorker-24, started daemon)>, <ForkProcess(ForkPoolWorker-17, started daemon)>, <ForkProcess(ForkPoolWorker-2, started daemon)>, <ForkProcess(ForkPoolWorker-10, started daemon)>, <ForkProcess(SyncManager-1, started)>, <ForkProcess(ForkPoolWorker-3, started daemon)>, <ForkProcess(ForkPoolWorker-25, started daemon)>, <ForkProcess(ForkPoolWorker-18, started daemon)>, <ForkProcess(ForkPoolWorker-11, started daemon)>, <ForkProcess(ForkPoolWorker-4, started daemon)>, <ForkProcess(ForkPoolWorker-26, started daemon)>, <ForkProcess(ForkPoolWorker-19, started daemon)>, <ForkProcess(ForkPoolWorker-12, started daemon)>, <ForkProcess(ForkPoolWorker-5, started daemon)>, <ForkProcess(ForkPoolWorker-30, started daemon)>, <ForkProcess(ForkPoolWorker-27, started daemon)>, <ForkProcess(ForkPoolWorker-20, started daemon)>, <ForkProcess(ForkPoolWorker-13, started daemon)>, <ForkProcess(ForkPoolWorker-6, started daemon)>, <ForkProcess(ForkPoolWorker-28, started daemon)>, <ForkProcess(ForkPoolWorker-21, started daemon)>, <ForkProcess(ForkPoolWorker-14, started daemon)>, <ForkProcess(ForkPoolWorker-29, started daemon)>, <ForkProcess(ForkPoolWorker-22, started daemon)>, <ForkProcess(ForkPoolWorker-15, started daemon)>, <ForkProcess(ForkPoolWorker-23, started daemon)>]
+Process 3533 is alive: True
+Process 3513 is alive: True
+Process 3549 is alive: True
+Process 3535 is alive: True
+Process 3497 is alive: True
+Process 3516 is alive: True
+Process 3491 is alive: True
+Process 3499 is alive: True
+Process 3551 is alive: True
+Process 3537 is alive: True
+Process 3521 is alive: True
+Process 3501 is alive: True
+Process 3553 is alive: True
+Process 3539 is alive: True
+Process 3523 is alive: True
+Process 3505 is alive: True
+Process 3862 is alive: True
+Process 3559 is alive: True
+Process 3541 is alive: True
+Process 3525 is alive: True
+Process 3507 is alive: True
+Process 3561 is alive: True
+Process 3543 is alive: True
+Process 3528 is alive: True
+Process 3563 is alive: True
+Process 3545 is alive: True
+Process 3530 is alive: True
+Process 3547 is alive: True
+RAM memory % used: 90.8
+RAM Used (GB): 121.898508288
+This is the results so far <multiprocessing.pool.MapResult object at 0x2b1cd18f3a90>
+The current number of edges in the queue is 37 out of 193978
+The number of active proesses is [<ForkProcess(ForkPoolWorker-16, started daemon)>, <ForkProcess(ForkPoolWorker-24, started daemon)>, <ForkProcess(ForkPoolWorker-17, started daemon)>, <ForkProcess(ForkPoolWorker-2, started daemon)>, <ForkProcess(ForkPoolWorker-10, started daemon)>, <ForkProcess(SyncManager-1, started)>, <ForkProcess(ForkPoolWorker-3, started daemon)>, <ForkProcess(ForkPoolWorker-25, started daemon)>, <ForkProcess(ForkPoolWorker-18, started daemon)>, <ForkProcess(ForkPoolWorker-11, started daemon)>, <ForkProcess(ForkPoolWorker-4, started daemon)>, <ForkProcess(ForkPoolWorker-26, started daemon)>, <ForkProcess(ForkPoolWorker-19, started daemon)>, <ForkProcess(ForkPoolWorker-12, started daemon)>, <ForkProcess(ForkPoolWorker-5, started daemon)>, <ForkProcess(ForkPoolWorker-30, started daemon)>, <ForkProcess(ForkPoolWorker-27, started daemon)>, <ForkProcess(ForkPoolWorker-20, started daemon)>, <ForkProcess(ForkPoolWorker-13, started daemon)>, <ForkProcess(ForkPoolWorker-31, started daemon)>, <ForkProcess(ForkPoolWorker-28, started daemon)>, <ForkProcess(ForkPoolWorker-21, started daemon)>, <ForkProcess(ForkPoolWorker-14, started daemon)>, <ForkProcess(ForkPoolWorker-29, started daemon)>, <ForkProcess(ForkPoolWorker-22, started daemon)>, <ForkProcess(ForkPoolWorker-15, started daemon)>, <ForkProcess(ForkPoolWorker-32, started daemon)>, <ForkProcess(ForkPoolWorker-23, started daemon)>]
+Process 3533 is alive: True
+Process 3549 is alive: True
+Process 3535 is alive: True
+Process 3497 is alive: True
+Process 3516 is alive: True
+Process 3491 is alive: True
+Process 3499 is alive: True
+Process 3551 is alive: True
+Process 3537 is alive: True
+Process 3521 is alive: True
+Process 3501 is alive: True
+Process 3553 is alive: True
+Process 3539 is alive: True
+Process 3523 is alive: True
+Process 3505 is alive: True
+Process 3862 is alive: True
+Process 3559 is alive: True
+Process 3541 is alive: True
+Process 3525 is alive: True
+Process 3895 is alive: True
+Process 3561 is alive: True
+Process 3543 is alive: True
+Process 3528 is alive: True
+Process 3563 is alive: True
+Process 3545 is alive: True
+Process 3530 is alive: True
+Process 3960 is alive: True
+Process 3547 is alive: True
+RAM memory % used: 93.1
+RAM Used (GB): 124.916215808
+This is the results so far <multiprocessing.pool.MapResult object at 0x2b1cd18f3a90>
+The current number of edges in the queue is 46 out of 193978
+The number of active proesses is [<ForkProcess(ForkPoolWorker-16, started daemon)>, <ForkProcess(ForkPoolWorker-24, started daemon)>, <ForkProcess(ForkPoolWorker-17, started daemon)>, <ForkProcess(ForkPoolWorker-2, started daemon)>, <ForkProcess(SyncManager-1, started)>, <ForkProcess(ForkPoolWorker-3, started daemon)>, <ForkProcess(ForkPoolWorker-25, started daemon)>, <ForkProcess(ForkPoolWorker-18, started daemon)>, <ForkProcess(ForkPoolWorker-4, started daemon)>, <ForkProcess(ForkPoolWorker-26, started daemon)>, <ForkProcess(ForkPoolWorker-19, started daemon)>, <ForkProcess(ForkPoolWorker-12, started daemon)>, <ForkProcess(ForkPoolWorker-5, started daemon)>, <ForkProcess(ForkPoolWorker-30, started daemon)>, <ForkProcess(ForkPoolWorker-27, started daemon)>, <ForkProcess(ForkPoolWorker-20, started daemon)>, <ForkProcess(ForkPoolWorker-13, started daemon)>, <ForkProcess(ForkPoolWorker-31, started daemon)>, <ForkProcess(ForkPoolWorker-34, started daemon)>, <ForkProcess(ForkPoolWorker-28, started daemon)>, <ForkProcess(ForkPoolWorker-21, started daemon)>, <ForkProcess(ForkPoolWorker-14, started daemon)>, <ForkProcess(ForkPoolWorker-33, started daemon)>, <ForkProcess(ForkPoolWorker-29, started daemon)>, <ForkProcess(ForkPoolWorker-22, started daemon)>, <ForkProcess(ForkPoolWorker-15, started daemon)>, <ForkProcess(ForkPoolWorker-32, started daemon)>, <ForkProcess(ForkPoolWorker-23, started daemon)>]
+Process 3533 is alive: True
+Process 3549 is alive: True
+Process 3535 is alive: True
+Process 3497 is alive: True
+Process 3491 is alive: True
+Process 3499 is alive: True
+Process 3551 is alive: True
+Process 3537 is alive: True
+Process 3501 is alive: True
+Process 3553 is alive: True
+Process 3539 is alive: True
+Process 3523 is alive: True
+Process 3505 is alive: True
+Process 3862 is alive: True
+Process 3559 is alive: True
+Process 3541 is alive: True
+Process 3525 is alive: True
+Process 3895 is alive: True
+Process 4030 is alive: True
+Process 3561 is alive: True
+Process 3543 is alive: True
+Process 3528 is alive: True
+Process 3998 is alive: True
+Process 3563 is alive: True
+Process 3545 is alive: True
+Process 3530 is alive: True
+Process 3960 is alive: True
+Process 3547 is alive: True
+RAM memory % used: 93.9
+RAM Used (GB): 126.063190016
+This is the results so far <multiprocessing.pool.MapResult object at 0x2b1cd18f3a90>
+The current number of edges in the queue is 52 out of 193978
+The number of active proesses is [<ForkProcess(ForkPoolWorker-16, started daemon)>, <ForkProcess(ForkPoolWorker-24, started daemon)>, <ForkProcess(ForkPoolWorker-17, started daemon)>, <ForkProcess(ForkPoolWorker-2, started daemon)>, <ForkProcess(SyncManager-1, started)>, <ForkProcess(ForkPoolWorker-3, started daemon)>, <ForkProcess(ForkPoolWorker-25, started daemon)>, <ForkProcess(ForkPoolWorker-18, started daemon)>, <ForkProcess(ForkPoolWorker-36, started daemon)>, <ForkProcess(ForkPoolWorker-4, started daemon)>, <ForkProcess(ForkPoolWorker-26, started daemon)>, <ForkProcess(ForkPoolWorker-19, started daemon)>, <ForkProcess(ForkPoolWorker-5, started daemon)>, <ForkProcess(ForkPoolWorker-30, started daemon)>, <ForkProcess(ForkPoolWorker-27, started daemon)>, <ForkProcess(ForkPoolWorker-20, started daemon)>, <ForkProcess(ForkPoolWorker-35, started daemon)>, <ForkProcess(ForkPoolWorker-31, started daemon)>, <ForkProcess(ForkPoolWorker-34, started daemon)>, <ForkProcess(ForkPoolWorker-28, started daemon)>, <ForkProcess(ForkPoolWorker-21, started daemon)>, <ForkProcess(ForkPoolWorker-14, started daemon)>, <ForkProcess(ForkPoolWorker-33, started daemon)>, <ForkProcess(ForkPoolWorker-29, started daemon)>, <ForkProcess(ForkPoolWorker-22, started daemon)>, <ForkProcess(ForkPoolWorker-15, started daemon)>, <ForkProcess(ForkPoolWorker-32, started daemon)>, <ForkProcess(ForkPoolWorker-23, started daemon)>]
+Process 3533 is alive: True
+Process 3549 is alive: True
+Process 3535 is alive: True
+Process 3497 is alive: True
+Process 3491 is alive: True
+Process 3499 is alive: True
+Process 3551 is alive: True
+Process 3537 is alive: True
+Process 4148 is alive: True
+Process 3501 is alive: True
+Process 3553 is alive: True
+Process 3539 is alive: True
+Process 3505 is alive: True
+Process 3862 is alive: True
+Process 3559 is alive: True
+Process 3541 is alive: True
+Process 4115 is alive: True
+Process 3895 is alive: True
+Process 4030 is alive: True
+Process 3561 is alive: True
+Process 3543 is alive: True
+Process 3528 is alive: True
+Process 3998 is alive: True
+Process 3563 is alive: True
+Process 3545 is alive: True
+Process 3530 is alive: True
+Process 3960 is alive: True
+Process 3547 is alive: True
+RAM memory % used: 96.7
+RAM Used (GB): 130.083303424
+This is the results so far <multiprocessing.pool.MapResult object at 0x2b1cd18f3a90>
+The current number of edges in the queue is 59 out of 193978
+The number of active proesses is [<ForkProcess(ForkPoolWorker-16, started daemon)>, <ForkProcess(ForkPoolWorker-24, started daemon)>, <ForkProcess(ForkPoolWorker-17, started daemon)>, <ForkProcess(ForkPoolWorker-2, started daemon)>, <ForkProcess(SyncManager-1, started)>, <ForkProcess(ForkPoolWorker-3, started daemon)>, <ForkProcess(ForkPoolWorker-25, started daemon)>, <ForkProcess(ForkPoolWorker-18, started daemon)>, <ForkProcess(ForkPoolWorker-36, started daemon)>, <ForkProcess(ForkPoolWorker-4, started daemon)>, <ForkProcess(ForkPoolWorker-26, started daemon)>, <ForkProcess(ForkPoolWorker-37, started daemon)>, <ForkProcess(ForkPoolWorker-19, started daemon)>, <ForkProcess(ForkPoolWorker-5, started daemon)>, <ForkProcess(ForkPoolWorker-30, started daemon)>, <ForkProcess(ForkPoolWorker-27, started daemon)>, <ForkProcess(ForkPoolWorker-20, started daemon)>, <ForkProcess(ForkPoolWorker-38, started daemon)>, <ForkProcess(ForkPoolWorker-35, started daemon)>, <ForkProcess(ForkPoolWorker-31, started daemon)>, <ForkProcess(ForkPoolWorker-34, started daemon)>, <ForkProcess(ForkPoolWorker-28, started daemon)>, <ForkProcess(ForkPoolWorker-21, started daemon)>, <ForkProcess(ForkPoolWorker-33, started daemon)>, <ForkProcess(ForkPoolWorker-29, started daemon)>, <ForkProcess(ForkPoolWorker-22, started daemon)>, <ForkProcess(ForkPoolWorker-32, started daemon)>, <ForkProcess(ForkPoolWorker-23, started daemon)>]
+Process 3533 is alive: True
+Process 3549 is alive: True
+Process 3535 is alive: True
+Process 3497 is alive: True
+Process 3491 is alive: True
+Process 3499 is alive: True
+Process 3551 is alive: True
+Process 3537 is alive: True
+Process 4148 is alive: True
+Process 3501 is alive: True
+Process 3553 is alive: True
+Process 4180 is alive: True
+Process 3539 is alive: True
+Process 3505 is alive: True
+Process 3862 is alive: True
+Process 3559 is alive: True
+Process 3541 is alive: True
+Process 4252 is alive: True
+Process 4115 is alive: True
+Process 3895 is alive: True
+Process 4030 is alive: True
+Process 3561 is alive: True
+Process 3543 is alive: True
+Process 3998 is alive: True
+Process 3563 is alive: True
+Process 3545 is alive: True
+Process 3960 is alive: True
+Process 3547 is alive: True
+RAM memory % used: 94.8
+RAM Used (GB): 127.279173632
+This is the results so far <multiprocessing.pool.MapResult object at 0x2b1cd18f3a90>
+The current number of edges in the queue is 74 out of 193978
+The number of active proesses is [<ForkProcess(ForkPoolWorker-24, started daemon)>, <ForkProcess(ForkPoolWorker-2, started daemon)>, <ForkProcess(SyncManager-1, started)>, <ForkProcess(ForkPoolWorker-3, started daemon)>, <ForkProcess(ForkPoolWorker-25, started daemon)>, <ForkProcess(ForkPoolWorker-36, started daemon)>, <ForkProcess(ForkPoolWorker-4, started daemon)>, <ForkProcess(ForkPoolWorker-26, started daemon)>, <ForkProcess(ForkPoolWorker-37, started daemon)>, <ForkProcess(ForkPoolWorker-19, started daemon)>, <ForkProcess(ForkPoolWorker-5, started daemon)>, <ForkProcess(ForkPoolWorker-30, started daemon)>, <ForkProcess(ForkPoolWorker-27, started daemon)>, <ForkProcess(ForkPoolWorker-20, started daemon)>, <ForkProcess(ForkPoolWorker-38, started daemon)>, <ForkProcess(ForkPoolWorker-35, started daemon)>, <ForkProcess(ForkPoolWorker-31, started daemon)>, <ForkProcess(ForkPoolWorker-34, started daemon)>, <ForkProcess(ForkPoolWorker-28, started daemon)>, <ForkProcess(ForkPoolWorker-39, started daemon)>, <ForkProcess(ForkPoolWorker-21, started daemon)>, <ForkProcess(ForkPoolWorker-40, started daemon)>, <ForkProcess(ForkPoolWorker-33, started daemon)>, <ForkProcess(ForkPoolWorker-29, started daemon)>, <ForkProcess(ForkPoolWorker-22, started daemon)>, <ForkProcess(ForkPoolWorker-32, started daemon)>, <ForkProcess(ForkPoolWorker-41, started daemon)>, <ForkProcess(ForkPoolWorker-23, started daemon)>]
+Process 3549 is alive: True
+Process 3497 is alive: True
+Process 3491 is alive: True
+Process 3499 is alive: True
+Process 3551 is alive: True
+Process 4148 is alive: True
+Process 3501 is alive: True
+Process 3553 is alive: True
+Process 4180 is alive: True
+Process 3539 is alive: True
+Process 3505 is alive: True
+Process 3862 is alive: True
+Process 3559 is alive: True
+Process 3541 is alive: True
+Process 4252 is alive: True
+Process 4115 is alive: True
+Process 3895 is alive: True
+Process 4030 is alive: True
+Process 3561 is alive: True
+Process 4283 is alive: True
+Process 3543 is alive: True
+Process 4286 is alive: True
+Process 3998 is alive: True
+Process 3563 is alive: True
+Process 3545 is alive: True
+Process 3960 is alive: True
+Process 4332 is alive: True
+Process 3547 is alive: True
+RAM memory % used: 87.7
+RAM Used (GB): 117.714128896
+This is the results so far <multiprocessing.pool.MapResult object at 0x2b1cd18f3a90>
+The current number of edges in the queue is 75 out of 193978
+The number of active proesses is [<ForkProcess(ForkPoolWorker-24, started daemon)>, <ForkProcess(ForkPoolWorker-2, started daemon)>, <ForkProcess(SyncManager-1, started)>, <ForkProcess(ForkPoolWorker-25, started daemon)>, <ForkProcess(ForkPoolWorker-42, started daemon)>, <ForkProcess(ForkPoolWorker-36, started daemon)>, <ForkProcess(ForkPoolWorker-4, started daemon)>, <ForkProcess(ForkPoolWorker-43, started daemon)>, <ForkProcess(ForkPoolWorker-26, started daemon)>, <ForkProcess(ForkPoolWorker-37, started daemon)>, <ForkProcess(ForkPoolWorker-5, started daemon)>, <ForkProcess(ForkPoolWorker-30, started daemon)>, <ForkProcess(ForkPoolWorker-27, started daemon)>, <ForkProcess(ForkPoolWorker-20, started daemon)>, <ForkProcess(ForkPoolWorker-38, started daemon)>, <ForkProcess(ForkPoolWorker-35, started daemon)>, <ForkProcess(ForkPoolWorker-31, started daemon)>, <ForkProcess(ForkPoolWorker-34, started daemon)>, <ForkProcess(ForkPoolWorker-28, started daemon)>, <ForkProcess(ForkPoolWorker-39, started daemon)>, <ForkProcess(ForkPoolWorker-21, started daemon)>, <ForkProcess(ForkPoolWorker-40, started daemon)>, <ForkProcess(ForkPoolWorker-33, started daemon)>, <ForkProcess(ForkPoolWorker-29, started daemon)>, <ForkProcess(ForkPoolWorker-22, started daemon)>, <ForkProcess(ForkPoolWorker-32, started daemon)>, <ForkProcess(ForkPoolWorker-41, started daemon)>, <ForkProcess(ForkPoolWorker-23, started daemon)>]
+Process 3549 is alive: True
+Process 3497 is alive: True
+Process 3491 is alive: True
+Process 3551 is alive: True
+Process 4371 is alive: True
+Process 4148 is alive: True
+Process 3501 is alive: True
+Process 4410 is alive: True
+Process 3553 is alive: True
+Process 4180 is alive: True
+Process 3505 is alive: True
+Process 3862 is alive: True
+Process 3559 is alive: True
+Process 3541 is alive: True
+Process 4252 is alive: True
+Process 4115 is alive: True
+Process 3895 is alive: True
+Process 4030 is alive: True
+Process 3561 is alive: True
+Process 4283 is alive: True
+Process 3543 is alive: True
+Process 4286 is alive: True
+Process 3998 is alive: True
+Process 3563 is alive: True
+Process 3545 is alive: True
+Process 3960 is alive: True
+Process 4332 is alive: True
+Process 3547 is alive: True
+RAM memory % used: 91.3
+RAM Used (GB): 122.71613952
+This is the results so far <multiprocessing.pool.MapResult object at 0x2b1cd18f3a90>
+The current number of edges in the queue is 75 out of 193978
+The number of active proesses is [<ForkProcess(ForkPoolWorker-24, started daemon)>, <ForkProcess(ForkPoolWorker-2, started daemon)>, <ForkProcess(ForkPoolWorker-44, started daemon)>, <ForkProcess(SyncManager-1, started)>, <ForkProcess(ForkPoolWorker-25, started daemon)>, <ForkProcess(ForkPoolWorker-42, started daemon)>, <ForkProcess(ForkPoolWorker-45, started daemon)>, <ForkProcess(ForkPoolWorker-36, started daemon)>, <ForkProcess(ForkPoolWorker-4, started daemon)>, <ForkProcess(ForkPoolWorker-43, started daemon)>, <ForkProcess(ForkPoolWorker-26, started daemon)>, <ForkProcess(ForkPoolWorker-37, started daemon)>, <ForkProcess(ForkPoolWorker-5, started daemon)>, <ForkProcess(ForkPoolWorker-30, started daemon)>, <ForkProcess(ForkPoolWorker-27, started daemon)>, <ForkProcess(ForkPoolWorker-38, started daemon)>, <ForkProcess(ForkPoolWorker-35, started daemon)>, <ForkProcess(ForkPoolWorker-31, started daemon)>, <ForkProcess(ForkPoolWorker-34, started daemon)>, <ForkProcess(ForkPoolWorker-28, started daemon)>, <ForkProcess(ForkPoolWorker-39, started daemon)>, <ForkProcess(ForkPoolWorker-40, started daemon)>, <ForkProcess(ForkPoolWorker-33, started daemon)>, <ForkProcess(ForkPoolWorker-29, started daemon)>, <ForkProcess(ForkPoolWorker-22, started daemon)>, <ForkProcess(ForkPoolWorker-32, started daemon)>, <ForkProcess(ForkPoolWorker-41, started daemon)>, <ForkProcess(ForkPoolWorker-23, started daemon)>]
+Process 3549 is alive: True
+Process 3497 is alive: True
+Process 4515 is alive: True
+Process 3491 is alive: True
+Process 3551 is alive: True
+Process 4371 is alive: True
+Process 4539 is alive: True
+Process 4148 is alive: True
+Process 3501 is alive: True
+Process 4410 is alive: True
+Process 3553 is alive: True
+Process 4180 is alive: True
+Process 3505 is alive: True
+Process 3862 is alive: True
+Process 3559 is alive: True
+Process 4252 is alive: True
+Process 4115 is alive: True
+Process 3895 is alive: True
+Process 4030 is alive: True
+Process 3561 is alive: True
+Process 4283 is alive: True
+Process 4286 is alive: True
+Process 3998 is alive: True
+Process 3563 is alive: True
+Process 3545 is alive: True
+Process 3960 is alive: True
+Process 4332 is alive: True
+Process 3547 is alive: True
+RAM memory % used: 93.5
+RAM Used (GB): 125.52753152
+This is the results so far <multiprocessing.pool.MapResult object at 0x2b1cd18f3a90>
+The current number of edges in the queue is 76 out of 193978
+The number of active proesses is [<ForkProcess(ForkPoolWorker-24, started daemon)>, <ForkProcess(ForkPoolWorker-2, started daemon)>, <ForkProcess(ForkPoolWorker-44, started daemon)>, <ForkProcess(SyncManager-1, started)>, <ForkProcess(ForkPoolWorker-25, started daemon)>, <ForkProcess(ForkPoolWorker-42, started daemon)>, <ForkProcess(ForkPoolWorker-45, started daemon)>, <ForkProcess(ForkPoolWorker-36, started daemon)>, <ForkProcess(ForkPoolWorker-4, started daemon)>, <ForkProcess(ForkPoolWorker-43, started daemon)>, <ForkProcess(ForkPoolWorker-26, started daemon)>, <ForkProcess(ForkPoolWorker-37, started daemon)>, <ForkProcess(ForkPoolWorker-5, started daemon)>, <ForkProcess(ForkPoolWorker-30, started daemon)>, <ForkProcess(ForkPoolWorker-46, started daemon)>, <ForkProcess(ForkPoolWorker-27, started daemon)>, <ForkProcess(ForkPoolWorker-38, started daemon)>, <ForkProcess(ForkPoolWorker-35, started daemon)>, <ForkProcess(ForkPoolWorker-31, started daemon)>, <ForkProcess(ForkPoolWorker-34, started daemon)>, <ForkProcess(ForkPoolWorker-28, started daemon)>, <ForkProcess(ForkPoolWorker-39, started daemon)>, <ForkProcess(ForkPoolWorker-47, started daemon)>, <ForkProcess(ForkPoolWorker-40, started daemon)>, <ForkProcess(ForkPoolWorker-33, started daemon)>, <ForkProcess(ForkPoolWorker-29, started daemon)>, <ForkProcess(ForkPoolWorker-32, started daemon)>, <ForkProcess(ForkPoolWorker-41, started daemon)>]
+Process 3549 is alive: True
+Process 3497 is alive: True
+Process 4515 is alive: True
+Process 3491 is alive: True
+Process 3551 is alive: True
+Process 4371 is alive: True
+Process 4539 is alive: True
+Process 4148 is alive: True
+Process 3501 is alive: True
+Process 4410 is alive: True
+Process 3553 is alive: True
+Process 4180 is alive: True
+Process 3505 is alive: True
+Process 3862 is alive: True
+Process 4572 is alive: True
+Process 3559 is alive: True
+Process 4252 is alive: True
+Process 4115 is alive: True
+Process 3895 is alive: True
+Process 4030 is alive: True
+Process 3561 is alive: True
+Process 4283 is alive: True
+Process 4622 is alive: True
+Process 4286 is alive: True
+Process 3998 is alive: True
+Process 3563 is alive: True
+Process 3960 is alive: True
+Process 4332 is alive: True
+RAM memory % used: 95.5
+RAM Used (GB): 128.43309056
+This is the results so far <multiprocessing.pool.MapResult object at 0x2b1cd18f3a90>
+The current number of edges in the queue is 79 out of 193978
+The number of active proesses is [<ForkProcess(ForkPoolWorker-2, started daemon)>, <ForkProcess(ForkPoolWorker-44, started daemon)>, <ForkProcess(SyncManager-1, started)>, <ForkProcess(ForkPoolWorker-42, started daemon)>, <ForkProcess(ForkPoolWorker-45, started daemon)>, <ForkProcess(ForkPoolWorker-36, started daemon)>, <ForkProcess(ForkPoolWorker-4, started daemon)>, <ForkProcess(ForkPoolWorker-43, started daemon)>, <ForkProcess(ForkPoolWorker-26, started daemon)>, <ForkProcess(ForkPoolWorker-37, started daemon)>, <ForkProcess(ForkPoolWorker-5, started daemon)>, <ForkProcess(ForkPoolWorker-30, started daemon)>, <ForkProcess(ForkPoolWorker-46, started daemon)>, <ForkProcess(ForkPoolWorker-27, started daemon)>, <ForkProcess(ForkPoolWorker-38, started daemon)>, <ForkProcess(ForkPoolWorker-35, started daemon)>, <ForkProcess(ForkPoolWorker-31, started daemon)>, <ForkProcess(ForkPoolWorker-34, started daemon)>, <ForkProcess(ForkPoolWorker-28, started daemon)>, <ForkProcess(ForkPoolWorker-39, started daemon)>, <ForkProcess(ForkPoolWorker-47, started daemon)>, <ForkProcess(ForkPoolWorker-48, started daemon)>, <ForkProcess(ForkPoolWorker-40, started daemon)>, <ForkProcess(ForkPoolWorker-33, started daemon)>, <ForkProcess(ForkPoolWorker-29, started daemon)>, <ForkProcess(ForkPoolWorker-32, started daemon)>, <ForkProcess(ForkPoolWorker-49, started daemon)>, <ForkProcess(ForkPoolWorker-41, started daemon)>]
+Process 3497 is alive: True
+Process 4515 is alive: True
+Process 3491 is alive: True
+Process 4371 is alive: True
+Process 4539 is alive: True
+Process 4148 is alive: True
+Process 3501 is alive: True
+Process 4410 is alive: True
+Process 3553 is alive: True
+Process 4180 is alive: True
+Process 3505 is alive: True
+Process 3862 is alive: True
+Process 4572 is alive: True
+Process 3559 is alive: True
+Process 4252 is alive: True
+Process 4115 is alive: True
+Process 3895 is alive: True
+Process 4030 is alive: True
+Process 3561 is alive: True
+Process 4283 is alive: True
+Process 4622 is alive: True
+Process 4701 is alive: True
+Process 4286 is alive: True
+Process 3998 is alive: True
+Process 3563 is alive: True
+Process 3960 is alive: True
+Process 4733 is alive: True
+Process 4332 is alive: True
+RAM memory % used: 98.1
+RAM Used (GB): 131.876384768
+This is the results so far <multiprocessing.pool.MapResult object at 0x2b1cd18f3a90>
+The current number of edges in the queue is 86 out of 193978
+The number of active proesses is [<ForkProcess(ForkPoolWorker-50, started daemon)>, <ForkProcess(ForkPoolWorker-52, started daemon)>, <ForkProcess(ForkPoolWorker-2, started daemon)>, <ForkProcess(ForkPoolWorker-44, started daemon)>, <ForkProcess(ForkPoolWorker-51, started daemon)>, <ForkProcess(SyncManager-1, started)>, <ForkProcess(ForkPoolWorker-42, started daemon)>, <ForkProcess(ForkPoolWorker-45, started daemon)>, <ForkProcess(ForkPoolWorker-36, started daemon)>, <ForkProcess(ForkPoolWorker-4, started daemon)>, <ForkProcess(ForkPoolWorker-43, started daemon)>, <ForkProcess(ForkPoolWorker-37, started daemon)>, <ForkProcess(ForkPoolWorker-5, started daemon)>, <ForkProcess(ForkPoolWorker-30, started daemon)>, <ForkProcess(ForkPoolWorker-46, started daemon)>, <ForkProcess(ForkPoolWorker-38, started daemon)>, <ForkProcess(ForkPoolWorker-35, started daemon)>, <ForkProcess(ForkPoolWorker-31, started daemon)>, <ForkProcess(ForkPoolWorker-34, started daemon)>, <ForkProcess(ForkPoolWorker-39, started daemon)>, <ForkProcess(ForkPoolWorker-47, started daemon)>, <ForkProcess(ForkPoolWorker-48, started daemon)>, <ForkProcess(ForkPoolWorker-40, started daemon)>, <ForkProcess(ForkPoolWorker-33, started daemon)>, <ForkProcess(ForkPoolWorker-29, started daemon)>, <ForkProcess(ForkPoolWorker-32, started daemon)>, <ForkProcess(ForkPoolWorker-49, started daemon)>, <ForkProcess(ForkPoolWorker-41, started daemon)>]
+Process 4808 is alive: True
+Process 4839 is alive: True
+Process 3497 is alive: True
+Process 4515 is alive: True
+Process 4836 is alive: True
+Process 3491 is alive: True
+Process 4371 is alive: True
+Process 4539 is alive: True
+Process 4148 is alive: True
+Process 3501 is alive: True
+Process 4410 is alive: True
+Process 4180 is alive: True
+Process 3505 is alive: True
+Process 3862 is alive: True
+Process 4572 is alive: True
+Process 4252 is alive: True
+Process 4115 is alive: True
+Process 3895 is alive: True
+Process 4030 is alive: True
+Process 4283 is alive: True
+Process 4622 is alive: True
+Process 4701 is alive: True
+Process 4286 is alive: True
+Process 3998 is alive: True
+Process 3563 is alive: True
+Process 3960 is alive: True
+Process 4733 is alive: True
+Process 4332 is alive: True
+RAM memory % used: 87.5
+RAM Used (GB): 117.34208512
+This is the results so far <multiprocessing.pool.MapResult object at 0x2b1cd18f3a90>
+The current number of edges in the queue is 86 out of 193978
+The number of active proesses is [<ForkProcess(ForkPoolWorker-50, started daemon)>, <ForkProcess(ForkPoolWorker-52, started daemon)>, <ForkProcess(ForkPoolWorker-2, started daemon)>, <ForkProcess(ForkPoolWorker-44, started daemon)>, <ForkProcess(ForkPoolWorker-51, started daemon)>, <ForkProcess(SyncManager-1, started)>, <ForkProcess(ForkPoolWorker-42, started daemon)>, <ForkProcess(ForkPoolWorker-45, started daemon)>, <ForkProcess(ForkPoolWorker-36, started daemon)>, <ForkProcess(ForkPoolWorker-4, started daemon)>, <ForkProcess(ForkPoolWorker-43, started daemon)>, <ForkProcess(ForkPoolWorker-37, started daemon)>, <ForkProcess(ForkPoolWorker-5, started daemon)>, <ForkProcess(ForkPoolWorker-46, started daemon)>, <ForkProcess(ForkPoolWorker-54, started daemon)>, <ForkProcess(ForkPoolWorker-38, started daemon)>, <ForkProcess(ForkPoolWorker-35, started daemon)>, <ForkProcess(ForkPoolWorker-31, started daemon)>, <ForkProcess(ForkPoolWorker-34, started daemon)>, <ForkProcess(ForkPoolWorker-39, started daemon)>, <ForkProcess(ForkPoolWorker-47, started daemon)>, <ForkProcess(ForkPoolWorker-48, started daemon)>, <ForkProcess(ForkPoolWorker-53, started daemon)>, <ForkProcess(ForkPoolWorker-40, started daemon)>, <ForkProcess(ForkPoolWorker-33, started daemon)>, <ForkProcess(ForkPoolWorker-32, started daemon)>, <ForkProcess(ForkPoolWorker-49, started daemon)>, <ForkProcess(ForkPoolWorker-41, started daemon)>]
+Process 4808 is alive: True
+Process 4839 is alive: True
+Process 3497 is alive: True
+Process 4515 is alive: True
+Process 4836 is alive: True
+Process 3491 is alive: True
+Process 4371 is alive: True
+Process 4539 is alive: True
+Process 4148 is alive: True
+Process 3501 is alive: True
+Process 4410 is alive: True
+Process 4180 is alive: True
+Process 3505 is alive: True
+Process 4572 is alive: True
+Process 4922 is alive: True
+Process 4252 is alive: True
+Process 4115 is alive: True
+Process 3895 is alive: True
+Process 4030 is alive: True
+Process 4283 is alive: True
+Process 4622 is alive: True
+Process 4701 is alive: True
+Process 4874 is alive: True
+Process 4286 is alive: True
+Process 3998 is alive: True
+Process 3960 is alive: True
+Process 4733 is alive: True
+Process 4332 is alive: True
+RAM memory % used: 87.7
+RAM Used (GB): 117.668847616
+This is the results so far <multiprocessing.pool.MapResult object at 0x2b1cd18f3a90>
+The current number of edges in the queue is 87 out of 193978
+The number of active proesses is [<ForkProcess(ForkPoolWorker-50, started daemon)>, <ForkProcess(ForkPoolWorker-52, started daemon)>, <ForkProcess(ForkPoolWorker-2, started daemon)>, <ForkProcess(ForkPoolWorker-44, started daemon)>, <ForkProcess(ForkPoolWorker-51, started daemon)>, <ForkProcess(SyncManager-1, started)>, <ForkProcess(ForkPoolWorker-42, started daemon)>, <ForkProcess(ForkPoolWorker-45, started daemon)>, <ForkProcess(ForkPoolWorker-36, started daemon)>, <ForkProcess(ForkPoolWorker-4, started daemon)>, <ForkProcess(ForkPoolWorker-43, started daemon)>, <ForkProcess(ForkPoolWorker-37, started daemon)>, <ForkProcess(ForkPoolWorker-5, started daemon)>, <ForkProcess(ForkPoolWorker-46, started daemon)>, <ForkProcess(ForkPoolWorker-54, started daemon)>, <ForkProcess(ForkPoolWorker-38, started daemon)>, <ForkProcess(ForkPoolWorker-35, started daemon)>, <ForkProcess(ForkPoolWorker-55, started daemon)>, <ForkProcess(ForkPoolWorker-34, started daemon)>, <ForkProcess(ForkPoolWorker-39, started daemon)>, <ForkProcess(ForkPoolWorker-47, started daemon)>, <ForkProcess(ForkPoolWorker-48, started daemon)>, <ForkProcess(ForkPoolWorker-53, started daemon)>, <ForkProcess(ForkPoolWorker-40, started daemon)>, <ForkProcess(ForkPoolWorker-33, started daemon)>, <ForkProcess(ForkPoolWorker-56, started daemon)>, <ForkProcess(ForkPoolWorker-49, started daemon)>, <ForkProcess(ForkPoolWorker-41, started daemon)>]
+Process 4808 is alive: True
+Process 4839 is alive: True
+Process 3497 is alive: True
+Process 4515 is alive: True
+Process 4836 is alive: True
+Process 3491 is alive: True
+Process 4371 is alive: True
+Process 4539 is alive: True
+Process 4148 is alive: True
+Process 3501 is alive: True
+Process 4410 is alive: True
+Process 4180 is alive: True
+Process 3505 is alive: True
+Process 4572 is alive: True
+Process 4922 is alive: True
+Process 4252 is alive: True
+Process 4115 is alive: True
+Process 4961 is alive: True
+Process 4030 is alive: True
+Process 4283 is alive: True
+Process 4622 is alive: True
+Process 4701 is alive: True
+Process 4874 is alive: True
+Process 4286 is alive: True
+Process 3998 is alive: True
+Process 4991 is alive: True
+Process 4733 is alive: True
+Process 4332 is alive: True
+RAM memory % used: 87.3
+RAM Used (GB): 117.170782208
+This is the results so far <multiprocessing.pool.MapResult object at 0x2b1cd18f3a90>
+The current number of edges in the queue is 87 out of 193978
+The number of active proesses is [<ForkProcess(ForkPoolWorker-50, started daemon)>, <ForkProcess(ForkPoolWorker-52, started daemon)>, <ForkProcess(ForkPoolWorker-2, started daemon)>, <ForkProcess(ForkPoolWorker-44, started daemon)>, <ForkProcess(ForkPoolWorker-51, started daemon)>, <ForkProcess(SyncManager-1, started)>, <ForkProcess(ForkPoolWorker-42, started daemon)>, <ForkProcess(ForkPoolWorker-45, started daemon)>, <ForkProcess(ForkPoolWorker-36, started daemon)>, <ForkProcess(ForkPoolWorker-4, started daemon)>, <ForkProcess(ForkPoolWorker-43, started daemon)>, <ForkProcess(ForkPoolWorker-37, started daemon)>, <ForkProcess(ForkPoolWorker-5, started daemon)>, <ForkProcess(ForkPoolWorker-46, started daemon)>, <ForkProcess(ForkPoolWorker-54, started daemon)>, <ForkProcess(ForkPoolWorker-38, started daemon)>, <ForkProcess(ForkPoolWorker-35, started daemon)>, <ForkProcess(ForkPoolWorker-55, started daemon)>, <ForkProcess(ForkPoolWorker-39, started daemon)>, <ForkProcess(ForkPoolWorker-47, started daemon)>, <ForkProcess(ForkPoolWorker-48, started daemon)>, <ForkProcess(ForkPoolWorker-53, started daemon)>, <ForkProcess(ForkPoolWorker-40, started daemon)>, <ForkProcess(ForkPoolWorker-56, started daemon)>, <ForkProcess(ForkPoolWorker-57, started daemon)>, <ForkProcess(ForkPoolWorker-49, started daemon)>, <ForkProcess(ForkPoolWorker-41, started daemon)>, <ForkProcess(ForkPoolWorker-58, started daemon)>]
+Process 4808 is alive: True
+Process 4839 is alive: True
+Process 3497 is alive: True
+Process 4515 is alive: True
+Process 4836 is alive: True
+Process 3491 is alive: True
+Process 4371 is alive: True
+Process 4539 is alive: True
+Process 4148 is alive: True
+Process 3501 is alive: True
+Process 4410 is alive: True
+Process 4180 is alive: True
+Process 3505 is alive: True
+Process 4572 is alive: True
+Process 4922 is alive: True
+Process 4252 is alive: True
+Process 4115 is alive: True
+Process 4961 is alive: True
+Process 4283 is alive: True
+Process 4622 is alive: True
+Process 4701 is alive: True
+Process 4874 is alive: True
+Process 4286 is alive: True
+Process 4991 is alive: True
+Process 5040 is alive: True
+Process 4733 is alive: True
+Process 4332 is alive: True
+Process 5090 is alive: True
+RAM memory % used: 88.0
+RAM Used (GB): 118.030761984
+This is the results so far <multiprocessing.pool.MapResult object at 0x2b1cd18f3a90>
+The current number of edges in the queue is 87 out of 193978
+The number of active proesses is [<ForkProcess(ForkPoolWorker-50, started daemon)>, <ForkProcess(ForkPoolWorker-60, started daemon)>, <ForkProcess(ForkPoolWorker-52, started daemon)>, <ForkProcess(ForkPoolWorker-2, started daemon)>, <ForkProcess(ForkPoolWorker-44, started daemon)>, <ForkProcess(ForkPoolWorker-51, started daemon)>, <ForkProcess(SyncManager-1, started)>, <ForkProcess(ForkPoolWorker-42, started daemon)>, <ForkProcess(ForkPoolWorker-45, started daemon)>, <ForkProcess(ForkPoolWorker-4, started daemon)>, <ForkProcess(ForkPoolWorker-43, started daemon)>, <ForkProcess(ForkPoolWorker-37, started daemon)>, <ForkProcess(ForkPoolWorker-5, started daemon)>, <ForkProcess(ForkPoolWorker-46, started daemon)>, <ForkProcess(ForkPoolWorker-54, started daemon)>, <ForkProcess(ForkPoolWorker-38, started daemon)>, <ForkProcess(ForkPoolWorker-55, started daemon)>, <ForkProcess(ForkPoolWorker-59, started daemon)>, <ForkProcess(ForkPoolWorker-61, started daemon)>, <ForkProcess(ForkPoolWorker-39, started daemon)>, <ForkProcess(ForkPoolWorker-47, started daemon)>, <ForkProcess(ForkPoolWorker-48, started daemon)>, <ForkProcess(ForkPoolWorker-53, started daemon)>, <ForkProcess(ForkPoolWorker-40, started daemon)>, <ForkProcess(ForkPoolWorker-56, started daemon)>, <ForkProcess(ForkPoolWorker-57, started daemon)>, <ForkProcess(ForkPoolWorker-49, started daemon)>, <ForkProcess(ForkPoolWorker-41, started daemon)>, <ForkProcess(ForkPoolWorker-58, started daemon)>]
+Process 4808 is alive: True
+Process 5174 is alive: True
+Process 4839 is alive: True
+Process 3497 is alive: True
+Process 4515 is alive: True
+Process 4836 is alive: True
+Process 3491 is alive: True
+Process 4371 is alive: True
+Process 4539 is alive: True
+Process 3501 is alive: True
+Process 4410 is alive: True
+Process 4180 is alive: True
+Process 3505 is alive: True
+Process 4572 is alive: True
+Process 4922 is alive: True
+Process 4252 is alive: True
+Process 4961 is alive: True
+Process 5123 is alive: True
+Process 5213 is alive: True
+Process 4283 is alive: True
+Process 4622 is alive: True
+Process 4701 is alive: True
+Process 4874 is alive: True
+Process 4286 is alive: True
+Process 4991 is alive: True
+Process 5040 is alive: True
+Process 4733 is alive: True
+Process 4332 is alive: True
+Process 5090 is alive: True
+RAM memory % used: 88.0
+RAM Used (GB): 118.111813632
+This is the results so far <multiprocessing.pool.MapResult object at 0x2b1cd18f3a90>
+The current number of edges in the queue is 88 out of 193978
+The number of active proesses is [<ForkProcess(ForkPoolWorker-50, started daemon)>, <ForkProcess(ForkPoolWorker-60, started daemon)>, <ForkProcess(ForkPoolWorker-52, started daemon)>, <ForkProcess(ForkPoolWorker-2, started daemon)>, <ForkProcess(ForkPoolWorker-44, started daemon)>, <ForkProcess(ForkPoolWorker-51, started daemon)>, <ForkProcess(SyncManager-1, started)>, <ForkProcess(ForkPoolWorker-42, started daemon)>, <ForkProcess(ForkPoolWorker-45, started daemon)>, <ForkProcess(ForkPoolWorker-4, started daemon)>, <ForkProcess(ForkPoolWorker-43, started daemon)>, <ForkProcess(ForkPoolWorker-62, started daemon)>, <ForkProcess(ForkPoolWorker-5, started daemon)>, <ForkProcess(ForkPoolWorker-46, started daemon)>, <ForkProcess(ForkPoolWorker-54, started daemon)>, <ForkProcess(ForkPoolWorker-55, started daemon)>, <ForkProcess(ForkPoolWorker-59, started daemon)>, <ForkProcess(ForkPoolWorker-61, started daemon)>, <ForkProcess(ForkPoolWorker-39, started daemon)>, <ForkProcess(ForkPoolWorker-47, started daemon)>, <ForkProcess(ForkPoolWorker-48, started daemon)>, <ForkProcess(ForkPoolWorker-53, started daemon)>, <ForkProcess(ForkPoolWorker-40, started daemon)>, <ForkProcess(ForkPoolWorker-56, started daemon)>, <ForkProcess(ForkPoolWorker-57, started daemon)>, <ForkProcess(ForkPoolWorker-49, started daemon)>, <ForkProcess(ForkPoolWorker-41, started daemon)>, <ForkProcess(ForkPoolWorker-58, started daemon)>]
+Process 4808 is alive: True
+Process 5174 is alive: True
+Process 4839 is alive: True
+Process 3497 is alive: True
+Process 4515 is alive: True
+Process 4836 is alive: True
+Process 3491 is alive: True
+Process 4371 is alive: True
+Process 4539 is alive: True
+Process 3501 is alive: True
+Process 4410 is alive: True
+Process 5252 is alive: True
+Process 3505 is alive: True
+Process 4572 is alive: True
+Process 4922 is alive: True
+Process 4961 is alive: True
+Process 5123 is alive: True
+Process 5213 is alive: True
+Process 4283 is alive: True
+Process 4622 is alive: True
+Process 4701 is alive: True
+Process 4874 is alive: True
+Process 4286 is alive: True
+Process 4991 is alive: True
+Process 5040 is alive: True
+Process 4733 is alive: True
+Process 4332 is alive: True
+Process 5090 is alive: True
+RAM memory % used: 87.9
+RAM Used (GB): 118.160113664
+This is the results so far <multiprocessing.pool.MapResult object at 0x2b1cd18f3a90>
+The current number of edges in the queue is 93 out of 193978
+The number of active proesses is [<ForkProcess(ForkPoolWorker-50, started daemon)>, <ForkProcess(ForkPoolWorker-60, started daemon)>, <ForkProcess(ForkPoolWorker-52, started daemon)>, <ForkProcess(ForkPoolWorker-2, started daemon)>, <ForkProcess(ForkPoolWorker-44, started daemon)>, <ForkProcess(ForkPoolWorker-51, started daemon)>, <ForkProcess(SyncManager-1, started)>, <ForkProcess(ForkPoolWorker-42, started daemon)>, <ForkProcess(ForkPoolWorker-45, started daemon)>, <ForkProcess(ForkPoolWorker-63, started daemon)>, <ForkProcess(ForkPoolWorker-4, started daemon)>, <ForkProcess(ForkPoolWorker-43, started daemon)>, <ForkProcess(ForkPoolWorker-62, started daemon)>, <ForkProcess(ForkPoolWorker-5, started daemon)>, <ForkProcess(ForkPoolWorker-46, started daemon)>, <ForkProcess(ForkPoolWorker-54, started daemon)>, <ForkProcess(ForkPoolWorker-55, started daemon)>, <ForkProcess(ForkPoolWorker-64, started daemon)>, <ForkProcess(ForkPoolWorker-59, started daemon)>, <ForkProcess(ForkPoolWorker-61, started daemon)>, <ForkProcess(ForkPoolWorker-47, started daemon)>, <ForkProcess(ForkPoolWorker-48, started daemon)>, <ForkProcess(ForkPoolWorker-53, started daemon)>, <ForkProcess(ForkPoolWorker-56, started daemon)>, <ForkProcess(ForkPoolWorker-57, started daemon)>, <ForkProcess(ForkPoolWorker-49, started daemon)>, <ForkProcess(ForkPoolWorker-41, started daemon)>, <ForkProcess(ForkPoolWorker-58, started daemon)>]
+Process 4808 is alive: True
+Process 5174 is alive: True
+Process 4839 is alive: True
+Process 3497 is alive: True
+Process 4515 is alive: True
+Process 4836 is alive: True
+Process 3491 is alive: True
+Process 4371 is alive: True
+Process 4539 is alive: True
+Process 5325 is alive: True
+Process 3501 is alive: True
+Process 4410 is alive: True
+Process 5252 is alive: True
+Process 3505 is alive: True
+Process 4572 is alive: True
+Process 4922 is alive: True
+Process 4961 is alive: True
+Process 5356 is alive: True
+Process 5123 is alive: True
+Process 5213 is alive: True
+Process 4622 is alive: True
+Process 4701 is alive: True
+Process 4874 is alive: True
+Process 4991 is alive: True
+Process 5040 is alive: True
+Process 4733 is alive: True
+Process 4332 is alive: True
+Process 5090 is alive: True
+RAM memory % used: 89.0
+RAM Used (GB): 119.458750464
+This is the results so far <multiprocessing.pool.MapResult object at 0x2b1cd18f3a90>
+The current number of edges in the queue is 94 out of 193978
+The number of active proesses is [<ForkProcess(ForkPoolWorker-50, started daemon)>, <ForkProcess(ForkPoolWorker-60, started daemon)>, <ForkProcess(ForkPoolWorker-52, started daemon)>, <ForkProcess(ForkPoolWorker-2, started daemon)>, <ForkProcess(ForkPoolWorker-44, started daemon)>, <ForkProcess(ForkPoolWorker-51, started daemon)>, <ForkProcess(SyncManager-1, started)>, <ForkProcess(ForkPoolWorker-65, started daemon)>, <ForkProcess(ForkPoolWorker-45, started daemon)>, <ForkProcess(ForkPoolWorker-63, started daemon)>, <ForkProcess(ForkPoolWorker-4, started daemon)>, <ForkProcess(ForkPoolWorker-43, started daemon)>, <ForkProcess(ForkPoolWorker-62, started daemon)>, <ForkProcess(ForkPoolWorker-5, started daemon)>, <ForkProcess(ForkPoolWorker-46, started daemon)>, <ForkProcess(ForkPoolWorker-54, started daemon)>, <ForkProcess(ForkPoolWorker-66, started daemon)>, <ForkProcess(ForkPoolWorker-55, started daemon)>, <ForkProcess(ForkPoolWorker-64, started daemon)>, <ForkProcess(ForkPoolWorker-59, started daemon)>, <ForkProcess(ForkPoolWorker-61, started daemon)>, <ForkProcess(ForkPoolWorker-47, started daemon)>, <ForkProcess(ForkPoolWorker-48, started daemon)>, <ForkProcess(ForkPoolWorker-53, started daemon)>, <ForkProcess(ForkPoolWorker-56, started daemon)>, <ForkProcess(ForkPoolWorker-57, started daemon)>, <ForkProcess(ForkPoolWorker-49, started daemon)>, <ForkProcess(ForkPoolWorker-58, started daemon)>]
+Process 4808 is alive: True
+Process 5174 is alive: True
+Process 4839 is alive: True
+Process 3497 is alive: True
+Process 4515 is alive: True
+Process 4836 is alive: True
+Process 3491 is alive: True
+Process 5383 is alive: True
+Process 4539 is alive: True
+Process 5325 is alive: True
+Process 3501 is alive: True
+Process 4410 is alive: True
+Process 5252 is alive: True
+Process 3505 is alive: True
+Process 4572 is alive: True
+Process 4922 is alive: True
+Process 5530 is alive: True
+Process 4961 is alive: True
+Process 5356 is alive: True
+Process 5123 is alive: True
+Process 5213 is alive: True
+Process 4622 is alive: True
+Process 4701 is alive: True
+Process 4874 is alive: True
+Process 4991 is alive: True
+Process 5040 is alive: True
+Process 4733 is alive: True
+Process 5090 is alive: True
+RAM memory % used: 89.1
+RAM Used (GB): 119.474532352
+This is the results so far <multiprocessing.pool.MapResult object at 0x2b1cd18f3a90>
+The current number of edges in the queue is 95 out of 193978
+The number of active proesses is [<ForkProcess(ForkPoolWorker-50, started daemon)>, <ForkProcess(ForkPoolWorker-60, started daemon)>, <ForkProcess(ForkPoolWorker-52, started daemon)>, <ForkProcess(ForkPoolWorker-2, started daemon)>, <ForkProcess(ForkPoolWorker-51, started daemon)>, <ForkProcess(SyncManager-1, started)>, <ForkProcess(ForkPoolWorker-65, started daemon)>, <ForkProcess(ForkPoolWorker-45, started daemon)>, <ForkProcess(ForkPoolWorker-63, started daemon)>, <ForkProcess(ForkPoolWorker-4, started daemon)>, <ForkProcess(ForkPoolWorker-68, started daemon)>, <ForkProcess(ForkPoolWorker-62, started daemon)>, <ForkProcess(ForkPoolWorker-5, started daemon)>, <ForkProcess(ForkPoolWorker-46, started daemon)>, <ForkProcess(ForkPoolWorker-54, started daemon)>, <ForkProcess(ForkPoolWorker-66, started daemon)>, <ForkProcess(ForkPoolWorker-55, started daemon)>, <ForkProcess(ForkPoolWorker-64, started daemon)>, <ForkProcess(ForkPoolWorker-59, started daemon)>, <ForkProcess(ForkPoolWorker-61, started daemon)>, <ForkProcess(ForkPoolWorker-47, started daemon)>, <ForkProcess(ForkPoolWorker-48, started daemon)>, <ForkProcess(ForkPoolWorker-53, started daemon)>, <ForkProcess(ForkPoolWorker-56, started daemon)>, <ForkProcess(ForkPoolWorker-67, started daemon)>, <ForkProcess(ForkPoolWorker-57, started daemon)>, <ForkProcess(ForkPoolWorker-49, started daemon)>, <ForkProcess(ForkPoolWorker-58, started daemon)>]
+Process 4808 is alive: True
+Process 5174 is alive: True
+Process 4839 is alive: True
+Process 3497 is alive: True
+Process 4836 is alive: True
+Process 3491 is alive: True
+Process 5383 is alive: True
+Process 4539 is alive: True
+Process 5325 is alive: True
+Process 3501 is alive: True
+Process 5590 is alive: True
+Process 5252 is alive: True
+Process 3505 is alive: True
+Process 4572 is alive: True
+Process 4922 is alive: True
+Process 5530 is alive: True
+Process 4961 is alive: True
+Process 5356 is alive: True
+Process 5123 is alive: True
+Process 5213 is alive: True
+Process 4622 is alive: True
+Process 4701 is alive: True
+Process 4874 is alive: True
+Process 4991 is alive: True
+Process 5563 is alive: True
+Process 5040 is alive: True
+Process 4733 is alive: True
+Process 5090 is alive: True
+RAM memory % used: 89.1
+RAM Used (GB): 119.477866496
+This is the results so far <multiprocessing.pool.MapResult object at 0x2b1cd18f3a90>
+The current number of edges in the queue is 97 out of 193978
+The number of active proesses is [<ForkProcess(ForkPoolWorker-50, started daemon)>, <ForkProcess(ForkPoolWorker-60, started daemon)>, <ForkProcess(ForkPoolWorker-52, started daemon)>, <ForkProcess(ForkPoolWorker-2, started daemon)>, <ForkProcess(ForkPoolWorker-70, started daemon)>, <ForkProcess(ForkPoolWorker-51, started daemon)>, <ForkProcess(SyncManager-1, started)>, <ForkProcess(ForkPoolWorker-65, started daemon)>, <ForkProcess(ForkPoolWorker-69, started daemon)>, <ForkProcess(ForkPoolWorker-63, started daemon)>, <ForkProcess(ForkPoolWorker-4, started daemon)>, <ForkProcess(ForkPoolWorker-68, started daemon)>, <ForkProcess(ForkPoolWorker-62, started daemon)>, <ForkProcess(ForkPoolWorker-5, started daemon)>, <ForkProcess(ForkPoolWorker-54, started daemon)>, <ForkProcess(ForkPoolWorker-66, started daemon)>, <ForkProcess(ForkPoolWorker-55, started daemon)>, <ForkProcess(ForkPoolWorker-64, started daemon)>, <ForkProcess(ForkPoolWorker-59, started daemon)>, <ForkProcess(ForkPoolWorker-61, started daemon)>, <ForkProcess(ForkPoolWorker-47, started daemon)>, <ForkProcess(ForkPoolWorker-48, started daemon)>, <ForkProcess(ForkPoolWorker-53, started daemon)>, <ForkProcess(ForkPoolWorker-56, started daemon)>, <ForkProcess(ForkPoolWorker-67, started daemon)>, <ForkProcess(ForkPoolWorker-57, started daemon)>, <ForkProcess(ForkPoolWorker-49, started daemon)>, <ForkProcess(ForkPoolWorker-58, started daemon)>]
+Process 4808 is alive: True
+Process 5174 is alive: True
+Process 4839 is alive: True
+Process 3497 is alive: True
+Process 5668 is alive: True
+Process 4836 is alive: True
+Process 3491 is alive: True
+Process 5383 is alive: True
+Process 5632 is alive: True
+Process 5325 is alive: True
+Process 3501 is alive: True
+Process 5590 is alive: True
+Process 5252 is alive: True
+Process 3505 is alive: True
+Process 4922 is alive: True
+Process 5530 is alive: True
+Process 4961 is alive: True
+Process 5356 is alive: True
+Process 5123 is alive: True
+Process 5213 is alive: True
+Process 4622 is alive: True
+Process 4701 is alive: True
+Process 4874 is alive: True
+Process 4991 is alive: True
+Process 5563 is alive: True
+Process 5040 is alive: True
+Process 4733 is alive: True
+Process 5090 is alive: True
+RAM memory % used: 88.9
+RAM Used (GB): 119.291400192
+This is the results so far <multiprocessing.pool.MapResult object at 0x2b1cd18f3a90>
+The current number of edges in the queue is 98 out of 193978
+The number of active proesses is [<ForkProcess(ForkPoolWorker-50, started daemon)>, <ForkProcess(ForkPoolWorker-60, started daemon)>, <ForkProcess(ForkPoolWorker-52, started daemon)>, <ForkProcess(ForkPoolWorker-2, started daemon)>, <ForkProcess(ForkPoolWorker-70, started daemon)>, <ForkProcess(ForkPoolWorker-51, started daemon)>, <ForkProcess(SyncManager-1, started)>, <ForkProcess(ForkPoolWorker-65, started daemon)>, <ForkProcess(ForkPoolWorker-69, started daemon)>, <ForkProcess(ForkPoolWorker-63, started daemon)>, <ForkProcess(ForkPoolWorker-4, started daemon)>, <ForkProcess(ForkPoolWorker-68, started daemon)>, <ForkProcess(ForkPoolWorker-62, started daemon)>, <ForkProcess(ForkPoolWorker-5, started daemon)>, <ForkProcess(ForkPoolWorker-72, started daemon)>, <ForkProcess(ForkPoolWorker-54, started daemon)>, <ForkProcess(ForkPoolWorker-66, started daemon)>, <ForkProcess(ForkPoolWorker-55, started daemon)>, <ForkProcess(ForkPoolWorker-64, started daemon)>, <ForkProcess(ForkPoolWorker-59, started daemon)>, <ForkProcess(ForkPoolWorker-61, started daemon)>, <ForkProcess(ForkPoolWorker-53, started daemon)>, <ForkProcess(ForkPoolWorker-56, started daemon)>, <ForkProcess(ForkPoolWorker-67, started daemon)>, <ForkProcess(ForkPoolWorker-57, started daemon)>, <ForkProcess(ForkPoolWorker-49, started daemon)>, <ForkProcess(ForkPoolWorker-71, started daemon)>, <ForkProcess(ForkPoolWorker-58, started daemon)>]
+Process 4808 is alive: True
+Process 5174 is alive: True
+Process 4839 is alive: True
+Process 3497 is alive: True
+Process 5668 is alive: True
+Process 4836 is alive: True
+Process 3491 is alive: True
+Process 5383 is alive: True
+Process 5632 is alive: True
+Process 5325 is alive: True
+Process 3501 is alive: True
+Process 5590 is alive: True
+Process 5252 is alive: True
+Process 3505 is alive: True
+Process 5752 is alive: True
+Process 4922 is alive: True
+Process 5530 is alive: True
+Process 4961 is alive: True
+Process 5356 is alive: True
+Process 5123 is alive: True
+Process 5213 is alive: True
+Process 4874 is alive: True
+Process 4991 is alive: True
+Process 5563 is alive: True
+Process 5040 is alive: True
+Process 4733 is alive: True
+Process 5690 is alive: True
+Process 5090 is alive: True
+RAM memory % used: 88.5
+RAM Used (GB): 118.788829184
+This is the results so far <multiprocessing.pool.MapResult object at 0x2b1cd18f3a90>
+The current number of edges in the queue is 99 out of 193978
+The number of active proesses is [<ForkProcess(ForkPoolWorker-60, started daemon)>, <ForkProcess(ForkPoolWorker-52, started daemon)>, <ForkProcess(ForkPoolWorker-2, started daemon)>, <ForkProcess(ForkPoolWorker-70, started daemon)>, <ForkProcess(ForkPoolWorker-51, started daemon)>, <ForkProcess(SyncManager-1, started)>, <ForkProcess(ForkPoolWorker-65, started daemon)>, <ForkProcess(ForkPoolWorker-69, started daemon)>, <ForkProcess(ForkPoolWorker-63, started daemon)>, <ForkProcess(ForkPoolWorker-4, started daemon)>, <ForkProcess(ForkPoolWorker-68, started daemon)>, <ForkProcess(ForkPoolWorker-62, started daemon)>, <ForkProcess(ForkPoolWorker-5, started daemon)>, <ForkProcess(ForkPoolWorker-72, started daemon)>, <ForkProcess(ForkPoolWorker-54, started daemon)>, <ForkProcess(ForkPoolWorker-66, started daemon)>, <ForkProcess(ForkPoolWorker-55, started daemon)>, <ForkProcess(ForkPoolWorker-73, started daemon)>, <ForkProcess(ForkPoolWorker-64, started daemon)>, <ForkProcess(ForkPoolWorker-59, started daemon)>, <ForkProcess(ForkPoolWorker-61, started daemon)>, <ForkProcess(ForkPoolWorker-74, started daemon)>, <ForkProcess(ForkPoolWorker-53, started daemon)>, <ForkProcess(ForkPoolWorker-56, started daemon)>, <ForkProcess(ForkPoolWorker-67, started daemon)>, <ForkProcess(ForkPoolWorker-57, started daemon)>, <ForkProcess(ForkPoolWorker-71, started daemon)>, <ForkProcess(ForkPoolWorker-58, started daemon)>]
+Process 5174 is alive: True
+Process 4839 is alive: True
+Process 3497 is alive: True
+Process 5668 is alive: True
+Process 4836 is alive: True
+Process 3491 is alive: True
+Process 5383 is alive: True
+Process 5632 is alive: True
+Process 5325 is alive: True
+Process 3501 is alive: True
+Process 5590 is alive: True
+Process 5252 is alive: True
+Process 3505 is alive: True
+Process 5752 is alive: True
+Process 4922 is alive: True
+Process 5530 is alive: True
+Process 4961 is alive: True
+Process 5784 is alive: True
+Process 5356 is alive: True
+Process 5123 is alive: True
+Process 5213 is alive: True
+Process 5810 is alive: True
+Process 4874 is alive: True
+Process 4991 is alive: True
+Process 5563 is alive: True
+Process 5040 is alive: True
+Process 5690 is alive: True
+Process 5090 is alive: True
+RAM memory % used: 89.5
+RAM Used (GB): 120.097140736
+This is the results so far <multiprocessing.pool.MapResult object at 0x2b1cd18f3a90>
+The current number of edges in the queue is 99 out of 193978
+The number of active proesses is [<ForkProcess(ForkPoolWorker-60, started daemon)>, <ForkProcess(ForkPoolWorker-2, started daemon)>, <ForkProcess(ForkPoolWorker-70, started daemon)>, <ForkProcess(SyncManager-1, started)>, <ForkProcess(ForkPoolWorker-65, started daemon)>, <ForkProcess(ForkPoolWorker-69, started daemon)>, <ForkProcess(ForkPoolWorker-63, started daemon)>, <ForkProcess(ForkPoolWorker-4, started daemon)>, <ForkProcess(ForkPoolWorker-68, started daemon)>, <ForkProcess(ForkPoolWorker-62, started daemon)>, <ForkProcess(ForkPoolWorker-5, started daemon)>, <ForkProcess(ForkPoolWorker-72, started daemon)>, <ForkProcess(ForkPoolWorker-54, started daemon)>, <ForkProcess(ForkPoolWorker-66, started daemon)>, <ForkProcess(ForkPoolWorker-55, started daemon)>, <ForkProcess(ForkPoolWorker-73, started daemon)>, <ForkProcess(ForkPoolWorker-64, started daemon)>, <ForkProcess(ForkPoolWorker-59, started daemon)>, <ForkProcess(ForkPoolWorker-61, started daemon)>, <ForkProcess(ForkPoolWorker-74, started daemon)>, <ForkProcess(ForkPoolWorker-53, started daemon)>, <ForkProcess(ForkPoolWorker-56, started daemon)>, <ForkProcess(ForkPoolWorker-67, started daemon)>, <ForkProcess(ForkPoolWorker-76, started daemon)>, <ForkProcess(ForkPoolWorker-57, started daemon)>, <ForkProcess(ForkPoolWorker-71, started daemon)>, <ForkProcess(ForkPoolWorker-58, started daemon)>, <ForkProcess(ForkPoolWorker-75, started daemon)>]
+Process 5174 is alive: True
+Process 3497 is alive: True
+Process 5668 is alive: True
+Process 3491 is alive: True
+Process 5383 is alive: True
+Process 5632 is alive: True
+Process 5325 is alive: True
+Process 3501 is alive: True
+Process 5590 is alive: True
+Process 5252 is alive: True
+Process 3505 is alive: True
+Process 5752 is alive: True
+Process 4922 is alive: True
+Process 5530 is alive: True
+Process 4961 is alive: True
+Process 5784 is alive: True
+Process 5356 is alive: True
+Process 5123 is alive: True
+Process 5213 is alive: True
+Process 5810 is alive: True
+Process 4874 is alive: True
+Process 4991 is alive: True
+Process 5563 is alive: True
+Process 5978 is alive: True
+Process 5040 is alive: True
+Process 5690 is alive: True
+Process 5090 is alive: True
+Process 5940 is alive: True
+RAM memory % used: 91.2
+RAM Used (GB): 122.423431168
+This is the results so far <multiprocessing.pool.MapResult object at 0x2b1cd18f3a90>
+The current number of edges in the queue is 103 out of 193978
+The number of active proesses is [<ForkProcess(ForkPoolWorker-77, started daemon)>, <ForkProcess(ForkPoolWorker-60, started daemon)>, <ForkProcess(ForkPoolWorker-2, started daemon)>, <ForkProcess(ForkPoolWorker-70, started daemon)>, <ForkProcess(SyncManager-1, started)>, <ForkProcess(ForkPoolWorker-65, started daemon)>, <ForkProcess(ForkPoolWorker-69, started daemon)>, <ForkProcess(ForkPoolWorker-63, started daemon)>, <ForkProcess(ForkPoolWorker-4, started daemon)>, <ForkProcess(ForkPoolWorker-78, started daemon)>, <ForkProcess(ForkPoolWorker-68, started daemon)>, <ForkProcess(ForkPoolWorker-62, started daemon)>, <ForkProcess(ForkPoolWorker-5, started daemon)>, <ForkProcess(ForkPoolWorker-72, started daemon)>, <ForkProcess(ForkPoolWorker-66, started daemon)>, <ForkProcess(ForkPoolWorker-55, started daemon)>, <ForkProcess(ForkPoolWorker-73, started daemon)>, <ForkProcess(ForkPoolWorker-64, started daemon)>, <ForkProcess(ForkPoolWorker-59, started daemon)>, <ForkProcess(ForkPoolWorker-61, started daemon)>, <ForkProcess(ForkPoolWorker-74, started daemon)>, <ForkProcess(ForkPoolWorker-56, started daemon)>, <ForkProcess(ForkPoolWorker-67, started daemon)>, <ForkProcess(ForkPoolWorker-76, started daemon)>, <ForkProcess(ForkPoolWorker-57, started daemon)>, <ForkProcess(ForkPoolWorker-71, started daemon)>, <ForkProcess(ForkPoolWorker-58, started daemon)>, <ForkProcess(ForkPoolWorker-75, started daemon)>]
+Process 6039 is alive: True
+Process 5174 is alive: True
+Process 3497 is alive: True
+Process 5668 is alive: True
+Process 3491 is alive: True
+Process 5383 is alive: True
+Process 5632 is alive: True
+Process 5325 is alive: True
+Process 3501 is alive: True
+Process 6085 is alive: True
+Process 5590 is alive: True
+Process 5252 is alive: True
+Process 3505 is alive: True
+Process 5752 is alive: True
+Process 5530 is alive: True
+Process 4961 is alive: True
+Process 5784 is alive: True
+Process 5356 is alive: True
+Process 5123 is alive: True
+Process 5213 is alive: True
+Process 5810 is alive: True
+Process 4991 is alive: True
+Process 5563 is alive: True
+Process 5978 is alive: True
+Process 5040 is alive: True
+Process 5690 is alive: True
+Process 5090 is alive: True
+Process 5940 is alive: True
+RAM memory % used: 91.5
+RAM Used (GB): 123.08688896
+This is the results so far <multiprocessing.pool.MapResult object at 0x2b1cd18f3a90>
+The current number of edges in the queue is 106 out of 193978
+The number of active proesses is [<ForkProcess(ForkPoolWorker-77, started daemon)>, <ForkProcess(ForkPoolWorker-60, started daemon)>, <ForkProcess(ForkPoolWorker-2, started daemon)>, <ForkProcess(ForkPoolWorker-70, started daemon)>, <ForkProcess(SyncManager-1, started)>, <ForkProcess(ForkPoolWorker-65, started daemon)>, <ForkProcess(ForkPoolWorker-69, started daemon)>, <ForkProcess(ForkPoolWorker-79, started daemon)>, <ForkProcess(ForkPoolWorker-63, started daemon)>, <ForkProcess(ForkPoolWorker-4, started daemon)>, <ForkProcess(ForkPoolWorker-78, started daemon)>, <ForkProcess(ForkPoolWorker-68, started daemon)>, <ForkProcess(ForkPoolWorker-62, started daemon)>, <ForkProcess(ForkPoolWorker-5, started daemon)>, <ForkProcess(ForkPoolWorker-72, started daemon)>, <ForkProcess(ForkPoolWorker-66, started daemon)>, <ForkProcess(ForkPoolWorker-73, started daemon)>, <ForkProcess(ForkPoolWorker-64, started daemon)>, <ForkProcess(ForkPoolWorker-59, started daemon)>, <ForkProcess(ForkPoolWorker-61, started daemon)>, <ForkProcess(ForkPoolWorker-74, started daemon)>, <ForkProcess(ForkPoolWorker-80, started daemon)>, <ForkProcess(ForkPoolWorker-67, started daemon)>, <ForkProcess(ForkPoolWorker-76, started daemon)>, <ForkProcess(ForkPoolWorker-57, started daemon)>, <ForkProcess(ForkPoolWorker-71, started daemon)>, <ForkProcess(ForkPoolWorker-58, started daemon)>, <ForkProcess(ForkPoolWorker-75, started daemon)>]
+Process 6039 is alive: True
+Process 5174 is alive: True
+Process 3497 is alive: True
+Process 5668 is alive: True
+Process 3491 is alive: True
+Process 5383 is alive: True
+Process 5632 is alive: True
+Process 6125 is alive: True
+Process 5325 is alive: True
+Process 3501 is alive: True
+Process 6085 is alive: True
+Process 5590 is alive: True
+Process 5252 is alive: True
+Process 3505 is alive: True
+Process 5752 is alive: True
+Process 5530 is alive: True
+Process 5784 is alive: True
+Process 5356 is alive: True
+Process 5123 is alive: True
+Process 5213 is alive: True
+Process 5810 is alive: True
+Process 6201 is alive: True
+Process 5563 is alive: True
+Process 5978 is alive: True
+Process 5040 is alive: True
+Process 5690 is alive: True
+Process 5090 is alive: True
+Process 5940 is alive: True
+RAM memory % used: 91.8
+RAM Used (GB): 123.13735168
+This is the results so far <multiprocessing.pool.MapResult object at 0x2b1cd18f3a90>
+The current number of edges in the queue is 107 out of 193978
+The number of active proesses is [<ForkProcess(ForkPoolWorker-77, started daemon)>, <ForkProcess(ForkPoolWorker-60, started daemon)>, <ForkProcess(ForkPoolWorker-2, started daemon)>, <ForkProcess(ForkPoolWorker-70, started daemon)>, <ForkProcess(SyncManager-1, started)>, <ForkProcess(ForkPoolWorker-65, started daemon)>, <ForkProcess(ForkPoolWorker-69, started daemon)>, <ForkProcess(ForkPoolWorker-79, started daemon)>, <ForkProcess(ForkPoolWorker-63, started daemon)>, <ForkProcess(ForkPoolWorker-4, started daemon)>, <ForkProcess(ForkPoolWorker-78, started daemon)>, <ForkProcess(ForkPoolWorker-68, started daemon)>, <ForkProcess(ForkPoolWorker-62, started daemon)>, <ForkProcess(ForkPoolWorker-81, started daemon)>, <ForkProcess(ForkPoolWorker-5, started daemon)>, <ForkProcess(ForkPoolWorker-72, started daemon)>, <ForkProcess(ForkPoolWorker-66, started daemon)>, <ForkProcess(ForkPoolWorker-73, started daemon)>, <ForkProcess(ForkPoolWorker-64, started daemon)>, <ForkProcess(ForkPoolWorker-59, started daemon)>, <ForkProcess(ForkPoolWorker-61, started daemon)>, <ForkProcess(ForkPoolWorker-74, started daemon)>, <ForkProcess(ForkPoolWorker-80, started daemon)>, <ForkProcess(ForkPoolWorker-82, started daemon)>, <ForkProcess(ForkPoolWorker-67, started daemon)>, <ForkProcess(ForkPoolWorker-76, started daemon)>, <ForkProcess(ForkPoolWorker-71, started daemon)>, <ForkProcess(ForkPoolWorker-75, started daemon)>]
+Process 6039 is alive: True
+Process 5174 is alive: True
+Process 3497 is alive: True
+Process 5668 is alive: True
+Process 3491 is alive: True
+Process 5383 is alive: True
+Process 5632 is alive: True
+Process 6125 is alive: True
+Process 5325 is alive: True
+Process 3501 is alive: True
+Process 6085 is alive: True
+Process 5590 is alive: True
+Process 5252 is alive: True
+Process 6237 is alive: True
+Process 3505 is alive: True
+Process 5752 is alive: True
+Process 5530 is alive: True
+Process 5784 is alive: True
+Process 5356 is alive: True
+Process 5123 is alive: True
+Process 5213 is alive: True
+Process 5810 is alive: True
+Process 6201 is alive: True
+Process 6294 is alive: True
+Process 5563 is alive: True
+Process 5978 is alive: True
+Process 5690 is alive: True
+Process 5940 is alive: True
+RAM memory % used: 93.9
+RAM Used (GB): 126.030237696
+This is the results so far <multiprocessing.pool.MapResult object at 0x2b1cd18f3a90>
+The current number of edges in the queue is 110 out of 193978
+The number of active proesses is [<ForkProcess(ForkPoolWorker-77, started daemon)>, <ForkProcess(ForkPoolWorker-2, started daemon)>, <ForkProcess(ForkPoolWorker-70, started daemon)>, <ForkProcess(SyncManager-1, started)>, <ForkProcess(ForkPoolWorker-65, started daemon)>, <ForkProcess(ForkPoolWorker-69, started daemon)>, <ForkProcess(ForkPoolWorker-79, started daemon)>, <ForkProcess(ForkPoolWorker-63, started daemon)>, <ForkProcess(ForkPoolWorker-4, started daemon)>, <ForkProcess(ForkPoolWorker-78, started daemon)>, <ForkProcess(ForkPoolWorker-68, started daemon)>, <ForkProcess(ForkPoolWorker-62, started daemon)>, <ForkProcess(ForkPoolWorker-81, started daemon)>, <ForkProcess(ForkPoolWorker-5, started daemon)>, <ForkProcess(ForkPoolWorker-72, started daemon)>, <ForkProcess(ForkPoolWorker-66, started daemon)>, <ForkProcess(ForkPoolWorker-83, started daemon)>, <ForkProcess(ForkPoolWorker-73, started daemon)>, <ForkProcess(ForkPoolWorker-64, started daemon)>, <ForkProcess(ForkPoolWorker-61, started daemon)>, <ForkProcess(ForkPoolWorker-74, started daemon)>, <ForkProcess(ForkPoolWorker-80, started daemon)>, <ForkProcess(ForkPoolWorker-82, started daemon)>, <ForkProcess(ForkPoolWorker-67, started daemon)>, <ForkProcess(ForkPoolWorker-84, started daemon)>, <ForkProcess(ForkPoolWorker-76, started daemon)>, <ForkProcess(ForkPoolWorker-71, started daemon)>, <ForkProcess(ForkPoolWorker-75, started daemon)>]
+Process 6039 is alive: True
+Process 3497 is alive: True
+Process 5668 is alive: True
+Process 3491 is alive: True
+Process 5383 is alive: True
+Process 5632 is alive: True
+Process 6125 is alive: True
+Process 5325 is alive: True
+Process 3501 is alive: True
+Process 6085 is alive: True
+Process 5590 is alive: True
+Process 5252 is alive: True
+Process 6237 is alive: True
+Process 3505 is alive: True
+Process 5752 is alive: True
+Process 5530 is alive: True
+Process 6380 is alive: True
+Process 5784 is alive: True
+Process 5356 is alive: True
+Process 5213 is alive: True
+Process 5810 is alive: True
+Process 6201 is alive: True
+Process 6294 is alive: True
+Process 5563 is alive: True
+Process 6417 is alive: True
+Process 5978 is alive: True
+Process 5690 is alive: True
+Process 5940 is alive: True
+RAM memory % used: 90.5
+RAM Used (GB): 121.399648256
+This is the results so far <multiprocessing.pool.MapResult object at 0x2b1cd18f3a90>
+The current number of edges in the queue is 113 out of 193978
+The number of active proesses is [<ForkProcess(ForkPoolWorker-77, started daemon)>, <ForkProcess(ForkPoolWorker-86, started daemon)>, <ForkProcess(ForkPoolWorker-2, started daemon)>, <ForkProcess(ForkPoolWorker-70, started daemon)>, <ForkProcess(SyncManager-1, started)>, <ForkProcess(ForkPoolWorker-65, started daemon)>, <ForkProcess(ForkPoolWorker-69, started daemon)>, <ForkProcess(ForkPoolWorker-79, started daemon)>, <ForkProcess(ForkPoolWorker-63, started daemon)>, <ForkProcess(ForkPoolWorker-4, started daemon)>, <ForkProcess(ForkPoolWorker-78, started daemon)>, <ForkProcess(ForkPoolWorker-68, started daemon)>, <ForkProcess(ForkPoolWorker-81, started daemon)>, <ForkProcess(ForkPoolWorker-5, started daemon)>, <ForkProcess(ForkPoolWorker-72, started daemon)>, <ForkProcess(ForkPoolWorker-66, started daemon)>, <ForkProcess(ForkPoolWorker-83, started daemon)>, <ForkProcess(ForkPoolWorker-73, started daemon)>, <ForkProcess(ForkPoolWorker-64, started daemon)>, <ForkProcess(ForkPoolWorker-74, started daemon)>, <ForkProcess(ForkPoolWorker-80, started daemon)>, <ForkProcess(ForkPoolWorker-82, started daemon)>, <ForkProcess(ForkPoolWorker-67, started daemon)>, <ForkProcess(ForkPoolWorker-84, started daemon)>, <ForkProcess(ForkPoolWorker-76, started daemon)>, <ForkProcess(ForkPoolWorker-85, started daemon)>, <ForkProcess(ForkPoolWorker-71, started daemon)>, <ForkProcess(ForkPoolWorker-75, started daemon)>]
+Process 6039 is alive: True
+Process 6496 is alive: True
+Process 3497 is alive: True
+Process 5668 is alive: True
+Process 3491 is alive: True
+Process 5383 is alive: True
+Process 5632 is alive: True
+Process 6125 is alive: True
+Process 5325 is alive: True
+Process 3501 is alive: True
+Process 6085 is alive: True
+Process 5590 is alive: True
+Process 6237 is alive: True
+Process 3505 is alive: True
+Process 5752 is alive: True
+Process 5530 is alive: True
+Process 6380 is alive: True
+Process 5784 is alive: True
+Process 5356 is alive: True
+Process 5810 is alive: True
+Process 6201 is alive: True
+Process 6294 is alive: True
+Process 5563 is alive: True
+Process 6417 is alive: True
+Process 5978 is alive: True
+Process 6457 is alive: True
+Process 5690 is alive: True
+Process 5940 is alive: True
+RAM memory % used: 90.5
+RAM Used (GB): 121.486630912
+This is the results so far <multiprocessing.pool.MapResult object at 0x2b1cd18f3a90>
+The current number of edges in the queue is 116 out of 193978
+The number of active proesses is [<ForkProcess(ForkPoolWorker-77, started daemon)>, <ForkProcess(ForkPoolWorker-86, started daemon)>, <ForkProcess(ForkPoolWorker-2, started daemon)>, <ForkProcess(ForkPoolWorker-70, started daemon)>, <ForkProcess(SyncManager-1, started)>, <ForkProcess(ForkPoolWorker-65, started daemon)>, <ForkProcess(ForkPoolWorker-69, started daemon)>, <ForkProcess(ForkPoolWorker-79, started daemon)>, <ForkProcess(ForkPoolWorker-4, started daemon)>, <ForkProcess(ForkPoolWorker-78, started daemon)>, <ForkProcess(ForkPoolWorker-68, started daemon)>, <ForkProcess(ForkPoolWorker-81, started daemon)>, <ForkProcess(ForkPoolWorker-5, started daemon)>, <ForkProcess(ForkPoolWorker-72, started daemon)>, <ForkProcess(ForkPoolWorker-66, started daemon)>, <ForkProcess(ForkPoolWorker-83, started daemon)>, <ForkProcess(ForkPoolWorker-73, started daemon)>, <ForkProcess(ForkPoolWorker-87, started daemon)>, <ForkProcess(ForkPoolWorker-74, started daemon)>, <ForkProcess(ForkPoolWorker-80, started daemon)>, <ForkProcess(ForkPoolWorker-88, started daemon)>, <ForkProcess(ForkPoolWorker-82, started daemon)>, <ForkProcess(ForkPoolWorker-67, started daemon)>, <ForkProcess(ForkPoolWorker-84, started daemon)>, <ForkProcess(ForkPoolWorker-76, started daemon)>, <ForkProcess(ForkPoolWorker-85, started daemon)>, <ForkProcess(ForkPoolWorker-71, started daemon)>, <ForkProcess(ForkPoolWorker-75, started daemon)>]
+Process 6039 is alive: True
+Process 6496 is alive: True
+Process 3497 is alive: True
+Process 5668 is alive: True
+Process 3491 is alive: True
+Process 5383 is alive: True
+Process 5632 is alive: True
+Process 6125 is alive: True
+Process 3501 is alive: True
+Process 6085 is alive: True
+Process 5590 is alive: True
+Process 6237 is alive: True
+Process 3505 is alive: True
+Process 5752 is alive: True
+Process 5530 is alive: True
+Process 6380 is alive: True
+Process 5784 is alive: True
+Process 6546 is alive: True
+Process 5810 is alive: True
+Process 6201 is alive: True
+Process 6589 is alive: True
+Process 6294 is alive: True
+Process 5563 is alive: True
+Process 6417 is alive: True
+Process 5978 is alive: True
+Process 6457 is alive: True
+Process 5690 is alive: True
+Process 5940 is alive: True
+RAM memory % used: 89.5
+RAM Used (GB): 120.11339776
+This is the results so far <multiprocessing.pool.MapResult object at 0x2b1cd18f3a90>
+The current number of edges in the queue is 117 out of 193978
+The number of active proesses is [<ForkProcess(ForkPoolWorker-77, started daemon)>, <ForkProcess(ForkPoolWorker-86, started daemon)>, <ForkProcess(ForkPoolWorker-2, started daemon)>, <ForkProcess(ForkPoolWorker-70, started daemon)>, <ForkProcess(SyncManager-1, started)>, <ForkProcess(ForkPoolWorker-69, started daemon)>, <ForkProcess(ForkPoolWorker-79, started daemon)>, <ForkProcess(ForkPoolWorker-4, started daemon)>, <ForkProcess(ForkPoolWorker-78, started daemon)>, <ForkProcess(ForkPoolWorker-68, started daemon)>, <ForkProcess(ForkPoolWorker-81, started daemon)>, <ForkProcess(ForkPoolWorker-5, started daemon)>, <ForkProcess(ForkPoolWorker-72, started daemon)>, <ForkProcess(ForkPoolWorker-83, started daemon)>, <ForkProcess(ForkPoolWorker-73, started daemon)>, <ForkProcess(ForkPoolWorker-90, started daemon)>, <ForkProcess(ForkPoolWorker-87, started daemon)>, <ForkProcess(ForkPoolWorker-89, started daemon)>, <ForkProcess(ForkPoolWorker-74, started daemon)>, <ForkProcess(ForkPoolWorker-80, started daemon)>, <ForkProcess(ForkPoolWorker-88, started daemon)>, <ForkProcess(ForkPoolWorker-82, started daemon)>, <ForkProcess(ForkPoolWorker-67, started daemon)>, <ForkProcess(ForkPoolWorker-84, started daemon)>, <ForkProcess(ForkPoolWorker-76, started daemon)>, <ForkProcess(ForkPoolWorker-85, started daemon)>, <ForkProcess(ForkPoolWorker-71, started daemon)>, <ForkProcess(ForkPoolWorker-75, started daemon)>]
+Process 6039 is alive: True
+Process 6496 is alive: True
+Process 3497 is alive: True
+Process 5668 is alive: True
+Process 3491 is alive: True
+Process 5632 is alive: True
+Process 6125 is alive: True
+Process 3501 is alive: True
+Process 6085 is alive: True
+Process 5590 is alive: True
+Process 6237 is alive: True
+Process 3505 is alive: True
+Process 5752 is alive: True
+Process 6380 is alive: True
+Process 5784 is alive: True
+Process 6690 is alive: True
+Process 6546 is alive: True
+Process 6619 is alive: True
+Process 5810 is alive: True
+Process 6201 is alive: True
+Process 6589 is alive: True
+Process 6294 is alive: True
+Process 5563 is alive: True
+Process 6417 is alive: True
+Process 5978 is alive: True
+Process 6457 is alive: True
+Process 5690 is alive: True
+Process 5940 is alive: True
+RAM memory % used: 89.6
+RAM Used (GB): 120.567472128
+This is the results so far <multiprocessing.pool.MapResult object at 0x2b1cd18f3a90>
+The current number of edges in the queue is 119 out of 193978
+The number of active proesses is [<ForkProcess(ForkPoolWorker-77, started daemon)>, <ForkProcess(ForkPoolWorker-86, started daemon)>, <ForkProcess(ForkPoolWorker-2, started daemon)>, <ForkProcess(ForkPoolWorker-70, started daemon)>, <ForkProcess(SyncManager-1, started)>, <ForkProcess(ForkPoolWorker-69, started daemon)>, <ForkProcess(ForkPoolWorker-79, started daemon)>, <ForkProcess(ForkPoolWorker-4, started daemon)>, <ForkProcess(ForkPoolWorker-78, started daemon)>, <ForkProcess(ForkPoolWorker-81, started daemon)>, <ForkProcess(ForkPoolWorker-91, started daemon)>, <ForkProcess(ForkPoolWorker-5, started daemon)>, <ForkProcess(ForkPoolWorker-72, started daemon)>, <ForkProcess(ForkPoolWorker-83, started daemon)>, <ForkProcess(ForkPoolWorker-73, started daemon)>, <ForkProcess(ForkPoolWorker-90, started daemon)>, <ForkProcess(ForkPoolWorker-87, started daemon)>, <ForkProcess(ForkPoolWorker-89, started daemon)>, <ForkProcess(ForkPoolWorker-74, started daemon)>, <ForkProcess(ForkPoolWorker-80, started daemon)>, <ForkProcess(ForkPoolWorker-88, started daemon)>, <ForkProcess(ForkPoolWorker-82, started daemon)>, <ForkProcess(ForkPoolWorker-84, started daemon)>, <ForkProcess(ForkPoolWorker-92, started daemon)>, <ForkProcess(ForkPoolWorker-76, started daemon)>, <ForkProcess(ForkPoolWorker-85, started daemon)>, <ForkProcess(ForkPoolWorker-71, started daemon)>, <ForkProcess(ForkPoolWorker-75, started daemon)>]
+Process 6039 is alive: True
+Process 6496 is alive: True
+Process 3497 is alive: True
+Process 5668 is alive: True
+Process 3491 is alive: True
+Process 5632 is alive: True
+Process 6125 is alive: True
+Process 3501 is alive: True
+Process 6085 is alive: True
+Process 6237 is alive: True
+Process 6747 is alive: True
+Process 3505 is alive: True
+Process 5752 is alive: True
+Process 6380 is alive: True
+Process 5784 is alive: True
+Process 6690 is alive: True
+Process 6546 is alive: True
+Process 6619 is alive: True
+Process 5810 is alive: True
+Process 6201 is alive: True
+Process 6589 is alive: True
+Process 6294 is alive: True
+Process 6417 is alive: True
+Process 6780 is alive: True
+Process 5978 is alive: True
+Process 6457 is alive: True
+Process 5690 is alive: True
+Process 5940 is alive: True
+RAM memory % used: 90.8
+RAM Used (GB): 121.790357504
+This is the results so far <multiprocessing.pool.MapResult object at 0x2b1cd18f3a90>
+The current number of edges in the queue is 122 out of 193978
+The number of active proesses is [<ForkProcess(ForkPoolWorker-77, started daemon)>, <ForkProcess(ForkPoolWorker-86, started daemon)>, <ForkProcess(ForkPoolWorker-2, started daemon)>, <ForkProcess(ForkPoolWorker-94, started daemon)>, <ForkProcess(SyncManager-1, started)>, <ForkProcess(ForkPoolWorker-79, started daemon)>, <ForkProcess(ForkPoolWorker-4, started daemon)>, <ForkProcess(ForkPoolWorker-78, started daemon)>, <ForkProcess(ForkPoolWorker-81, started daemon)>, <ForkProcess(ForkPoolWorker-91, started daemon)>, <ForkProcess(ForkPoolWorker-5, started daemon)>, <ForkProcess(ForkPoolWorker-72, started daemon)>, <ForkProcess(ForkPoolWorker-93, started daemon)>, <ForkProcess(ForkPoolWorker-83, started daemon)>, <ForkProcess(ForkPoolWorker-73, started daemon)>, <ForkProcess(ForkPoolWorker-90, started daemon)>, <ForkProcess(ForkPoolWorker-87, started daemon)>, <ForkProcess(ForkPoolWorker-89, started daemon)>, <ForkProcess(ForkPoolWorker-74, started daemon)>, <ForkProcess(ForkPoolWorker-80, started daemon)>, <ForkProcess(ForkPoolWorker-88, started daemon)>, <ForkProcess(ForkPoolWorker-82, started daemon)>, <ForkProcess(ForkPoolWorker-84, started daemon)>, <ForkProcess(ForkPoolWorker-92, started daemon)>, <ForkProcess(ForkPoolWorker-76, started daemon)>, <ForkProcess(ForkPoolWorker-85, started daemon)>, <ForkProcess(ForkPoolWorker-71, started daemon)>, <ForkProcess(ForkPoolWorker-75, started daemon)>]
+Process 6039 is alive: True
+Process 6496 is alive: True
+Process 3497 is alive: True
+Process 6911 is alive: True
+Process 3491 is alive: True
+Process 6125 is alive: True
+Process 3501 is alive: True
+Process 6085 is alive: True
+Process 6237 is alive: True
+Process 6747 is alive: True
+Process 3505 is alive: True
+Process 5752 is alive: True
+Process 6862 is alive: True
+Process 6380 is alive: True
+Process 5784 is alive: True
+Process 6690 is alive: True
+Process 6546 is alive: True
+Process 6619 is alive: True
+Process 5810 is alive: True
+Process 6201 is alive: True
+Process 6589 is alive: True
+Process 6294 is alive: True
+Process 6417 is alive: True
+Process 6780 is alive: True
+Process 5978 is alive: True
+Process 6457 is alive: True
+Process 5690 is alive: True
+Process 5940 is alive: True
+RAM memory % used: 90.1
+RAM Used (GB): 120.958214144
+This is the results so far <multiprocessing.pool.MapResult object at 0x2b1cd18f3a90>
+The current number of edges in the queue is 122 out of 193978
+The number of active proesses is [<ForkProcess(ForkPoolWorker-77, started daemon)>, <ForkProcess(ForkPoolWorker-96, started daemon)>, <ForkProcess(ForkPoolWorker-86, started daemon)>, <ForkProcess(ForkPoolWorker-2, started daemon)>, <ForkProcess(ForkPoolWorker-94, started daemon)>, <ForkProcess(SyncManager-1, started)>, <ForkProcess(ForkPoolWorker-79, started daemon)>, <ForkProcess(ForkPoolWorker-4, started daemon)>, <ForkProcess(ForkPoolWorker-78, started daemon)>, <ForkProcess(ForkPoolWorker-95, started daemon)>, <ForkProcess(ForkPoolWorker-81, started daemon)>, <ForkProcess(ForkPoolWorker-91, started daemon)>, <ForkProcess(ForkPoolWorker-5, started daemon)>, <ForkProcess(ForkPoolWorker-93, started daemon)>, <ForkProcess(ForkPoolWorker-83, started daemon)>, <ForkProcess(ForkPoolWorker-73, started daemon)>, <ForkProcess(ForkPoolWorker-90, started daemon)>, <ForkProcess(ForkPoolWorker-87, started daemon)>, <ForkProcess(ForkPoolWorker-89, started daemon)>, <ForkProcess(ForkPoolWorker-74, started daemon)>, <ForkProcess(ForkPoolWorker-80, started daemon)>, <ForkProcess(ForkPoolWorker-88, started daemon)>, <ForkProcess(ForkPoolWorker-82, started daemon)>, <ForkProcess(ForkPoolWorker-84, started daemon)>, <ForkProcess(ForkPoolWorker-92, started daemon)>, <ForkProcess(ForkPoolWorker-76, started daemon)>, <ForkProcess(ForkPoolWorker-85, started daemon)>, <ForkProcess(ForkPoolWorker-75, started daemon)>]
+Process 6039 is alive: True
+Process 7001 is alive: True
+Process 6496 is alive: True
+Process 3497 is alive: True
+Process 6911 is alive: True
+Process 3491 is alive: True
+Process 6125 is alive: True
+Process 3501 is alive: True
+Process 6085 is alive: True
+Process 6944 is alive: True
+Process 6237 is alive: True
+Process 6747 is alive: True
+Process 3505 is alive: True
+Process 6862 is alive: True
+Process 6380 is alive: True
+Process 5784 is alive: True
+Process 6690 is alive: True
+Process 6546 is alive: True
+Process 6619 is alive: True
+Process 5810 is alive: True
+Process 6201 is alive: True
+Process 6589 is alive: True
+Process 6294 is alive: True
+Process 6417 is alive: True
+Process 6780 is alive: True
+Process 5978 is alive: True
+Process 6457 is alive: True
+Process 5940 is alive: True
+RAM memory % used: 90.3
+RAM Used (GB): 121.52379392
+This is the results so far <multiprocessing.pool.MapResult object at 0x2b1cd18f3a90>
+The current number of edges in the queue is 122 out of 193978
+The number of active proesses is [<ForkProcess(ForkPoolWorker-77, started daemon)>, <ForkProcess(ForkPoolWorker-96, started daemon)>, <ForkProcess(ForkPoolWorker-86, started daemon)>, <ForkProcess(ForkPoolWorker-2, started daemon)>, <ForkProcess(ForkPoolWorker-94, started daemon)>, <ForkProcess(ForkPoolWorker-97, started daemon)>, <ForkProcess(SyncManager-1, started)>, <ForkProcess(ForkPoolWorker-79, started daemon)>, <ForkProcess(ForkPoolWorker-4, started daemon)>, <ForkProcess(ForkPoolWorker-78, started daemon)>, <ForkProcess(ForkPoolWorker-95, started daemon)>, <ForkProcess(ForkPoolWorker-81, started daemon)>, <ForkProcess(ForkPoolWorker-91, started daemon)>, <ForkProcess(ForkPoolWorker-5, started daemon)>, <ForkProcess(ForkPoolWorker-93, started daemon)>, <ForkProcess(ForkPoolWorker-83, started daemon)>, <ForkProcess(ForkPoolWorker-90, started daemon)>, <ForkProcess(ForkPoolWorker-87, started daemon)>, <ForkProcess(ForkPoolWorker-89, started daemon)>, <ForkProcess(ForkPoolWorker-80, started daemon)>, <ForkProcess(ForkPoolWorker-88, started daemon)>, <ForkProcess(ForkPoolWorker-82, started daemon)>, <ForkProcess(ForkPoolWorker-84, started daemon)>, <ForkProcess(ForkPoolWorker-92, started daemon)>, <ForkProcess(ForkPoolWorker-76, started daemon)>, <ForkProcess(ForkPoolWorker-85, started daemon)>, <ForkProcess(ForkPoolWorker-98, started daemon)>, <ForkProcess(ForkPoolWorker-75, started daemon)>]
+Process 6039 is alive: True
+Process 7001 is alive: True
+Process 6496 is alive: True
+Process 3497 is alive: True
+Process 6911 is alive: True
+Process 7037 is alive: True
+Process 3491 is alive: True
+Process 6125 is alive: True
+Process 3501 is alive: True
+Process 6085 is alive: True
+Process 6944 is alive: True
+Process 6237 is alive: True
+Process 6747 is alive: True
+Process 3505 is alive: True
+Process 6862 is alive: True
+Process 6380 is alive: True
+Process 6690 is alive: True
+Process 6546 is alive: True
+Process 6619 is alive: True
+Process 6201 is alive: True
+Process 6589 is alive: True
+Process 6294 is alive: True
+Process 6417 is alive: True
+Process 6780 is alive: True
+Process 5978 is alive: True
+Process 6457 is alive: True
+Process 7070 is alive: True
+Process 5940 is alive: True
+RAM memory % used: 90.1
+RAM Used (GB): 120.88971264
+This is the results so far <multiprocessing.pool.MapResult object at 0x2b1cd18f3a90>
+The current number of edges in the queue is 125 out of 193978
+The number of active proesses is [<ForkProcess(ForkPoolWorker-99, started daemon)>, <ForkProcess(ForkPoolWorker-77, started daemon)>, <ForkProcess(ForkPoolWorker-96, started daemon)>, <ForkProcess(ForkPoolWorker-86, started daemon)>, <ForkProcess(ForkPoolWorker-2, started daemon)>, <ForkProcess(ForkPoolWorker-94, started daemon)>, <ForkProcess(ForkPoolWorker-97, started daemon)>, <ForkProcess(SyncManager-1, started)>, <ForkProcess(ForkPoolWorker-79, started daemon)>, <ForkProcess(ForkPoolWorker-4, started daemon)>, <ForkProcess(ForkPoolWorker-78, started daemon)>, <ForkProcess(ForkPoolWorker-95, started daemon)>, <ForkProcess(ForkPoolWorker-81, started daemon)>, <ForkProcess(ForkPoolWorker-91, started daemon)>, <ForkProcess(ForkPoolWorker-5, started daemon)>, <ForkProcess(ForkPoolWorker-93, started daemon)>, <ForkProcess(ForkPoolWorker-83, started daemon)>, <ForkProcess(ForkPoolWorker-90, started daemon)>, <ForkProcess(ForkPoolWorker-87, started daemon)>, <ForkProcess(ForkPoolWorker-89, started daemon)>, <ForkProcess(ForkPoolWorker-100, started daemon)>, <ForkProcess(ForkPoolWorker-80, started daemon)>, <ForkProcess(ForkPoolWorker-88, started daemon)>, <ForkProcess(ForkPoolWorker-82, started daemon)>, <ForkProcess(ForkPoolWorker-84, started daemon)>, <ForkProcess(ForkPoolWorker-92, started daemon)>, <ForkProcess(ForkPoolWorker-85, started daemon)>, <ForkProcess(ForkPoolWorker-98, started daemon)>]
+Process 7159 is alive: True
+Process 6039 is alive: True
+Process 7001 is alive: True
+Process 6496 is alive: True
+Process 3497 is alive: True
+Process 6911 is alive: True
+Process 7037 is alive: True
+Process 3491 is alive: True
+Process 6125 is alive: True
+Process 3501 is alive: True
+Process 6085 is alive: True
+Process 6944 is alive: True
+Process 6237 is alive: True
+Process 6747 is alive: True
+Process 3505 is alive: True
+Process 6862 is alive: True
+Process 6380 is alive: True
+Process 6690 is alive: True
+Process 6546 is alive: True
+Process 6619 is alive: True
+Process 7208 is alive: True
+Process 6201 is alive: True
+Process 6589 is alive: True
+Process 6294 is alive: True
+Process 6417 is alive: True
+Process 6780 is alive: True
+Process 6457 is alive: True
+Process 7070 is alive: True
+RAM memory % used: 90.5
+RAM Used (GB): 121.77651712
+This is the results so far <multiprocessing.pool.MapResult object at 0x2b1cd18f3a90>
+The current number of edges in the queue is 127 out of 193978
+The number of active proesses is [<ForkProcess(ForkPoolWorker-99, started daemon)>, <ForkProcess(ForkPoolWorker-96, started daemon)>, <ForkProcess(ForkPoolWorker-86, started daemon)>, <ForkProcess(ForkPoolWorker-2, started daemon)>, <ForkProcess(ForkPoolWorker-94, started daemon)>, <ForkProcess(ForkPoolWorker-97, started daemon)>, <ForkProcess(SyncManager-1, started)>, <ForkProcess(ForkPoolWorker-102, started daemon)>, <ForkProcess(ForkPoolWorker-79, started daemon)>, <ForkProcess(ForkPoolWorker-4, started daemon)>, <ForkProcess(ForkPoolWorker-95, started daemon)>, <ForkProcess(ForkPoolWorker-81, started daemon)>, <ForkProcess(ForkPoolWorker-91, started daemon)>, <ForkProcess(ForkPoolWorker-5, started daemon)>, <ForkProcess(ForkPoolWorker-93, started daemon)>, <ForkProcess(ForkPoolWorker-101, started daemon)>, <ForkProcess(ForkPoolWorker-83, started daemon)>, <ForkProcess(ForkPoolWorker-90, started daemon)>, <ForkProcess(ForkPoolWorker-87, started daemon)>, <ForkProcess(ForkPoolWorker-89, started daemon)>, <ForkProcess(ForkPoolWorker-100, started daemon)>, <ForkProcess(ForkPoolWorker-80, started daemon)>, <ForkProcess(ForkPoolWorker-88, started daemon)>, <ForkProcess(ForkPoolWorker-82, started daemon)>, <ForkProcess(ForkPoolWorker-84, started daemon)>, <ForkProcess(ForkPoolWorker-92, started daemon)>, <ForkProcess(ForkPoolWorker-85, started daemon)>, <ForkProcess(ForkPoolWorker-98, started daemon)>]
+Process 7159 is alive: True
+Process 7001 is alive: True
+Process 6496 is alive: True
+Process 3497 is alive: True
+Process 6911 is alive: True
+Process 7037 is alive: True
+Process 3491 is alive: True
+Process 7337 is alive: True
+Process 6125 is alive: True
+Process 3501 is alive: True
+Process 6944 is alive: True
+Process 6237 is alive: True
+Process 6747 is alive: True
+Process 3505 is alive: True
+Process 6862 is alive: True
+Process 7312 is alive: True
+Process 6380 is alive: True
+Process 6690 is alive: True
+Process 6546 is alive: True
+Process 6619 is alive: True
+Process 7208 is alive: True
+Process 6201 is alive: True
+Process 6589 is alive: True
+Process 6294 is alive: True
+Process 6417 is alive: True
+Process 6780 is alive: True
+Process 6457 is alive: True
+Process 7070 is alive: True
+RAM memory % used: 89.8
+RAM Used (GB): 120.471330816
+This is the results so far <multiprocessing.pool.MapResult object at 0x2b1cd18f3a90>
+The current number of edges in the queue is 127 out of 193978
+The number of active proesses is [<ForkProcess(ForkPoolWorker-99, started daemon)>, <ForkProcess(ForkPoolWorker-96, started daemon)>, <ForkProcess(ForkPoolWorker-86, started daemon)>, <ForkProcess(ForkPoolWorker-2, started daemon)>, <ForkProcess(ForkPoolWorker-94, started daemon)>, <ForkProcess(ForkPoolWorker-97, started daemon)>, <ForkProcess(SyncManager-1, started)>, <ForkProcess(ForkPoolWorker-102, started daemon)>, <ForkProcess(ForkPoolWorker-4, started daemon)>, <ForkProcess(ForkPoolWorker-95, started daemon)>, <ForkProcess(ForkPoolWorker-81, started daemon)>, <ForkProcess(ForkPoolWorker-91, started daemon)>, <ForkProcess(ForkPoolWorker-5, started daemon)>, <ForkProcess(ForkPoolWorker-93, started daemon)>, <ForkProcess(ForkPoolWorker-101, started daemon)>, <ForkProcess(ForkPoolWorker-83, started daemon)>, <ForkProcess(ForkPoolWorker-90, started daemon)>, <ForkProcess(ForkPoolWorker-87, started daemon)>, <ForkProcess(ForkPoolWorker-89, started daemon)>, <ForkProcess(ForkPoolWorker-100, started daemon)>, <ForkProcess(ForkPoolWorker-88, started daemon)>, <ForkProcess(ForkPoolWorker-82, started daemon)>, <ForkProcess(ForkPoolWorker-104, started daemon)>, <ForkProcess(ForkPoolWorker-84, started daemon)>, <ForkProcess(ForkPoolWorker-92, started daemon)>, <ForkProcess(ForkPoolWorker-85, started daemon)>, <ForkProcess(ForkPoolWorker-103, started daemon)>, <ForkProcess(ForkPoolWorker-98, started daemon)>]
+Process 7159 is alive: True
+Process 7001 is alive: True
+Process 6496 is alive: True
+Process 3497 is alive: True
+Process 6911 is alive: True
+Process 7037 is alive: True
+Process 3491 is alive: True
+Process 7337 is alive: True
+Process 3501 is alive: True
+Process 6944 is alive: True
+Process 6237 is alive: True
+Process 6747 is alive: True
+Process 3505 is alive: True
+Process 6862 is alive: True
+Process 7312 is alive: True
+Process 6380 is alive: True
+Process 6690 is alive: True
+Process 6546 is alive: True
+Process 6619 is alive: True
+Process 7208 is alive: True
+Process 6589 is alive: True
+Process 6294 is alive: True
+Process 7443 is alive: True
+Process 6417 is alive: True
+Process 6780 is alive: True
+Process 6457 is alive: True
+Process 7376 is alive: True
+Process 7070 is alive: True
+RAM memory % used: 90.6
+RAM Used (GB): 121.753206784
+This is the results so far <multiprocessing.pool.MapResult object at 0x2b1cd18f3a90>
+The current number of edges in the queue is 128 out of 193978
+The number of active proesses is [<ForkProcess(ForkPoolWorker-99, started daemon)>, <ForkProcess(ForkPoolWorker-105, started daemon)>, <ForkProcess(ForkPoolWorker-96, started daemon)>, <ForkProcess(ForkPoolWorker-86, started daemon)>, <ForkProcess(ForkPoolWorker-2, started daemon)>, <ForkProcess(ForkPoolWorker-94, started daemon)>, <ForkProcess(ForkPoolWorker-97, started daemon)>, <ForkProcess(SyncManager-1, started)>, <ForkProcess(ForkPoolWorker-102, started daemon)>, <ForkProcess(ForkPoolWorker-4, started daemon)>, <ForkProcess(ForkPoolWorker-95, started daemon)>, <ForkProcess(ForkPoolWorker-91, started daemon)>, <ForkProcess(ForkPoolWorker-5, started daemon)>, <ForkProcess(ForkPoolWorker-93, started daemon)>, <ForkProcess(ForkPoolWorker-101, started daemon)>, <ForkProcess(ForkPoolWorker-83, started daemon)>, <ForkProcess(ForkPoolWorker-90, started daemon)>, <ForkProcess(ForkPoolWorker-87, started daemon)>, <ForkProcess(ForkPoolWorker-89, started daemon)>, <ForkProcess(ForkPoolWorker-100, started daemon)>, <ForkProcess(ForkPoolWorker-106, started daemon)>, <ForkProcess(ForkPoolWorker-88, started daemon)>, <ForkProcess(ForkPoolWorker-104, started daemon)>, <ForkProcess(ForkPoolWorker-84, started daemon)>, <ForkProcess(ForkPoolWorker-92, started daemon)>, <ForkProcess(ForkPoolWorker-85, started daemon)>, <ForkProcess(ForkPoolWorker-103, started daemon)>, <ForkProcess(ForkPoolWorker-98, started daemon)>]
+Process 7159 is alive: True
+Process 7491 is alive: True
+Process 7001 is alive: True
+Process 6496 is alive: True
+Process 3497 is alive: True
+Process 6911 is alive: True
+Process 7037 is alive: True
+Process 3491 is alive: True
+Process 7337 is alive: True
+Process 3501 is alive: True
+Process 6944 is alive: True
+Process 6747 is alive: True
+Process 3505 is alive: True
+Process 6862 is alive: True
+Process 7312 is alive: True
+Process 6380 is alive: True
+Process 6690 is alive: True
+Process 6546 is alive: True
+Process 6619 is alive: True
+Process 7208 is alive: True
+Process 7518 is alive: True
+Process 6589 is alive: True
+Process 7443 is alive: True
+Process 6417 is alive: True
+Process 6780 is alive: True
+Process 6457 is alive: True
+Process 7376 is alive: True
+Process 7070 is alive: True
+RAM memory % used: 90.0
+RAM Used (GB): 121.14171904
+This is the results so far <multiprocessing.pool.MapResult object at 0x2b1cd18f3a90>
+The current number of edges in the queue is 128 out of 193978
+The number of active proesses is [<ForkProcess(ForkPoolWorker-99, started daemon)>, <ForkProcess(ForkPoolWorker-105, started daemon)>, <ForkProcess(ForkPoolWorker-96, started daemon)>, <ForkProcess(ForkPoolWorker-86, started daemon)>, <ForkProcess(ForkPoolWorker-2, started daemon)>, <ForkProcess(ForkPoolWorker-94, started daemon)>, <ForkProcess(ForkPoolWorker-97, started daemon)>, <ForkProcess(SyncManager-1, started)>, <ForkProcess(ForkPoolWorker-102, started daemon)>, <ForkProcess(ForkPoolWorker-4, started daemon)>, <ForkProcess(ForkPoolWorker-95, started daemon)>, <ForkProcess(ForkPoolWorker-91, started daemon)>, <ForkProcess(ForkPoolWorker-5, started daemon)>, <ForkProcess(ForkPoolWorker-93, started daemon)>, <ForkProcess(ForkPoolWorker-107, started daemon)>, <ForkProcess(ForkPoolWorker-101, started daemon)>, <ForkProcess(ForkPoolWorker-90, started daemon)>, <ForkProcess(ForkPoolWorker-87, started daemon)>, <ForkProcess(ForkPoolWorker-89, started daemon)>, <ForkProcess(ForkPoolWorker-100, started daemon)>, <ForkProcess(ForkPoolWorker-106, started daemon)>, <ForkProcess(ForkPoolWorker-88, started daemon)>, <ForkProcess(ForkPoolWorker-108, started daemon)>, <ForkProcess(ForkPoolWorker-104, started daemon)>, <ForkProcess(ForkPoolWorker-92, started daemon)>, <ForkProcess(ForkPoolWorker-85, started daemon)>, <ForkProcess(ForkPoolWorker-103, started daemon)>, <ForkProcess(ForkPoolWorker-98, started daemon)>]
+Process 7159 is alive: True
+Process 7491 is alive: True
+Process 7001 is alive: True
+Process 6496 is alive: True
+Process 3497 is alive: True
+Process 6911 is alive: True
+Process 7037 is alive: True
+Process 3491 is alive: True
+Process 7337 is alive: True
+Process 3501 is alive: True
+Process 6944 is alive: True
+Process 6747 is alive: True
+Process 3505 is alive: True
+Process 6862 is alive: True
+Process 7624 is alive: True
+Process 7312 is alive: True
+Process 6690 is alive: True
+Process 6546 is alive: True
+Process 6619 is alive: True
+Process 7208 is alive: True
+Process 7518 is alive: True
+Process 6589 is alive: True
+Process 7660 is alive: True
+Process 7443 is alive: True
+Process 6780 is alive: True
+Process 6457 is alive: True
+Process 7376 is alive: True
+Process 7070 is alive: True
+RAM memory % used: 90.2
+RAM Used (GB): 121.031155712
+This is the results so far <multiprocessing.pool.MapResult object at 0x2b1cd18f3a90>
+The current number of edges in the queue is 129 out of 193978
+The number of active proesses is [<ForkProcess(ForkPoolWorker-99, started daemon)>, <ForkProcess(ForkPoolWorker-105, started daemon)>, <ForkProcess(ForkPoolWorker-96, started daemon)>, <ForkProcess(ForkPoolWorker-2, started daemon)>, <ForkProcess(ForkPoolWorker-94, started daemon)>, <ForkProcess(ForkPoolWorker-97, started daemon)>, <ForkProcess(SyncManager-1, started)>, <ForkProcess(ForkPoolWorker-102, started daemon)>, <ForkProcess(ForkPoolWorker-4, started daemon)>, <ForkProcess(ForkPoolWorker-95, started daemon)>, <ForkProcess(ForkPoolWorker-91, started daemon)>, <ForkProcess(ForkPoolWorker-5, started daemon)>, <ForkProcess(ForkPoolWorker-93, started daemon)>, <ForkProcess(ForkPoolWorker-109, started daemon)>, <ForkProcess(ForkPoolWorker-107, started daemon)>, <ForkProcess(ForkPoolWorker-101, started daemon)>, <ForkProcess(ForkPoolWorker-90, started daemon)>, <ForkProcess(ForkPoolWorker-87, started daemon)>, <ForkProcess(ForkPoolWorker-89, started daemon)>, <ForkProcess(ForkPoolWorker-110, started daemon)>, <ForkProcess(ForkPoolWorker-100, started daemon)>, <ForkProcess(ForkPoolWorker-106, started daemon)>, <ForkProcess(ForkPoolWorker-88, started daemon)>, <ForkProcess(ForkPoolWorker-108, started daemon)>, <ForkProcess(ForkPoolWorker-104, started daemon)>, <ForkProcess(ForkPoolWorker-92, started daemon)>, <ForkProcess(ForkPoolWorker-103, started daemon)>, <ForkProcess(ForkPoolWorker-98, started daemon)>]
+Process 7159 is alive: True
+Process 7491 is alive: True
+Process 7001 is alive: True
+Process 3497 is alive: True
+Process 6911 is alive: True
+Process 7037 is alive: True
+Process 3491 is alive: True
+Process 7337 is alive: True
+Process 3501 is alive: True
+Process 6944 is alive: True
+Process 6747 is alive: True
+Process 3505 is alive: True
+Process 6862 is alive: True
+Process 7714 is alive: True
+Process 7624 is alive: True
+Process 7312 is alive: True
+Process 6690 is alive: True
+Process 6546 is alive: True
+Process 6619 is alive: True
+Process 7772 is alive: True
+Process 7208 is alive: True
+Process 7518 is alive: True
+Process 6589 is alive: True
+Process 7660 is alive: True
+Process 7443 is alive: True
+Process 6780 is alive: True
+Process 7376 is alive: True
+Process 7070 is alive: True
+RAM memory % used: 88.9
+RAM Used (GB): 119.608963072
+This is the results so far <multiprocessing.pool.MapResult object at 0x2b1cd18f3a90>
+The current number of edges in the queue is 129 out of 193978
+The number of active proesses is [<ForkProcess(ForkPoolWorker-99, started daemon)>, <ForkProcess(ForkPoolWorker-105, started daemon)>, <ForkProcess(ForkPoolWorker-96, started daemon)>, <ForkProcess(ForkPoolWorker-112, started daemon)>, <ForkProcess(ForkPoolWorker-2, started daemon)>, <ForkProcess(ForkPoolWorker-94, started daemon)>, <ForkProcess(ForkPoolWorker-111, started daemon)>, <ForkProcess(ForkPoolWorker-97, started daemon)>, <ForkProcess(SyncManager-1, started)>, <ForkProcess(ForkPoolWorker-102, started daemon)>, <ForkProcess(ForkPoolWorker-4, started daemon)>, <ForkProcess(ForkPoolWorker-95, started daemon)>, <ForkProcess(ForkPoolWorker-91, started daemon)>, <ForkProcess(ForkPoolWorker-5, started daemon)>, <ForkProcess(ForkPoolWorker-93, started daemon)>, <ForkProcess(ForkPoolWorker-109, started daemon)>, <ForkProcess(ForkPoolWorker-107, started daemon)>, <ForkProcess(ForkPoolWorker-101, started daemon)>, <ForkProcess(ForkPoolWorker-90, started daemon)>, <ForkProcess(ForkPoolWorker-89, started daemon)>, <ForkProcess(ForkPoolWorker-110, started daemon)>, <ForkProcess(ForkPoolWorker-100, started daemon)>, <ForkProcess(ForkPoolWorker-106, started daemon)>, <ForkProcess(ForkPoolWorker-108, started daemon)>, <ForkProcess(ForkPoolWorker-104, started daemon)>, <ForkProcess(ForkPoolWorker-92, started daemon)>, <ForkProcess(ForkPoolWorker-103, started daemon)>, <ForkProcess(ForkPoolWorker-98, started daemon)>]
+Process 7159 is alive: True
+Process 7491 is alive: True
+Process 7001 is alive: True
+Process 7854 is alive: True
+Process 3497 is alive: True
+Process 6911 is alive: True
+Process 7807 is alive: True
+Process 7037 is alive: True
+Process 3491 is alive: True
+Process 7337 is alive: True
+Process 3501 is alive: True
+Process 6944 is alive: True
+Process 6747 is alive: True
+Process 3505 is alive: True
+Process 6862 is alive: True
+Process 7714 is alive: True
+Process 7624 is alive: True
+Process 7312 is alive: True
+Process 6690 is alive: True
+Process 6619 is alive: True
+Process 7772 is alive: True
+Process 7208 is alive: True
+Process 7518 is alive: True
+Process 7660 is alive: True
+Process 7443 is alive: True
+Process 6780 is alive: True
+Process 7376 is alive: True
+Process 7070 is alive: True
+RAM memory % used: 89.4
+RAM Used (GB): 119.999766528
+This is the results so far <multiprocessing.pool.MapResult object at 0x2b1cd18f3a90>
+The current number of edges in the queue is 130 out of 193978
+The number of active proesses is [<ForkProcess(ForkPoolWorker-99, started daemon)>, <ForkProcess(ForkPoolWorker-105, started daemon)>, <ForkProcess(ForkPoolWorker-96, started daemon)>, <ForkProcess(ForkPoolWorker-112, started daemon)>, <ForkProcess(ForkPoolWorker-2, started daemon)>, <ForkProcess(ForkPoolWorker-94, started daemon)>, <ForkProcess(ForkPoolWorker-111, started daemon)>, <ForkProcess(ForkPoolWorker-97, started daemon)>, <ForkProcess(SyncManager-1, started)>, <ForkProcess(ForkPoolWorker-102, started daemon)>, <ForkProcess(ForkPoolWorker-4, started daemon)>, <ForkProcess(ForkPoolWorker-95, started daemon)>, <ForkProcess(ForkPoolWorker-115, started daemon)>, <ForkProcess(ForkPoolWorker-91, started daemon)>, <ForkProcess(ForkPoolWorker-5, started daemon)>, <ForkProcess(ForkPoolWorker-93, started daemon)>, <ForkProcess(ForkPoolWorker-109, started daemon)>, <ForkProcess(ForkPoolWorker-107, started daemon)>, <ForkProcess(ForkPoolWorker-101, started daemon)>, <ForkProcess(ForkPoolWorker-114, started daemon)>, <ForkProcess(ForkPoolWorker-110, started daemon)>, <ForkProcess(ForkPoolWorker-100, started daemon)>, <ForkProcess(ForkPoolWorker-106, started daemon)>, <ForkProcess(ForkPoolWorker-113, started daemon)>, <ForkProcess(ForkPoolWorker-108, started daemon)>, <ForkProcess(ForkPoolWorker-104, started daemon)>, <ForkProcess(ForkPoolWorker-92, started daemon)>, <ForkProcess(ForkPoolWorker-103, started daemon)>, <ForkProcess(ForkPoolWorker-98, started daemon)>]
+Process 7159 is alive: True
+Process 7491 is alive: True
+Process 7001 is alive: True
+Process 7854 is alive: True
+Process 3497 is alive: True
+Process 6911 is alive: True
+Process 7807 is alive: True
+Process 7037 is alive: True
+Process 3491 is alive: True
+Process 7337 is alive: True
+Process 3501 is alive: True
+Process 6944 is alive: True
+Process 7972 is alive: True
+Process 6747 is alive: True
+Process 3505 is alive: True
+Process 6862 is alive: True
+Process 7714 is alive: True
+Process 7624 is alive: True
+Process 7312 is alive: True
+Process 7915 is alive: True
+Process 7772 is alive: True
+Process 7208 is alive: True
+Process 7518 is alive: True
+Process 7879 is alive: True
+Process 7660 is alive: True
+Process 7443 is alive: True
+Process 6780 is alive: True
+Process 7376 is alive: True
+Process 7070 is alive: True
+RAM memory % used: 89.5
+RAM Used (GB): 120.126038016
+This is the results so far <multiprocessing.pool.MapResult object at 0x2b1cd18f3a90>
+The current number of edges in the queue is 139 out of 193978
+The number of active proesses is [<ForkProcess(ForkPoolWorker-99, started daemon)>, <ForkProcess(ForkPoolWorker-105, started daemon)>, <ForkProcess(ForkPoolWorker-96, started daemon)>, <ForkProcess(ForkPoolWorker-112, started daemon)>, <ForkProcess(ForkPoolWorker-2, started daemon)>, <ForkProcess(ForkPoolWorker-94, started daemon)>, <ForkProcess(ForkPoolWorker-111, started daemon)>, <ForkProcess(ForkPoolWorker-97, started daemon)>, <ForkProcess(SyncManager-1, started)>, <ForkProcess(ForkPoolWorker-102, started daemon)>, <ForkProcess(ForkPoolWorker-4, started daemon)>, <ForkProcess(ForkPoolWorker-95, started daemon)>, <ForkProcess(ForkPoolWorker-115, started daemon)>, <ForkProcess(ForkPoolWorker-116, started daemon)>, <ForkProcess(ForkPoolWorker-5, started daemon)>, <ForkProcess(ForkPoolWorker-93, started daemon)>, <ForkProcess(ForkPoolWorker-109, started daemon)>, <ForkProcess(ForkPoolWorker-107, started daemon)>, <ForkProcess(ForkPoolWorker-101, started daemon)>, <ForkProcess(ForkPoolWorker-114, started daemon)>, <ForkProcess(ForkPoolWorker-110, started daemon)>, <ForkProcess(ForkPoolWorker-100, started daemon)>, <ForkProcess(ForkPoolWorker-106, started daemon)>, <ForkProcess(ForkPoolWorker-113, started daemon)>, <ForkProcess(ForkPoolWorker-108, started daemon)>, <ForkProcess(ForkPoolWorker-104, started daemon)>, <ForkProcess(ForkPoolWorker-103, started daemon)>, <ForkProcess(ForkPoolWorker-98, started daemon)>]
+Process 7159 is alive: True
+Process 7491 is alive: True
+Process 7001 is alive: True
+Process 7854 is alive: True
+Process 3497 is alive: True
+Process 6911 is alive: True
+Process 7807 is alive: True
+Process 7037 is alive: True
+Process 3491 is alive: True
+Process 7337 is alive: True
+Process 3501 is alive: True
+Process 6944 is alive: True
+Process 7972 is alive: True
+Process 8038 is alive: True
+Process 3505 is alive: True
+Process 6862 is alive: True
+Process 7714 is alive: True
+Process 7624 is alive: True
+Process 7312 is alive: True
+Process 7915 is alive: True
+Process 7772 is alive: True
+Process 7208 is alive: True
+Process 7518 is alive: True
+Process 7879 is alive: True
+Process 7660 is alive: True
+Process 7443 is alive: True
+Process 7376 is alive: True
+Process 7070 is alive: True
+RAM memory % used: 89.9
+RAM Used (GB): 120.588476416
+This is the results so far <multiprocessing.pool.MapResult object at 0x2b1cd18f3a90>
+The current number of edges in the queue is 141 out of 193978
+The number of active proesses is [<ForkProcess(ForkPoolWorker-99, started daemon)>, <ForkProcess(ForkPoolWorker-105, started daemon)>, <ForkProcess(ForkPoolWorker-96, started daemon)>, <ForkProcess(ForkPoolWorker-112, started daemon)>, <ForkProcess(ForkPoolWorker-2, started daemon)>, <ForkProcess(ForkPoolWorker-111, started daemon)>, <ForkProcess(ForkPoolWorker-97, started daemon)>, <ForkProcess(SyncManager-1, started)>, <ForkProcess(ForkPoolWorker-102, started daemon)>, <ForkProcess(ForkPoolWorker-4, started daemon)>, <ForkProcess(ForkPoolWorker-95, started daemon)>, <ForkProcess(ForkPoolWorker-115, started daemon)>, <ForkProcess(ForkPoolWorker-116, started daemon)>, <ForkProcess(ForkPoolWorker-5, started daemon)>, <ForkProcess(ForkPoolWorker-109, started daemon)>, <ForkProcess(ForkPoolWorker-107, started daemon)>, <ForkProcess(ForkPoolWorker-101, started daemon)>, <ForkProcess(ForkPoolWorker-114, started daemon)>, <ForkProcess(ForkPoolWorker-117, started daemon)>, <ForkProcess(ForkPoolWorker-110, started daemon)>, <ForkProcess(ForkPoolWorker-100, started daemon)>, <ForkProcess(ForkPoolWorker-106, started daemon)>, <ForkProcess(ForkPoolWorker-113, started daemon)>, <ForkProcess(ForkPoolWorker-108, started daemon)>, <ForkProcess(ForkPoolWorker-104, started daemon)>, <ForkProcess(ForkPoolWorker-118, started daemon)>, <ForkProcess(ForkPoolWorker-103, started daemon)>, <ForkProcess(ForkPoolWorker-98, started daemon)>]
+Process 7159 is alive: True
+Process 7491 is alive: True
+Process 7001 is alive: True
+Process 7854 is alive: True
+Process 3497 is alive: True
+Process 7807 is alive: True
+Process 7037 is alive: True
+Process 3491 is alive: True
+Process 7337 is alive: True
+Process 3501 is alive: True
+Process 6944 is alive: True
+Process 7972 is alive: True
+Process 8038 is alive: True
+Process 3505 is alive: True
+Process 7714 is alive: True
+Process 7624 is alive: True
+Process 7312 is alive: True
+Process 7915 is alive: True
+Process 8071 is alive: True
+Process 7772 is alive: True
+Process 7208 is alive: True
+Process 7518 is alive: True
+Process 7879 is alive: True
+Process 7660 is alive: True
+Process 7443 is alive: True
+Process 8138 is alive: True
+Process 7376 is alive: True
+Process 7070 is alive: True
+RAM memory % used: 89.3
+RAM Used (GB): 120.207527936
+This is the results so far <multiprocessing.pool.MapResult object at 0x2b1cd18f3a90>
+The current number of edges in the queue is 141 out of 193978
+The number of active proesses is [<ForkProcess(ForkPoolWorker-99, started daemon)>, <ForkProcess(ForkPoolWorker-105, started daemon)>, <ForkProcess(ForkPoolWorker-112, started daemon)>, <ForkProcess(ForkPoolWorker-2, started daemon)>, <ForkProcess(ForkPoolWorker-111, started daemon)>, <ForkProcess(ForkPoolWorker-97, started daemon)>, <ForkProcess(SyncManager-1, started)>, <ForkProcess(ForkPoolWorker-102, started daemon)>, <ForkProcess(ForkPoolWorker-4, started daemon)>, <ForkProcess(ForkPoolWorker-115, started daemon)>, <ForkProcess(ForkPoolWorker-116, started daemon)>, <ForkProcess(ForkPoolWorker-5, started daemon)>, <ForkProcess(ForkPoolWorker-120, started daemon)>, <ForkProcess(ForkPoolWorker-109, started daemon)>, <ForkProcess(ForkPoolWorker-107, started daemon)>, <ForkProcess(ForkPoolWorker-101, started daemon)>, <ForkProcess(ForkPoolWorker-114, started daemon)>, <ForkProcess(ForkPoolWorker-117, started daemon)>, <ForkProcess(ForkPoolWorker-119, started daemon)>, <ForkProcess(ForkPoolWorker-110, started daemon)>, <ForkProcess(ForkPoolWorker-100, started daemon)>, <ForkProcess(ForkPoolWorker-106, started daemon)>, <ForkProcess(ForkPoolWorker-113, started daemon)>, <ForkProcess(ForkPoolWorker-108, started daemon)>, <ForkProcess(ForkPoolWorker-104, started daemon)>, <ForkProcess(ForkPoolWorker-118, started daemon)>, <ForkProcess(ForkPoolWorker-103, started daemon)>, <ForkProcess(ForkPoolWorker-98, started daemon)>]
+Process 7159 is alive: True
+Process 7491 is alive: True
+Process 7854 is alive: True
+Process 3497 is alive: True
+Process 7807 is alive: True
+Process 7037 is alive: True
+Process 3491 is alive: True
+Process 7337 is alive: True
+Process 3501 is alive: True
+Process 7972 is alive: True
+Process 8038 is alive: True
+Process 3505 is alive: True
+Process 8205 is alive: True
+Process 7714 is alive: True
+Process 7624 is alive: True
+Process 7312 is alive: True
+Process 7915 is alive: True
+Process 8071 is alive: True
+Process 8170 is alive: True
+Process 7772 is alive: True
+Process 7208 is alive: True
+Process 7518 is alive: True
+Process 7879 is alive: True
+Process 7660 is alive: True
+Process 7443 is alive: True
+Process 8138 is alive: True
+Process 7376 is alive: True
+Process 7070 is alive: True
+RAM memory % used: 90.1
+RAM Used (GB): 120.939577344
+This is the results so far <multiprocessing.pool.MapResult object at 0x2b1cd18f3a90>
+The current number of edges in the queue is 143 out of 193978
+The number of active proesses is [<ForkProcess(ForkPoolWorker-99, started daemon)>, <ForkProcess(ForkPoolWorker-105, started daemon)>, <ForkProcess(ForkPoolWorker-123, started daemon)>, <ForkProcess(ForkPoolWorker-112, started daemon)>, <ForkProcess(ForkPoolWorker-122, started daemon)>, <ForkProcess(ForkPoolWorker-2, started daemon)>, <ForkProcess(ForkPoolWorker-111, started daemon)>, <ForkProcess(SyncManager-1, started)>, <ForkProcess(ForkPoolWorker-102, started daemon)>, <ForkProcess(ForkPoolWorker-4, started daemon)>, <ForkProcess(ForkPoolWorker-115, started daemon)>, <ForkProcess(ForkPoolWorker-116, started daemon)>, <ForkProcess(ForkPoolWorker-5, started daemon)>, <ForkProcess(ForkPoolWorker-120, started daemon)>, <ForkProcess(ForkPoolWorker-109, started daemon)>, <ForkProcess(ForkPoolWorker-107, started daemon)>, <ForkProcess(ForkPoolWorker-101, started daemon)>, <ForkProcess(ForkPoolWorker-114, started daemon)>, <ForkProcess(ForkPoolWorker-117, started daemon)>, <ForkProcess(ForkPoolWorker-119, started daemon)>, <ForkProcess(ForkPoolWorker-110, started daemon)>, <ForkProcess(ForkPoolWorker-100, started daemon)>, <ForkProcess(ForkPoolWorker-106, started daemon)>, <ForkProcess(ForkPoolWorker-113, started daemon)>, <ForkProcess(ForkPoolWorker-108, started daemon)>, <ForkProcess(ForkPoolWorker-104, started daemon)>, <ForkProcess(ForkPoolWorker-121, started daemon)>, <ForkProcess(ForkPoolWorker-118, started daemon)>, <ForkProcess(ForkPoolWorker-103, started daemon)>]
+Process 7159 is alive: True
+Process 7491 is alive: True
+Process 8356 is alive: True
+Process 7854 is alive: True
+Process 8324 is alive: True
+Process 3497 is alive: True
+Process 7807 is alive: True
+Process 3491 is alive: True
+Process 7337 is alive: True
+Process 3501 is alive: True
+Process 7972 is alive: True
+Process 8038 is alive: True
+Process 3505 is alive: True
+Process 8205 is alive: True
+Process 7714 is alive: True
+Process 7624 is alive: True
+Process 7312 is alive: True
+Process 7915 is alive: True
+Process 8071 is alive: True
+Process 8170 is alive: True
+Process 7772 is alive: True
+Process 7208 is alive: True
+Process 7518 is alive: True
+Process 7879 is alive: True
+Process 7660 is alive: True
+Process 7443 is alive: True
+Process 8283 is alive: True
+Process 8138 is alive: True
+Process 7376 is alive: True
+RAM memory % used: 89.6
+RAM Used (GB): 120.177795072
+This is the results so far <multiprocessing.pool.MapResult object at 0x2b1cd18f3a90>
+The current number of edges in the queue is 144 out of 193978
+The number of active proesses is [<ForkProcess(ForkPoolWorker-105, started daemon)>, <ForkProcess(ForkPoolWorker-123, started daemon)>, <ForkProcess(ForkPoolWorker-112, started daemon)>, <ForkProcess(ForkPoolWorker-122, started daemon)>, <ForkProcess(ForkPoolWorker-2, started daemon)>, <ForkProcess(ForkPoolWorker-111, started daemon)>, <ForkProcess(SyncManager-1, started)>, <ForkProcess(ForkPoolWorker-102, started daemon)>, <ForkProcess(ForkPoolWorker-124, started daemon)>, <ForkProcess(ForkPoolWorker-4, started daemon)>, <ForkProcess(ForkPoolWorker-115, started daemon)>, <ForkProcess(ForkPoolWorker-116, started daemon)>, <ForkProcess(ForkPoolWorker-5, started daemon)>, <ForkProcess(ForkPoolWorker-120, started daemon)>, <ForkProcess(ForkPoolWorker-109, started daemon)>, <ForkProcess(ForkPoolWorker-107, started daemon)>, <ForkProcess(ForkPoolWorker-101, started daemon)>, <ForkProcess(ForkPoolWorker-114, started daemon)>, <ForkProcess(ForkPoolWorker-117, started daemon)>, <ForkProcess(ForkPoolWorker-119, started daemon)>, <ForkProcess(ForkPoolWorker-110, started daemon)>, <ForkProcess(ForkPoolWorker-106, started daemon)>, <ForkProcess(ForkPoolWorker-113, started daemon)>, <ForkProcess(ForkPoolWorker-108, started daemon)>, <ForkProcess(ForkPoolWorker-104, started daemon)>, <ForkProcess(ForkPoolWorker-121, started daemon)>, <ForkProcess(ForkPoolWorker-118, started daemon)>, <ForkProcess(ForkPoolWorker-103, started daemon)>]
+Process 7491 is alive: True
+Process 8356 is alive: True
+Process 7854 is alive: True
+Process 8324 is alive: True
+Process 3497 is alive: True
+Process 7807 is alive: True
+Process 3491 is alive: True
+Process 7337 is alive: True
+Process 8431 is alive: True
+Process 3501 is alive: True
+Process 7972 is alive: True
+Process 8038 is alive: True
+Process 3505 is alive: True
+Process 8205 is alive: True
+Process 7714 is alive: True
+Process 7624 is alive: True
+Process 7312 is alive: True
+Process 7915 is alive: True
+Process 8071 is alive: True
+Process 8170 is alive: True
+Process 7772 is alive: True
+Process 7518 is alive: True
+Process 7879 is alive: True
+Process 7660 is alive: True
+Process 7443 is alive: True
+Process 8283 is alive: True
+Process 8138 is alive: True
+Process 7376 is alive: True
+RAM memory % used: 89.9
+RAM Used (GB): 120.672677888
+This is the results so far <multiprocessing.pool.MapResult object at 0x2b1cd18f3a90>
+The current number of edges in the queue is 146 out of 193978
+The number of active proesses is [<ForkProcess(ForkPoolWorker-105, started daemon)>, <ForkProcess(ForkPoolWorker-123, started daemon)>, <ForkProcess(ForkPoolWorker-112, started daemon)>, <ForkProcess(ForkPoolWorker-122, started daemon)>, <ForkProcess(ForkPoolWorker-2, started daemon)>, <ForkProcess(ForkPoolWorker-111, started daemon)>, <ForkProcess(SyncManager-1, started)>, <ForkProcess(ForkPoolWorker-124, started daemon)>, <ForkProcess(ForkPoolWorker-4, started daemon)>, <ForkProcess(ForkPoolWorker-115, started daemon)>, <ForkProcess(ForkPoolWorker-116, started daemon)>, <ForkProcess(ForkPoolWorker-5, started daemon)>, <ForkProcess(ForkPoolWorker-120, started daemon)>, <ForkProcess(ForkPoolWorker-126, started daemon)>, <ForkProcess(ForkPoolWorker-109, started daemon)>, <ForkProcess(ForkPoolWorker-107, started daemon)>, <ForkProcess(ForkPoolWorker-114, started daemon)>, <ForkProcess(ForkPoolWorker-117, started daemon)>, <ForkProcess(ForkPoolWorker-119, started daemon)>, <ForkProcess(ForkPoolWorker-110, started daemon)>, <ForkProcess(ForkPoolWorker-106, started daemon)>, <ForkProcess(ForkPoolWorker-113, started daemon)>, <ForkProcess(ForkPoolWorker-108, started daemon)>, <ForkProcess(ForkPoolWorker-104, started daemon)>, <ForkProcess(ForkPoolWorker-121, started daemon)>, <ForkProcess(ForkPoolWorker-118, started daemon)>, <ForkProcess(ForkPoolWorker-103, started daemon)>, <ForkProcess(ForkPoolWorker-125, started daemon)>]
+Process 7491 is alive: True
+Process 8356 is alive: True
+Process 7854 is alive: True
+Process 8324 is alive: True
+Process 3497 is alive: True
+Process 7807 is alive: True
+Process 3491 is alive: True
+Process 8431 is alive: True
+Process 3501 is alive: True
+Process 7972 is alive: True
+Process 8038 is alive: True
+Process 3505 is alive: True
+Process 8205 is alive: True
+Process 8488 is alive: True
+Process 7714 is alive: True
+Process 7624 is alive: True
+Process 7915 is alive: True
+Process 8071 is alive: True
+Process 8170 is alive: True
+Process 7772 is alive: True
+Process 7518 is alive: True
+Process 7879 is alive: True
+Process 7660 is alive: True
+Process 7443 is alive: True
+Process 8283 is alive: True
+Process 8138 is alive: True
+Process 7376 is alive: True
+Process 8464 is alive: True
+RAM memory % used: 90.4
+RAM Used (GB): 121.641791488
+This is the results so far <multiprocessing.pool.MapResult object at 0x2b1cd18f3a90>
+The current number of edges in the queue is 147 out of 193978
+The number of active proesses is [<ForkProcess(ForkPoolWorker-105, started daemon)>, <ForkProcess(ForkPoolWorker-123, started daemon)>, <ForkProcess(ForkPoolWorker-112, started daemon)>, <ForkProcess(ForkPoolWorker-122, started daemon)>, <ForkProcess(ForkPoolWorker-2, started daemon)>, <ForkProcess(ForkPoolWorker-111, started daemon)>, <ForkProcess(ForkPoolWorker-127, started daemon)>, <ForkProcess(SyncManager-1, started)>, <ForkProcess(ForkPoolWorker-124, started daemon)>, <ForkProcess(ForkPoolWorker-4, started daemon)>, <ForkProcess(ForkPoolWorker-115, started daemon)>, <ForkProcess(ForkPoolWorker-116, started daemon)>, <ForkProcess(ForkPoolWorker-5, started daemon)>, <ForkProcess(ForkPoolWorker-120, started daemon)>, <ForkProcess(ForkPoolWorker-126, started daemon)>, <ForkProcess(ForkPoolWorker-109, started daemon)>, <ForkProcess(ForkPoolWorker-107, started daemon)>, <ForkProcess(ForkPoolWorker-128, started daemon)>, <ForkProcess(ForkPoolWorker-114, started daemon)>, <ForkProcess(ForkPoolWorker-117, started daemon)>, <ForkProcess(ForkPoolWorker-119, started daemon)>, <ForkProcess(ForkPoolWorker-110, started daemon)>, <ForkProcess(ForkPoolWorker-129, started daemon)>, <ForkProcess(ForkPoolWorker-106, started daemon)>, <ForkProcess(ForkPoolWorker-113, started daemon)>, <ForkProcess(ForkPoolWorker-108, started daemon)>, <ForkProcess(ForkPoolWorker-121, started daemon)>, <ForkProcess(ForkPoolWorker-118, started daemon)>, <ForkProcess(ForkPoolWorker-125, started daemon)>]
+Process 7491 is alive: True
+Process 8356 is alive: True
+Process 7854 is alive: True
+Process 8324 is alive: True
+Process 3497 is alive: True
+Process 7807 is alive: True
+Process 8553 is alive: True
+Process 3491 is alive: True
+Process 8431 is alive: True
+Process 3501 is alive: True
+Process 7972 is alive: True
+Process 8038 is alive: True
+Process 3505 is alive: True
+Process 8205 is alive: True
+Process 8488 is alive: True
+Process 7714 is alive: True
+Process 7624 is alive: True
+Process 8593 is alive: True
+Process 7915 is alive: True
+Process 8071 is alive: True
+Process 8170 is alive: True
+Process 7772 is alive: True
+Process 8656 is alive: True
+Process 7518 is alive: True
+Process 7879 is alive: True
+Process 7660 is alive: True
+Process 8283 is alive: True
+Process 8138 is alive: True
+Process 8464 is alive: True
+RAM memory % used: 90.1
+RAM Used (GB): 120.946999296
+This is the results so far <multiprocessing.pool.MapResult object at 0x2b1cd18f3a90>
+The current number of edges in the queue is 149 out of 193978
+The number of active proesses is [<ForkProcess(ForkPoolWorker-123, started daemon)>, <ForkProcess(ForkPoolWorker-112, started daemon)>, <ForkProcess(ForkPoolWorker-122, started daemon)>, <ForkProcess(ForkPoolWorker-2, started daemon)>, <ForkProcess(ForkPoolWorker-111, started daemon)>, <ForkProcess(ForkPoolWorker-127, started daemon)>, <ForkProcess(SyncManager-1, started)>, <ForkProcess(ForkPoolWorker-124, started daemon)>, <ForkProcess(ForkPoolWorker-4, started daemon)>, <ForkProcess(ForkPoolWorker-115, started daemon)>, <ForkProcess(ForkPoolWorker-116, started daemon)>, <ForkProcess(ForkPoolWorker-5, started daemon)>, <ForkProcess(ForkPoolWorker-130, started daemon)>, <ForkProcess(ForkPoolWorker-120, started daemon)>, <ForkProcess(ForkPoolWorker-126, started daemon)>, <ForkProcess(ForkPoolWorker-109, started daemon)>, <ForkProcess(ForkPoolWorker-107, started daemon)>, <ForkProcess(ForkPoolWorker-128, started daemon)>, <ForkProcess(ForkPoolWorker-114, started daemon)>, <ForkProcess(ForkPoolWorker-117, started daemon)>, <ForkProcess(ForkPoolWorker-119, started daemon)>, <ForkProcess(ForkPoolWorker-110, started daemon)>, <ForkProcess(ForkPoolWorker-129, started daemon)>, <ForkProcess(ForkPoolWorker-113, started daemon)>, <ForkProcess(ForkPoolWorker-108, started daemon)>, <ForkProcess(ForkPoolWorker-121, started daemon)>, <ForkProcess(ForkPoolWorker-118, started daemon)>, <ForkProcess(ForkPoolWorker-125, started daemon)>]
+Process 8356 is alive: True
+Process 7854 is alive: True
+Process 8324 is alive: True
+Process 3497 is alive: True
+Process 7807 is alive: True
+Process 8553 is alive: True
+Process 3491 is alive: True
+Process 8431 is alive: True
+Process 3501 is alive: True
+Process 7972 is alive: True
+Process 8038 is alive: True
+Process 3505 is alive: True
+Process 8720 is alive: True
+Process 8205 is alive: True
+Process 8488 is alive: True
+Process 7714 is alive: True
+Process 7624 is alive: True
+Process 8593 is alive: True
+Process 7915 is alive: True
+Process 8071 is alive: True
+Process 8170 is alive: True
+Process 7772 is alive: True
+Process 8656 is alive: True
+Process 7879 is alive: True
+Process 7660 is alive: True
+Process 8283 is alive: True
+Process 8138 is alive: True
+Process 8464 is alive: True
+RAM memory % used: 90.2
+RAM Used (GB): 121.296171008
+This is the results so far <multiprocessing.pool.MapResult object at 0x2b1cd18f3a90>
+The current number of edges in the queue is 149 out of 193978
+The number of active proesses is [<ForkProcess(ForkPoolWorker-123, started daemon)>, <ForkProcess(ForkPoolWorker-112, started daemon)>, <ForkProcess(ForkPoolWorker-122, started daemon)>, <ForkProcess(ForkPoolWorker-2, started daemon)>, <ForkProcess(ForkPoolWorker-111, started daemon)>, <ForkProcess(ForkPoolWorker-127, started daemon)>, <ForkProcess(SyncManager-1, started)>, <ForkProcess(ForkPoolWorker-132, started daemon)>, <ForkProcess(ForkPoolWorker-124, started daemon)>, <ForkProcess(ForkPoolWorker-131, started daemon)>, <ForkProcess(ForkPoolWorker-4, started daemon)>, <ForkProcess(ForkPoolWorker-115, started daemon)>, <ForkProcess(ForkPoolWorker-116, started daemon)>, <ForkProcess(ForkPoolWorker-5, started daemon)>, <ForkProcess(ForkPoolWorker-130, started daemon)>, <ForkProcess(ForkPoolWorker-120, started daemon)>, <ForkProcess(ForkPoolWorker-126, started daemon)>, <ForkProcess(ForkPoolWorker-109, started daemon)>, <ForkProcess(ForkPoolWorker-128, started daemon)>, <ForkProcess(ForkPoolWorker-114, started daemon)>, <ForkProcess(ForkPoolWorker-117, started daemon)>, <ForkProcess(ForkPoolWorker-119, started daemon)>, <ForkProcess(ForkPoolWorker-110, started daemon)>, <ForkProcess(ForkPoolWorker-129, started daemon)>, <ForkProcess(ForkPoolWorker-113, started daemon)>, <ForkProcess(ForkPoolWorker-121, started daemon)>, <ForkProcess(ForkPoolWorker-118, started daemon)>, <ForkProcess(ForkPoolWorker-125, started daemon)>]
+Process 8356 is alive: True
+Process 7854 is alive: True
+Process 8324 is alive: True
+Process 3497 is alive: True
+Process 7807 is alive: True
+Process 8553 is alive: True
+Process 3491 is alive: True
+Process 8813 is alive: True
+Process 8431 is alive: True
+Process 8753 is alive: True
+Process 3501 is alive: True
+Process 7972 is alive: True
+Process 8038 is alive: True
+Process 3505 is alive: True
+Process 8720 is alive: True
+Process 8205 is alive: True
+Process 8488 is alive: True
+Process 7714 is alive: True
+Process 8593 is alive: True
+Process 7915 is alive: True
+Process 8071 is alive: True
+Process 8170 is alive: True
+Process 7772 is alive: True
+Process 8656 is alive: True
+Process 7879 is alive: True
+Process 8283 is alive: True
+Process 8138 is alive: True
+Process 8464 is alive: True
+RAM memory % used: 90.2
+RAM Used (GB): 121.067892736
+This is the results so far <multiprocessing.pool.MapResult object at 0x2b1cd18f3a90>
+The current number of edges in the queue is 152 out of 193978
+The number of active proesses is [<ForkProcess(ForkPoolWorker-123, started daemon)>, <ForkProcess(ForkPoolWorker-112, started daemon)>, <ForkProcess(ForkPoolWorker-122, started daemon)>, <ForkProcess(ForkPoolWorker-2, started daemon)>, <ForkProcess(ForkPoolWorker-111, started daemon)>, <ForkProcess(ForkPoolWorker-127, started daemon)>, <ForkProcess(SyncManager-1, started)>, <ForkProcess(ForkPoolWorker-132, started daemon)>, <ForkProcess(ForkPoolWorker-124, started daemon)>, <ForkProcess(ForkPoolWorker-131, started daemon)>, <ForkProcess(ForkPoolWorker-4, started daemon)>, <ForkProcess(ForkPoolWorker-115, started daemon)>, <ForkProcess(ForkPoolWorker-116, started daemon)>, <ForkProcess(ForkPoolWorker-5, started daemon)>, <ForkProcess(ForkPoolWorker-130, started daemon)>, <ForkProcess(ForkPoolWorker-120, started daemon)>, <ForkProcess(ForkPoolWorker-126, started daemon)>, <ForkProcess(ForkPoolWorker-133, started daemon)>, <ForkProcess(ForkPoolWorker-128, started daemon)>, <ForkProcess(ForkPoolWorker-114, started daemon)>, <ForkProcess(ForkPoolWorker-117, started daemon)>, <ForkProcess(ForkPoolWorker-119, started daemon)>, <ForkProcess(ForkPoolWorker-129, started daemon)>, <ForkProcess(ForkPoolWorker-113, started daemon)>, <ForkProcess(ForkPoolWorker-134, started daemon)>, <ForkProcess(ForkPoolWorker-121, started daemon)>, <ForkProcess(ForkPoolWorker-118, started daemon)>, <ForkProcess(ForkPoolWorker-125, started daemon)>]
+Process 8356 is alive: True
+Process 7854 is alive: True
+Process 8324 is alive: True
+Process 3497 is alive: True
+Process 7807 is alive: True
+Process 8553 is alive: True
+Process 3491 is alive: True
+Process 8813 is alive: True
+Process 8431 is alive: True
+Process 8753 is alive: True
+Process 3501 is alive: True
+Process 7972 is alive: True
+Process 8038 is alive: True
+Process 3505 is alive: True
+Process 8720 is alive: True
+Process 8205 is alive: True
+Process 8488 is alive: True
+Process 8887 is alive: True
+Process 8593 is alive: True
+Process 7915 is alive: True
+Process 8071 is alive: True
+Process 8170 is alive: True
+Process 8656 is alive: True
+Process 7879 is alive: True
+Process 8919 is alive: True
+Process 8283 is alive: True
+Process 8138 is alive: True
+Process 8464 is alive: True
+RAM memory % used: 90.4
+RAM Used (GB): 121.287245824
+This is the results so far <multiprocessing.pool.MapResult object at 0x2b1cd18f3a90>
+The current number of edges in the queue is 152 out of 193978
+The number of active proesses is [<ForkProcess(ForkPoolWorker-123, started daemon)>, <ForkProcess(ForkPoolWorker-112, started daemon)>, <ForkProcess(ForkPoolWorker-135, started daemon)>, <ForkProcess(ForkPoolWorker-122, started daemon)>, <ForkProcess(ForkPoolWorker-2, started daemon)>, <ForkProcess(ForkPoolWorker-127, started daemon)>, <ForkProcess(SyncManager-1, started)>, <ForkProcess(ForkPoolWorker-132, started daemon)>, <ForkProcess(ForkPoolWorker-124, started daemon)>, <ForkProcess(ForkPoolWorker-131, started daemon)>, <ForkProcess(ForkPoolWorker-4, started daemon)>, <ForkProcess(ForkPoolWorker-115, started daemon)>, <ForkProcess(ForkPoolWorker-116, started daemon)>, <ForkProcess(ForkPoolWorker-5, started daemon)>, <ForkProcess(ForkPoolWorker-130, started daemon)>, <ForkProcess(ForkPoolWorker-120, started daemon)>, <ForkProcess(ForkPoolWorker-126, started daemon)>, <ForkProcess(ForkPoolWorker-133, started daemon)>, <ForkProcess(ForkPoolWorker-128, started daemon)>, <ForkProcess(ForkPoolWorker-114, started daemon)>, <ForkProcess(ForkPoolWorker-117, started daemon)>, <ForkProcess(ForkPoolWorker-119, started daemon)>, <ForkProcess(ForkPoolWorker-129, started daemon)>, <ForkProcess(ForkPoolWorker-113, started daemon)>, <ForkProcess(ForkPoolWorker-134, started daemon)>, <ForkProcess(ForkPoolWorker-136, started daemon)>, <ForkProcess(ForkPoolWorker-121, started daemon)>, <ForkProcess(ForkPoolWorker-118, started daemon)>, <ForkProcess(ForkPoolWorker-125, started daemon)>]
+Process 8356 is alive: True
+Process 7854 is alive: True
+Process 8996 is alive: True
+Process 8324 is alive: True
+Process 3497 is alive: True
+Process 8553 is alive: True
+Process 3491 is alive: True
+Process 8813 is alive: True
+Process 8431 is alive: True
+Process 8753 is alive: True
+Process 3501 is alive: True
+Process 7972 is alive: True
+Process 8038 is alive: True
+Process 3505 is alive: True
+Process 8720 is alive: True
+Process 8205 is alive: True
+Process 8488 is alive: True
+Process 8887 is alive: True
+Process 8593 is alive: True
+Process 7915 is alive: True
+Process 8071 is alive: True
+Process 8170 is alive: True
+Process 8656 is alive: True
+Process 7879 is alive: True
+Process 8919 is alive: True
+Process 9030 is alive: True
+Process 8283 is alive: True
+Process 8138 is alive: True
+Process 8464 is alive: True
+RAM memory % used: 97.9
+RAM Used (GB): 131.407515648

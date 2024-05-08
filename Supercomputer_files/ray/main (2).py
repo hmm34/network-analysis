@@ -1,0 +1,248 @@
+# library imports
+import math
+import networkx as nx
+import sys
+import os
+import matplotlib.pyplot as plt
+from networkx import Graph
+from numpy import Infinity
+#from sage.all import *
+# from sage.graphs.hyperbolicity import hyperbolicity
+# from sage.graphs.graph_input import from_networkx_graph
+# from collections import deque
+# from sage.graphs.distances_all_pairs import distances_all_pairs
+from itertools import combinations
+import time
+import multiprocessing
+
+
+# Given a sagemath graph, compute the interval thinness (leanness) using AO Mohammed et al approach
+# input: precomputed distance matrix D
+#        sagemath graph G
+#        list Q of all vertex pairs {x,y} of G sorted in nonn-increasing order with respect to d(x,y)
+# output: lambda, the leanness of G
+
+def compute_leanness(G, Q, distance_matrix):
+    leanness = 0
+    # Iterate through all vertex pairs.
+    for x, y in Q:
+        if distance_matrix[x][y] <= leanness:
+            return leanness
+
+        # Create empty dictionary S where keys are distances and values are sets of pairs (u, v)
+        S = {i: set() for i in range(distance_matrix[x][y] + 1)}
+
+        for w in G:
+            if distance_matrix[x][y] == distance_matrix[x][w] + distance_matrix[y][w]:
+                # Insert pair w  into S[d(x, w)]
+                S[distance_matrix[x][w]].add((w))
+                # Remove pairs (x, w) and (w, y) from Q
+                if (x, w) in Q:
+                    Q.remove((x, w))
+                if (w, y) in Q:
+                    Q.remove((w, y))
+
+        start = leanness // 2
+        end = distance_matrix[x][y] - leanness // 2
+
+        for i in range(start, end + 1):
+            if len(S[i]) > 1:
+                # Iterate through all combinations of pairs in S[i]
+                for u, v in combinations(S[i], 2):
+                    if leanness < distance_matrix[u][v]:
+                        leanness = distance_matrix[u][v]
+    return leanness
+
+
+import ray
+@ray.remote
+def compute_alpha_i_metric(distance_matrix, edge, nodes):
+    k = 0
+    v, w = edge
+    for u in nodes:
+        if u == v or u == w or distance_matrix[u][w] != distance_matrix[u][v] + 1:
+            continue
+        for x in nodes:
+            if x == v or x == w or distance_matrix[x][v] != distance_matrix[x][w] + 1:
+                continue
+            k = max(k, distance_matrix[u][v] + distance_matrix[v][x] - distance_matrix[u][x])
+    return k
+
+os.environ['RAY_memory_monitor_refresh_ms'] = '1000'
+
+def compute_alpha_i_metric_parallel(g, distance_matrix):
+    k = 0
+    ray.init()
+    edges = list(nx.edges(g))
+    nodes = list(nx.nodes(g))
+    futures = []
+    total_edges = len(edges)
+    processed_edges = 0
+    progress_interval = 100
+    for edge in edges:
+        futures.append(compute_alpha_i_metric.remote(distance_matrix, edge, nodes))
+        processed_edges += 1
+        if processed_edges % progress_interval == 0 or processed_edges == total_edges:
+            progress_percentage = (processed_edges / total_edges) * 100
+            print(f"{progress_percentage:.2f}% of edges processed")
+
+    results = ray.get(futures)
+    ray.shutdown()
+
+    k = max(results)
+    return k
+
+
+
+
+
+
+def compute_pseudoconvexity(G):
+    return 0
+
+
+def compute_helly_gap(G):
+    return 0
+
+
+# aka insize
+def compute_triangle_thinness(G):
+    return 0
+
+
+def compute_slimness(G):
+    return 0
+
+
+def analyze(fileName):
+    ######################################
+    print("Loading graph" + fileName)
+
+    # load through networkx (lowercase g) -- networkx provides some functionality
+    filehandle = open(fileName, "rb")
+    g = nx.read_edgelist(filehandle, nodetype=int, delimiter=",")
+    filehandle.close()
+
+    # default values
+    print("Computing size ...")
+    print("Number of nodes n:", g.number_of_nodes())
+    print("Number of edges m:", g.number_of_edges())
+
+    # get largest bi-connected component
+    # Check if there are any biconnected components
+    biconnected_components = list(nx.biconnected_components(g))
+    if not biconnected_components:
+        print("No biconnected components found.")
+    else:
+        # Find the largest biconnected component
+        largest_biconnected_comp = max(biconnected_components, key=len)
+        g = g.subgraph(largest_biconnected_comp).copy()
+
+
+    # load to sagemath (capital G) -- sagemath provides different functionality, e.g., hyperbolicity, viewing
+    # print("Converting to sagemath graph object ...")
+    # G = Graph()
+    # from_networkx_graph(G, g)
+
+
+    # default values
+    print("Computing size ...")
+    print("Number of nodes n (of LBC):", nx.number_of_nodes(g))
+    print("Number of edges m (of LBC):", nx.number_of_edges(g))
+
+    print("Computing distance matrix ...")
+    distance_matrix = dict(nx.all_pairs_shortest_path_length(g))
+
+    #print(distance_matrix)
+    # for i in distance_matrix:
+    #     for j in distance_matrix[i]:
+    #         value = float(distance_matrix[i][j])
+    #         if math.isinf(value):
+    #             distance_matrix[i][j] = 0
+
+    # print("Sorting distance pairs  ...")
+    # # # Q is a list of all possible pairs of  vertices in G in non-increasing order
+    # Q = [(u, v) for u in G.vertices() for v in G.vertices() if u != v]
+    # Q.sort(key=lambda pair: distance_matrix[pair[0]][pair[1]], reverse=True)
+    # # print("Distances for each pair:")
+    # # for x in Q:
+    # #     print(distance_matrix[x[0]][x[1]])
+    #
+    # start_time = time.time()
+    # print(f"Leanness: {compute_leanness(G, Q, distance_matrix)}")
+    # end_time = time.time()
+    # execution_time = end_time - start_time
+    # print(f"Computing Leanness Execution time: {execution_time} seconds")
+
+
+    print("Computing alpha-i metric (of LBC) ...")
+    start_time = time.time()
+    print(f"Alpha-i-metric: {compute_alpha_i_metric_parallel(g, distance_matrix)}")
+    end_time = time.time()
+    execution_time = end_time - start_time
+    print(f"Computing Alpha-i-metric Execution time: {execution_time} seconds")
+
+    ######################################
+    # display graph (if specified)
+    if (len(sys.argv) >= 2 ) and ((sys.argv[1] == "-s") or (sys.argv[1] == "--show")):
+        G.show(method="js", vertex_labels=True, edge_labels=False,  # optional - internet, needs sage.plot
+               link_distance=200, gravity=.05, charge=-500,
+               edge_partition=[[("11", "12", "2"), ("21", "21", "a")]],
+               edge_thickness=4)
+        # nx.draw(g)
+        plt.draw()
+        plt.show()
+
+
+    ######################################
+    # run analysis (subroutines)
+
+
+    # Create your graph 'g' or load it from your data source
+
+    # Find connected components
+    # connected_components = list(nx.connected_components(g))
+    # if len(connected_components) > 0:
+    #     # Find the largest connected component
+    #     largest_component = max(connected_components, key=len)
+    #     largest_subgraph = g.subgraph(largest_component)
+    #     # Calculate the diameter and of the largest connected component
+    #     diameter = nx.diameter(largest_subgraph)
+    #     radius = nx.radius(largest_subgraph)
+    #     print("Diameter of the largest connected component:", diameter)
+    #     print("Radius of the largest connected component:", radius)
+    # print("Diameter:", nx.diameter(g))
+    # print("Radius:", nx.radius(g))
+
+    ######################################
+    # - hyperbolicity
+    # print("Computing hyperbolicity (of LBC) ...")
+    # start_time = time.time()
+    # L, C, U = hyperbolicity(G, algorithm='BCCM')
+    # end_time = time.time()
+    # print("Hyperbolicity: " + str(L))
+    # execution_time = end_time - start_time
+    # print(f"Computing Hyperbolicity Execution time: {execution_time} seconds")
+
+    # - cluster diameter
+    # - tree.txt length
+    # - tree.txt breadth
+    # - tree.txt width
+    # - cop win number??
+    # - various centrality measures (betweenness, closeness, etc....)
+
+    #print("Degree Centrality Data")
+    #print(nx.degree_centrality(g))
+    print("Analysis complete.")
+
+
+#load graphs
+def main():
+    fileName = "social.txt"
+    analyze(fileName)
+
+if __name__ == '__main__':
+    multiprocessing.freeze_support()
+    main()
+
+

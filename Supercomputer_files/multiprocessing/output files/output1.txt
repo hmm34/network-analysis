@@ -1,0 +1,21 @@
+Loading graphdata
+Computing size ...
+Number of nodes n: 18772
+Number of edges m: 198110
+Computing size ...
+Number of nodes n (of LBC): 15929
+Number of edges m (of LBC): 193978
+Computing distance matrix ...
+Computing alpha-i metric (of LBC) ...
+Setting up pool object and with arguments
+Callback called with result: 0
+Callback called with result: 9
+Callback called with result: 1
+Callback called with result: 0
+Callback called with result: 9
+Callback called with result: 9
+Callback called with result: 9
+Callback called with result: 9
+Elapsed time: 468.0220582485199
+Exiting...
+Completed

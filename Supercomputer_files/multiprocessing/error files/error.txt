@@ -1,0 +1,37 @@
++ python main.py
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/local/python/3.6-conda5.2/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/usr/local/python/3.6-conda5.2/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/python/3.6-conda5.2/lib/python3.6/concurrent/futures/process.py", line 295, in _queue_management_worker
+    shutdown_worker()
+  File "/usr/local/python/3.6-conda5.2/lib/python3.6/concurrent/futures/process.py", line 253, in shutdown_worker
+    call_queue.put_nowait(None)
+  File "/usr/local/python/3.6-conda5.2/lib/python3.6/multiprocessing/queues.py", line 129, in put_nowait
+    return self.put(obj, False)
+  File "/usr/local/python/3.6-conda5.2/lib/python3.6/multiprocessing/queues.py", line 83, in put
+    raise Full
+queue.Full
+
+Traceback (most recent call last):
+  File "main.py", line 124, in compute_alpha_i_metric_parallel
+    
+  File "/usr/local/python/3.6-conda5.2/lib/python3.6/concurrent/futures/_base.py", line 425, in result
+    return self.__get_result()
+  File "/usr/local/python/3.6-conda5.2/lib/python3.6/concurrent/futures/_base.py", line 384, in __get_result
+    raise self._exception
+concurrent.futures.process.BrokenProcessPool: A process in the process pool was terminated abruptly while the future was running or pending.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "main.py", line 438, in <module>
+  File "main.py", line 434, in main
+  File "main.py", line 372, in analyze
+  File "main.py", line 133, in compute_alpha_i_metric_parallel
+    #     edges = list(g_edges)  # Creating a shared list for edges
+AttributeError: module 'multiprocessing' has no attribute 'BrokenProcessPool'
++ echo Completed
+slurmstepd: error: Detected 19 oom_kill events in StepId=30779461.batch. Some of the step tasks have been OOM Killed.

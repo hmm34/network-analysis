@@ -1,0 +1,122 @@
+Loading graphca-Erdos992.mtx
+Computing size ...
+Number of nodes n: 5094
+Number of edges m: 7515
+Computing size ...
+Number of nodes n (of LBC): 1439
+Number of edges m (of LBC): 3868
+Computing distance matrix ...
+Computing alpha-i metric (of LBC) ...
+Setting up pool object and with arguments
+Entering while loop until results are ready
+The current number of edges in the queue is 0 out of 3868
+The number of active proesses is [<ForkProcess(ForkPoolWorker-23, started daemon)>, <ForkProcess(ForkPoolWorker-16, started daemon)>, <ForkProcess(ForkPoolWorker-9, started daemon)>, <ForkProcess(ForkPoolWorker-24, started daemon)>, <ForkProcess(ForkPoolWorker-17, started daemon)>, <ForkProcess(ForkPoolWorker-2, started daemon)>, <ForkProcess(ForkPoolWorker-10, started daemon)>, <ForkProcess(ForkPoolWorker-3, started daemon)>, <ForkProcess(ForkPoolWorker-25, started daemon)>, <ForkProcess(ForkPoolWorker-18, started daemon)>, <ForkProcess(ForkPoolWorker-11, started daemon)>, <ForkProcess(ForkPoolWorker-4, started daemon)>, <ForkProcess(SyncManager-1, started)>, <ForkProcess(ForkPoolWorker-26, started daemon)>, <ForkProcess(ForkPoolWorker-19, started daemon)>, <ForkProcess(ForkPoolWorker-12, started daemon)>, <ForkProcess(ForkPoolWorker-5, started daemon)>, <ForkProcess(ForkPoolWorker-27, started daemon)>, <ForkProcess(ForkPoolWorker-20, started daemon)>, <ForkProcess(ForkPoolWorker-13, started daemon)>, <ForkProcess(ForkPoolWorker-6, started daemon)>, <ForkProcess(ForkPoolWorker-28, started daemon)>, <ForkProcess(ForkPoolWorker-21, started daemon)>, <ForkProcess(ForkPoolWorker-14, started daemon)>, <ForkProcess(ForkPoolWorker-7, started daemon)>, <ForkProcess(ForkPoolWorker-29, started daemon)>, <ForkProcess(ForkPoolWorker-22, started daemon)>, <ForkProcess(ForkPoolWorker-15, started daemon)>, <ForkProcess(ForkPoolWorker-8, started daemon)>]
+Process 11085 is alive: True
+Process 11071 is alive: True
+Process 11057 is alive: True
+Process 11087 is alive: True
+Process 11073 is alive: True
+Process 11043 is alive: True
+Process 11059 is alive: True
+Process 11045 is alive: True
+Process 11089 is alive: True
+Process 11075 is alive: True
+Process 11061 is alive: True
+Process 11047 is alive: True
+Process 11038 is alive: True
+Process 11091 is alive: True
+Process 11077 is alive: True
+Process 11063 is alive: True
+Process 11049 is alive: True
+Process 11093 is alive: True
+Process 11079 is alive: True
+Process 11065 is alive: True
+Process 11051 is alive: True
+Process 11095 is alive: True
+Process 11081 is alive: True
+Process 11067 is alive: True
+Process 11053 is alive: True
+Process 11097 is alive: True
+Process 11083 is alive: True
+Process 11069 is alive: True
+Process 11055 is alive: True
+RAM memory % used: 6.5
+RAM Used (GB): 7.12966144
+Elapsed time: 0.4220719337463379
+The current number of edges in the queue is 1946 out of 3868
+The number of active proesses is [<ForkProcess(ForkPoolWorker-23, started daemon)>, <ForkProcess(ForkPoolWorker-16, started daemon)>, <ForkProcess(ForkPoolWorker-9, started daemon)>, <ForkProcess(ForkPoolWorker-24, started daemon)>, <ForkProcess(ForkPoolWorker-17, started daemon)>, <ForkProcess(ForkPoolWorker-2, started daemon)>, <ForkProcess(ForkPoolWorker-10, started daemon)>, <ForkProcess(ForkPoolWorker-3, started daemon)>, <ForkProcess(ForkPoolWorker-25, started daemon)>, <ForkProcess(ForkPoolWorker-18, started daemon)>, <ForkProcess(ForkPoolWorker-11, started daemon)>, <ForkProcess(ForkPoolWorker-4, started daemon)>, <ForkProcess(SyncManager-1, started)>, <ForkProcess(ForkPoolWorker-26, started daemon)>, <ForkProcess(ForkPoolWorker-19, started daemon)>, <ForkProcess(ForkPoolWorker-12, started daemon)>, <ForkProcess(ForkPoolWorker-5, started daemon)>, <ForkProcess(ForkPoolWorker-27, started daemon)>, <ForkProcess(ForkPoolWorker-20, started daemon)>, <ForkProcess(ForkPoolWorker-13, started daemon)>, <ForkProcess(ForkPoolWorker-6, started daemon)>, <ForkProcess(ForkPoolWorker-28, started daemon)>, <ForkProcess(ForkPoolWorker-21, started daemon)>, <ForkProcess(ForkPoolWorker-14, started daemon)>, <ForkProcess(ForkPoolWorker-7, started daemon)>, <ForkProcess(ForkPoolWorker-29, started daemon)>, <ForkProcess(ForkPoolWorker-22, started daemon)>, <ForkProcess(ForkPoolWorker-15, started daemon)>, <ForkProcess(ForkPoolWorker-8, started daemon)>]
+Process 11085 is alive: True
+Process 11071 is alive: True
+Process 11057 is alive: True
+Process 11087 is alive: True
+Process 11073 is alive: True
+Process 11043 is alive: True
+Process 11059 is alive: True
+Process 11045 is alive: True
+Process 11089 is alive: True
+Process 11075 is alive: True
+Process 11061 is alive: True
+Process 11047 is alive: True
+Process 11038 is alive: True
+Process 11091 is alive: True
+Process 11077 is alive: True
+Process 11063 is alive: True
+Process 11049 is alive: True
+Process 11093 is alive: True
+Process 11079 is alive: True
+Process 11065 is alive: True
+Process 11051 is alive: True
+Process 11095 is alive: True
+Process 11081 is alive: True
+Process 11067 is alive: True
+Process 11053 is alive: True
+Process 11097 is alive: True
+Process 11083 is alive: True
+Process 11069 is alive: True
+Process 11055 is alive: True
+RAM memory % used: 10.1
+RAM Used (GB): 12.0452096
+Elapsed time: 30.458834886550903
+The current number of edges in the queue is 3563 out of 3868
+The number of active proesses is [<ForkProcess(ForkPoolWorker-23, started daemon)>, <ForkProcess(ForkPoolWorker-16, started daemon)>, <ForkProcess(ForkPoolWorker-9, started daemon)>, <ForkProcess(ForkPoolWorker-24, started daemon)>, <ForkProcess(ForkPoolWorker-17, started daemon)>, <ForkProcess(ForkPoolWorker-2, started daemon)>, <ForkProcess(ForkPoolWorker-10, started daemon)>, <ForkProcess(ForkPoolWorker-3, started daemon)>, <ForkProcess(ForkPoolWorker-25, started daemon)>, <ForkProcess(ForkPoolWorker-18, started daemon)>, <ForkProcess(ForkPoolWorker-11, started daemon)>, <ForkProcess(ForkPoolWorker-4, started daemon)>, <ForkProcess(SyncManager-1, started)>, <ForkProcess(ForkPoolWorker-26, started daemon)>, <ForkProcess(ForkPoolWorker-19, started daemon)>, <ForkProcess(ForkPoolWorker-12, started daemon)>, <ForkProcess(ForkPoolWorker-5, started daemon)>, <ForkProcess(ForkPoolWorker-27, started daemon)>, <ForkProcess(ForkPoolWorker-20, started daemon)>, <ForkProcess(ForkPoolWorker-13, started daemon)>, <ForkProcess(ForkPoolWorker-6, started daemon)>, <ForkProcess(ForkPoolWorker-28, started daemon)>, <ForkProcess(ForkPoolWorker-21, started daemon)>, <ForkProcess(ForkPoolWorker-14, started daemon)>, <ForkProcess(ForkPoolWorker-7, started daemon)>, <ForkProcess(ForkPoolWorker-29, started daemon)>, <ForkProcess(ForkPoolWorker-22, started daemon)>, <ForkProcess(ForkPoolWorker-15, started daemon)>, <ForkProcess(ForkPoolWorker-8, started daemon)>]
+Process 11085 is alive: True
+Process 11071 is alive: True
+Process 11057 is alive: True
+Process 11087 is alive: True
+Process 11073 is alive: True
+Process 11043 is alive: True
+Process 11059 is alive: True
+Process 11045 is alive: True
+Process 11089 is alive: True
+Process 11075 is alive: True
+Process 11061 is alive: True
+Process 11047 is alive: True
+Process 11038 is alive: True
+Process 11091 is alive: True
+Process 11077 is alive: True
+Process 11063 is alive: True
+Process 11049 is alive: True
+Process 11093 is alive: True
+Process 11079 is alive: True
+Process 11065 is alive: True
+Process 11051 is alive: True
+Process 11095 is alive: True
+Process 11081 is alive: True
+Process 11067 is alive: True
+Process 11053 is alive: True
+Process 11097 is alive: True
+Process 11083 is alive: True
+Process 11069 is alive: True
+Process 11055 is alive: True
+RAM memory % used: 9.6
+RAM Used (GB): 11.30541056
+Elapsed time: 60.46977090835571
+Callback called with result: [8, 8, 8, 8, 8, 8, 7, 8, 8, 8, 9, 8, 8, 8, 10, 8, 10, 10, 11, 12, 12, 6, 10, 12, 8, 9, 8, 8, 0, 9, 8, 10, 8, 8, 9, 9, 6, 9, 9, 10, 10, 0, 10, 6, 8, 10, 9, 8, 10, 9, 10, 0, 9, 0, 8, 8, 8, 6, 8, 9, 10, 8, 7, 0, 0, 0, 8, 8, 9, 8, 0, 0, 10, 0, 8, 8, 8, 6, 8, 9, 0, 8, 8, 8, 0, 8, 10, 2, 9, 10, 10, 9, 8, 2, 6, 10, 10, 9, 10, 10, 10, 10, 0, 10, 10, 10, 10, 0, 9, 0, 10, 10, 0, 0, 4, 8, 10, 11, 10, 9, 10, 10, 10, 11, 9, 10, 8, 9, 8, 10, 9, 8, 10, 10, 0, 6, 8, 0, 9, 0, 10, 10, 0, 8, 8, 0, 0, 10, 9, 8, 12, 10, 9, 9, 9, 9, 8, 0, 0, 0, 0, 0, 0, 0, 8, 0, 2, 8, 8, 0, 0, 0, 0, 0, 0, 10, 8, 10, 2, 10, 8, 11, 0, 10, 10, 0, 10, 10, 11, 9, 10, 11, 0, 10, 10, 10, 9, 10, 10, 12, 0, 11, 7, 9, 10, 0, 10, 10, 0, 0, 0, 0, 9, 10, 10, 10, 10, 11, 10, 10, 8, 10, 10, 8, 8, 10, 10, 10, 8, 10, 10, 9, 12, 12, 11, 12, 12, 12, 0, 0, 8, 8, 8, 9, 8, 8, 8, 8, 8, 9, 8, 8, 9, 8, 10, 12, 10, 11, 9, 8, 8, 9, 8, 9, 8, 8, 9, 8, 8, 8, 6, 8, 8, 9, 8, 9, 8, 9, 8, 8, 10, 8, 9, 0, 8, 0, 9, 0, 9, 10, 10, 10, 11, 10, 10, 11, 11, 0, 12, 12, 10, 10, 10, 10, 10, 0, 0, 12, 0, 0, 8, 8, 0, 9, 8, 0, 0, 0, 0, 11, 12, 11, 12, 12, 9, 10, 9, 8, 8, 0, 10, 10, 6, 8, 0, 10, 10, 0, 10, 10, 10, 9, 8, 10, 10, 10, 10, 10, 8, 10, 8, 9, 10, 1, 8, 10, 10, 0, 2, 10, 10, 10, 10, 10, 8, 6, 12, 0, 12, 0, 11, 0, 8, 0, 10, 9, 10, 10, 10, 0, 10, 10, 10, 8, 10, 6, 10, 4, 10, 10, 10, 10, 10, 10, 9, 10, 0, 2, 10, 0, 0, 8, 10, 10, 10, 8, 10, 8, 10, 8, 10, 10, 8, 0, 10, 8, 8, 10, 9, 10, 7, 10, 10, 10, 9, 10, 10, 10, 10, 10, 10, 10, 12, 12, 12, 8, 8, 10, 10, 11, 12, 9, 10, 9, 7, 9, 8, 10, 10, 9, 9, 9, 0, 10, 12, 12, 9, 9, 9, 8, 10, 10, 0, 0, 0, 0, 0, 1, 1, 0, 10, 10, 10, 10, 8, 10, 10, 10, 11, 10, 8, 8, 8, 8, 8, 8, 0, 8, 8, 8, 8, 9, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 7, 8, 7, 0, 6, 9, 10, 10, 10, 10, 0, 10, 10, 10, 10, 11, 10, 8, 10, 10, 11, 12, 12, 11, 10, 10, 10, 10, 11, 9, 8, 9, 9, 8, 0, 0, 10, 0, 0, 10, 0, 11, 11, 0, 0, 11, 12, 10, 12, 0, 0, 10, 10, 11, 0, 9, 8, 10, 10, 0, 0, 8, 10, 11, 10, 10, 10, 11, 10, 10, 10, 11, 0, 12, 10, 10, 0, 8, 8, 8, 8, 8, 10, 9, 10, 10, 10, 10, 0, 0, 9, 10, 6, 9, 8, 8, 8, 9, 9, 8, 6, 10, 9, 8, 0, 10, 10, 8, 8, 9, 0, 10, 0, 8, 8, 10, 8, 0, 12, 10, 9, 10, 10, 12, 10, 12, 8, 10, 10, 10, 10, 10, 6, 10, 6, 10, 10, 9, 12, 11, 10, 10, 10, 10, 10, 9, 11, 9, 10, 8, 10, 10, 10, 9, 10, 10, 10, 10, 8, 8, 9, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 0, 0, 8, 0, 7, 8, 6, 7, 8, 8, 0, 0, 4, 6, 0, 9, 6, 8, 7, 8, 12, 10, 8, 10, 0, 8, 8, 8, 8, 0, 0, 0, 8, 8, 8, 0, 8, 0, 9, 10, 10, 9, 10, 0, 7, 10, 10, 10, 9, 8, 10, 0, 10, 0, 0, 10, 10, 10, 10, 12, 11, 11, 10, 10, 10, 10, 11, 8, 10, 10, 8, 10, 8, 9, 10, 10, 10, 0, 10, 8, 8, 8, 10, 12, 8, 0, 11, 4, 10, 10, 9, 8, 8, 4, 0, 0, 10, 10, 10, 9, 8, 8, 8, 8, 9, 8, 10, 8, 10, 8, 8, 12, 12, 11, 0, 10, 10, 10, 12, 10, 10, 10, 10, 9, 8, 10, 10, 10, 10, 4, 10, 10, 10, 9, 10, 8, 8, 9, 9, 8, 10, 8, 10, 10, 8, 9, 9, 9, 0, 0, 9, 0, 10, 10, 10, 8, 10, 10, 10, 10, 8, 10, 9, 9, 10, 10, 10, 9, 10, 10, 8, 10, 10, 8, 10, 10, 10, 9, 10, 0, 10, 0, 10, 12, 10, 10, 10, 10, 10, 10, 0, 10, 2, 10, 8, 12, 11, 2, 11, 12, 11, 8, 9, 10, 9, 10, 9, 8, 8, 8, 12, 10, 12, 8, 9, 8, 9, 8, 10, 9, 9, 9, 9, 9, 0, 8, 9, 8, 8, 0, 9, 0, 9, 10, 10, 11, 11, 9, 11, 0, 0, 11, 0, 10, 10, 9, 11, 11, 11, 8, 9, 10, 10, 10, 10, 4, 0, 9, 10, 10, 0, 10, 10, 11, 12, 11, 10, 9, 9, 10, 8, 7, 9, 9, 6, 9, 10, 10, 10, 10, 10, 7, 10, 0, 0, 10, 10, 10, 0, 10, 10, 2, 10, 10, 10, 10, 10, 10, 8, 9, 10, 0, 10, 8, 10, 10, 10, 1, 0, 0, 10, 10, 9, 10, 8, 8, 8, 8, 9, 8, 8, 8, 9, 0, 8, 8, 10, 0, 0, 0, 0, 0, 8, 8, 0, 0, 0, 0, 10, 0, 8, 2, 10, 10, 10, 0, 8, 9, 10, 9, 0, 10, 10, 0, 10, 10, 10, 9, 0, 10, 8, 10, 10, 10, 10, 0, 10, 10, 0, 10, 8, 7, 9, 8, 8, 8, 8, 2, 9, 8, 9, 9, 8, 8, 8, 8, 8, 6, 8, 8, 8, 8, 8, 9, 8, 0, 0, 8, 6, 6, 0, 0, 0, 9, 0, 8, 0, 0, 0, 6, 0, 0, 4, 10, 8, 0, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 0, 0, 10, 10, 10, 11, 0, 0, 9, 9, 0, 9, 10, 10, 8, 6, 10, 0, 10, 10, 10, 9, 10, 10, 0, 0, 0, 10, 9, 10, 9, 8, 10, 10, 9, 8, 10, 9, 0, 9, 10, 9, 0, 10, 12, 8, 6, 8, 8, 7, 8, 8, 9, 0, 8, 9, 9, 9, 0, 0, 2, 9, 10, 8, 7, 6, 7, 9, 9, 10, 0, 10, 10, 10, 10, 10, 11, 11, 10, 10, 10, 10, 10, 6, 10, 8, 8, 8, 10, 8, 8, 8, 10, 8, 9, 8, 9, 8, 8, 7, 10, 9, 10, 10, 8, 10, 11, 10, 11, 10, 0, 12, 12, 0, 10, 8, 8, 10, 10, 8, 8, 10, 10, 10, 0, 5, 10, 9, 6, 9, 9, 6, 9, 9, 10, 9, 10, 3, 10, 9, 0, 9, 9, 8, 10, 0, 0, 8, 8, 10, 10, 8, 6, 10, 0, 9, 9, 10, 10, 10, 0, 8, 10, 8, 8, 10, 8, 10, 8, 9, 8, 0, 10, 10, 10, 8, 0, 8, 8, 10, 9, 8, 7, 0, 10, 10, 0, 10, 10, 10, 10, 10, 10, 10, 8, 8, 0, 8, 8, 8, 8, 0, 8, 8, 0, 0, 0, 10, 8, 9, 8, 8, 8, 8, 9, 10, 9, 8, 9, 9, 9, 9, 8, 9, 10, 0, 9, 9, 10, 5, 8, 0, 9, 0, 8, 10, 8, 10, 10, 8, 10, 10, 8, 10, 10, 4, 10, 10, 8, 10, 9, 10, 8, 9, 0, 10, 0, 8, 6, 6, 0, 6, 10, 9, 10, 10, 8, 9, 10, 9, 8, 10, 8, 9, 6, 0, 0, 12, 12, 14, 10, 10, 8, 10, 8, 8, 10, 8, 8, 8, 8, 10, 8, 8, 9, 9, 0, 9, 7, 0, 10, 11, 11, 11, 10, 9, 9, 10, 8, 8, 8, 9, 10, 10, 8, 8, 8, 0, 10, 0, 7, 9, 7, 10, 10, 10, 0, 6, 10, 10, 0, 0, 10, 7, 2, 2, 8, 8, 8, 8, 9, 9, 8, 9, 8, 8, 8, 8, 7, 8, 8, 0, 10, 8, 10, 0, 0, 8, 0, 8, 0, 8, 9, 8, 9, 8, 9, 8, 8, 10, 10, 10, 0, 9, 12, 10, 10, 12, 12, 12, 10, 12, 8, 0, 0, 12, 8, 0, 1, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 7, 8, 8, 8, 8, 6, 8, 8, 4, 6, 8, 8, 0, 6, 6, 0, 6, 8, 8, 7, 0, 8, 8, 0, 6, 6, 8, 9, 10, 8, 10, 10, 9, 9, 9, 10, 10, 9, 10, 8, 8, 10, 10, 9, 10, 10, 10, 10, 10, 8, 10, 10, 0, 10, 10, 10, 8, 8, 8, 8, 8, 10, 10, 8, 8, 10, 8, 0, 10, 10, 10, 9, 8, 0, 10, 4, 0, 14, 0, 14, 0, 9, 10, 10, 10, 10, 10, 6, 9, 10, 10, 10, 10, 10, 8, 8, 9, 10, 10, 10, 10, 10, 10, 10, 0, 0, 11, 12, 10, 9, 10, 10, 10, 9, 9, 11, 12, 5, 10, 10, 8, 8, 8, 9, 10, 10, 10, 10, 9, 9, 10, 10, 9, 9, 8, 0, 9, 0, 8, 10, 10, 0, 10, 10, 4, 9, 4, 10, 0, 10, 0, 0, 0, 10, 11, 12, 12, 10, 0, 0, 0, 10, 10, 9, 10, 1, 10, 10, 12, 10, 12, 0, 9, 10, 8, 10, 10, 10, 8, 9, 10, 0, 0, 0, 0, 10, 0, 10, 10, 10, 10, 10, 10, 10, 10, 10, 0, 0, 10, 10, 10, 10, 9, 10, 0, 8, 8, 8, 9, 8, 8, 6, 9, 8, 10, 10, 9, 4, 9, 8, 8, 8, 8, 8, 0, 0, 9, 8, 8, 10, 9, 8, 0, 8, 8, 9, 9, 8, 0, 10, 0, 10, 10, 10, 10, 8, 8, 8, 8, 8, 8, 0, 9, 10, 0, 10, 9, 9, 0, 8, 9, 8, 9, 9, 0, 10, 0, 0, 0, 8, 8, 10, 10, 11, 0, 10, 10, 10, 10, 10, 11, 10, 10, 8, 9, 11, 0, 12, 9, 10, 0, 10, 0, 10, 11, 8, 10, 8, 10, 10, 10, 10, 10, 10, 11, 10, 12, 9, 10, 9, 8, 8, 8, 12, 9, 8, 9, 2, 8, 8, 0, 0, 9, 9, 12, 0, 12, 12, 9, 8, 4, 9, 9, 9, 0, 8, 8, 0, 6, 8, 8, 12, 12, 11, 8, 0, 6, 10, 10, 8, 10, 0, 10, 10, 0, 10, 10, 0, 8, 8, 10, 10, 10, 9, 10, 1, 10, 10, 10, 10, 10, 10, 0, 10, 0, 10, 10, 0, 8, 10, 12, 10, 12, 10, 11, 12, 11, 10, 10, 10, 0, 10, 9, 10, 10, 10, 10, 10, 0, 10, 0, 0, 10, 10, 10, 6, 8, 11, 9, 8, 0, 10, 11, 10, 10, 11, 11, 9, 10, 8, 10, 8, 8, 9, 8, 8, 10, 9, 8, 0, 7, 0, 8, 0, 0, 9, 9, 9, 9, 9, 9, 10, 8, 8, 8, 8, 8, 8, 9, 8, 6, 10, 8, 8, 8, 9, 0, 10, 10, 10, 10, 10, 10, 10, 10, 10, 11, 11, 10, 9, 9, 11, 11, 0, 11, 10, 6, 10, 11, 11, 2, 2, 9, 10, 10, 12, 0, 12, 12, 8, 9, 8, 9, 8, 0, 4, 0, 8, 6, 8, 8, 10, 9, 0, 8, 8, 8, 8, 6, 6, 7, 8, 0, 10, 6, 0, 0, 10, 8, 0, 0, 8, 9, 6, 8, 10, 8, 0, 8, 6, 4, 12, 0, 0, 0, 0, 0, 0, 0, 8, 0, 8, 8, 9, 8, 6, 8, 8, 9, 0, 0, 7, 10, 8, 10, 0, 0, 9, 8, 10, 8, 8, 9, 10, 10, 10, 10, 8, 8, 8, 10, 10, 10, 10, 10, 0, 0, 10, 0, 10, 10, 10, 11, 10, 9, 8, 10, 9, 8, 0, 9, 8, 0, 0, 0, 8, 10, 8, 0, 12, 0, 9, 8, 0, 8, 8, 4, 10, 0, 0, 12, 10, 10, 10, 0, 10, 10, 10, 10, 10, 10, 10, 0, 10, 10, 10, 8, 0, 0, 8, 10, 10, 10, 0, 10, 12, 0, 10, 0, 0, 0, 10, 8, 12, 10, 10, 10, 11, 10, 0, 10, 12, 10, 10, 0, 10, 10, 10, 0, 12, 10, 4, 8, 6, 10, 0, 0, 10, 10, 8, 8, 9, 10, 0, 7, 7, 10, 8, 9, 9, 9, 8, 0, 0, 0, 0, 8, 0, 8, 0, 10, 9, 0, 0, 0, 11, 10, 10, 10, 8, 10, 8, 10, 8, 10, 11, 10, 10, 10, 10, 11, 10, 0, 10, 10, 12, 11, 0, 5, 10, 8, 10, 10, 10, 10, 8, 11, 0, 0, 10, 11, 10, 0, 0, 8, 8, 8, 8, 0, 8, 8, 8, 10, 10, 9, 8, 8, 9, 8, 10, 8, 8, 8, 9, 6, 9, 9, 8, 8, 6, 10, 10, 10, 10, 10, 10, 12, 8, 12, 8, 8, 8, 9, 8, 8, 8, 10, 4, 0, 9, 8, 8, 8, 8, 2, 12, 8, 10, 8, 10, 10, 10, 10, 8, 10, 9, 10, 0, 0, 10, 0, 8, 10, 9, 10, 0, 10, 8, 8, 8, 10, 0, 10, 8, 10, 9, 9, 0, 10, 10, 8, 10, 10, 10, 10, 10, 10, 10, 10, 10, 6, 10, 8, 12, 11, 10, 12, 8, 8, 9, 10, 9, 6, 10, 0, 10, 10, 10, 0, 0, 10, 10, 12, 0, 10, 0, 0, 10, 11, 10, 10, 8, 0, 3, 0, 0, 4, 4, 12, 10, 10, 0, 11, 10, 10, 1, 0, 11, 10, 10, 8, 9, 8, 8, 8, 8, 0, 0, 0, 0, 8, 8, 8, 8, 0, 0, 0, 8, 8, 0, 8, 8, 4, 4, 9, 4, 0, 0, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 0, 0, 8, 8, 7, 8, 8, 8, 8, 8, 4, 8, 8, 8, 4, 14, 10, 10, 8, 8, 4, 4, 10, 8, 8, 8, 8, 8, 6, 8, 8, 0, 0, 12, 10, 0, 0, 12, 0, 12, 10, 12, 0, 0, 0, 0, 0, 12, 0, 0, 12, 8, 8, 0, 0, 9, 10, 10, 10, 10, 10, 10, 0, 12, 9, 9, 9, 10, 8, 9, 12, 11, 12, 12, 11, 10, 10, 10, 6, 0, 10, 10, 11, 0, 12, 12, 10, 10, 1, 2, 0, 11, 8, 8, 10, 10, 8, 8, 10, 6, 8, 8, 8, 0, 0, 8, 8, 8, 8, 0, 8, 8, 10, 10, 8, 8, 9, 10, 8, 9, 8, 8, 8, 0, 6, 8, 0, 6, 0, 8, 8, 10, 0, 10, 6, 10, 12, 9, 10, 8, 8, 8, 10, 8, 0, 0, 0, 0, 8, 0, 8, 0, 8, 10, 0, 8, 9, 8, 8, 11, 11, 12, 8, 9, 8, 9, 10, 9, 0, 0, 8, 11, 10, 11, 11, 14, 11, 0, 0, 0, 10, 9, 10, 9, 10, 8, 9, 10, 0, 9, 8, 0, 0, 8, 8, 0, 0, 0, 9, 10, 4, 8, 4, 4, 10, 4, 10, 4, 10, 4, 10, 9, 9, 9, 10, 10, 10, 14, 8, 6, 4, 8, 8, 4, 8, 9, 9, 10, 0, 8, 8, 8, 0, 8, 10, 8, 10, 0, 0, 6, 10, 9, 0, 10, 6, 8, 10, 0, 0, 0, 0, 0, 0, 10, 10, 8, 8, 0, 0, 10, 10, 11, 10, 10, 0, 11, 10, 10, 8, 8, 8, 8, 0, 0, 8, 8, 0, 8, 8, 4, 8, 10, 8, 8, 10, 10, 6, 10, 9, 10, 10, 10, 10, 10, 10, 10, 0, 8, 0, 10, 10, 10, 0, 11, 0, 3, 8, 0, 11, 12, 10, 0, 0, 2, 8, 8, 0, 10, 0, 10, 8, 10, 10, 10, 10, 8, 0, 0, 10, 8, 6, 7, 10, 6, 8, 10, 10, 0, 6, 10, 8, 8, 8, 10, 0, 8, 8, 8, 8, 8, 0, 0, 8, 10, 8, 4, 9, 0, 0, 8, 0, 10, 0, 0, 9, 8, 10, 10, 10, 9, 0, 10, 10, 10, 10, 10, 0, 0, 0, 8, 9, 10, 0, 0, 0, 0, 10, 9, 10, 10, 9, 8, 8, 10, 10, 10, 12, 8, 8, 9, 9, 0, 8, 8, 8, 9, 10, 9, 8, 10, 9, 10, 10, 8, 10, 9, 11, 10, 8, 9, 6, 9, 0, 0, 0, 10, 10, 0, 0, 10, 8, 10, 8, 0, 0, 9, 8, 10, 9, 8, 8, 10, 8, 10, 10, 0, 8, 0, 0, 0, 8, 10, 8, 10, 0, 0, 8, 10, 0, 9, 10, 10, 10, 10, 10, 10, 10, 0, 10, 0, 10, 10, 9, 9, 9, 9, 0, 9, 9, 9, 10, 0, 0, 0, 0, 6, 8, 0, 0, 9, 8, 0, 10, 9, 10, 9, 0, 10, 0, 0, 0, 0, 0, 10, 0, 0, 8, 0, 0, 8, 10, 0, 4, 10, 9, 8, 10, 9, 10, 10, 0, 10, 10, 8, 8, 8, 0, 0, 0, 10, 8, 0, 0, 0, 8, 8, 9, 8, 9, 9, 9, 8, 0, 8, 8, 8, 8, 4, 10, 8, 9, 9, 11, 12, 12, 10, 10, 8, 10, 10, 9, 10, 7, 8, 10, 8, 8, 9, 0, 9, 8, 8, 8, 9, 8, 8, 0, 8, 8, 8, 10, 8, 10, 10, 0, 0, 8, 10, 10, 10, 10, 0, 8, 8, 8, 8, 8, 8, 10, 8, 10, 9, 8, 9, 7, 9, 10, 10, 2, 10, 10, 0, 8, 10, 8, 10, 8, 10, 10, 10, 10, 10, 10, 10, 10, 10, 0, 10, 10, 10, 10, 10, 9, 8, 9, 8, 8, 10, 0, 0, 8, 8, 8, 8, 8, 8, 8, 8, 8, 10, 6, 8, 8, 7, 7, 8, 8, 8, 0, 6, 8, 7, 8, 8, 8, 8, 8, 0, 0, 0, 8, 8, 8, 0, 0, 9, 0, 8, 0, 0, 8, 0, 8, 8, 12, 10, 12, 9, 10, 10, 0, 10, 10, 10, 10, 10, 10, 10, 8, 0, 0, 10, 8, 10, 8, 8, 10, 9, 0, 10, 0, 0, 10, 10, 0, 10, 0, 10, 12, 10, 0, 9, 10, 10, 9, 9, 8, 10, 4, 2, 9, 7, 9, 8, 4, 11, 0, 12, 11, 8, 8, 0, 10, 9, 8, 7, 0, 0, 8, 0, 8, 0, 0, 10, 8, 9, 10, 8, 9, 8, 8, 10, 8, 8, 10, 10, 10, 8, 0, 9, 10, 0, 10, 10, 10, 0, 0, 10, 10, 0, 10, 0, 10, 0, 10, 10, 0, 10, 8, 9, 0, 8, 0, 10, 9, 10, 0, 10, 10, 10, 10, 10, 0, 8, 8, 0, 0, 0, 10, 8, 8, 0, 10, 8, 0, 6, 0, 6, 0, 10, 0, 10, 10, 10, 10, 10, 0, 10, 8, 10, 0, 10, 10, 9, 9, 10, 8, 10, 0, 0, 10, 10, 4, 10, 9, 12, 10, 1, 8, 0, 9, 12, 10, 0, 0, 0, 0, 0, 8, 0, 10, 10, 8, 7, 8, 8, 8, 8, 4, 7, 4, 7, 0, 9, 8, 9, 8, 11, 0, 0, 11, 0, 10, 10, 0, 10, 0, 8, 9, 0, 0, 0, 9, 10, 9, 0, 0, 8, 8, 9, 2, 10, 8, 8, 8, 8, 8, 6, 6, 8, 8, 8, 8, 8, 8, 8, 6, 8, 7, 8, 7, 8, 6, 6, 7, 8, 8, 0, 4, 6, 7, 4, 6, 8, 7, 0, 6, 6, 4, 6, 0, 6, 7, 6, 8, 6, 0, 0, 10, 10, 0, 10, 12, 10, 1, 10, 8, 9, 9, 10, 0, 8, 10, 12, 10, 12, 10, 8, 10, 10, 10, 8, 9, 3, 8, 0, 8, 8, 8, 8, 4, 8, 8, 8, 0, 8, 8, 0, 0, 0, 8, 8, 8, 8, 8, 8, 8, 8, 10, 8, 8, 8, 12, 9, 0, 8, 10, 0, 0, 10, 0, 0, 0, 10, 0, 8, 10, 10, 10, 10, 0, 10, 10, 0, 9, 9, 10, 0, 0, 10, 9, 10, 0, 0, 0, 10, 8, 8, 10, 9, 8, 9, 10, 10, 10, 8, 10, 10, 8, 10, 8, 9, 9, 9, 10, 0, 10, 10, 12, 10, 10, 10, 0, 10, 8, 10, 8, 0, 0, 8, 9, 0, 0, 0, 0, 0, 0, 8, 0, 8, 7, 9, 9, 8, 8, 8, 9, 0, 8, 0, 6, 6, 8, 8, 0, 10, 6, 6, 4, 0, 8, 6, 0, 4, 6, 6, 4, 0, 8, 4, 9, 8, 8, 6, 9, 9, 7, 0, 6, 9, 7, 8, 10, 8, 10, 10, 12, 11, 10, 10, 12, 12, 10, 10, 10, 12, 0, 0, 10, 9, 10, 9, 10, 0, 0, 10, 10, 10, 0, 10, 0, 12, 0, 0, 4, 8, 8, 9, 12, 9, 9, 10, 0, 10, 4, 9, 8, 8, 8, 9, 10, 10, 10, 10, 8, 8, 9, 8, 8, 8, 8, 0, 8, 8, 8, 10, 10, 0, 0, 9, 12, 11, 0, 10, 10, 4, 10, 0, 10, 4, 10, 9, 10, 10, 10, 10, 8, 8, 8, 8, 8, 8, 0, 6, 8, 8, 0, 8, 0, 8, 8, 6, 8, 6, 0, 8, 0, 4, 8, 8, 8, 8, 8, 8, 0, 0, 10, 10, 10, 10, 10, 10, 6, 0, 8, 6, 0, 8, 6, 8, 11, 0, 11, 10, 11, 10, 0, 10, 0, 10, 11, 10, 11, 11, 0, 11, 10, 12, 9, 10, 10, 9, 10, 10, 0, 0, 1, 12, 0, 10, 0, 0, 10, 9, 11, 10, 10, 2, 10, 10, 11, 11, 11, 11, 0, 0, 11, 0, 10, 10, 0, 10, 0, 10, 12, 10, 8, 0, 8, 0, 10, 10, 12, 10, 10, 10, 0, 0, 9, 0, 0, 0, 10, 10, 10, 0, 0, 10, 9, 11, 0, 10, 8, 8, 8, 8, 0, 0, 8, 0, 10, 10, 10, 9, 10, 8, 10, 8, 10, 10, 10, 10, 10, 10, 10, 9, 6, 9, 8, 8, 8, 8, 9, 10, 9, 4, 8, 8, 9, 8, 9, 8, 9, 8, 9, 9, 10, 7, 8, 11, 0, 11, 8, 0, 0, 8, 8, 0, 8, 0, 8, 0, 8, 0, 9, 0, 0, 0, 8, 10, 8, 8, 0, 8, 8, 8, 8, 10, 0, 10, 11, 11, 12, 10, 10, 11, 11, 10, 10, 9, 4, 0, 0, 0, 0, 0, 0, 10, 0, 0, 12, 0, 0, 0, 10, 2, 10, 10, 8, 10, 9, 9]
+The results are ready
+Exited out of while loop
+Attempting to get result values
+Result values were successfully retrieved
+Alpha-i-metric: 14
+Computing Alpha-i-metric Execution time: 90.60969686508179 seconds
+Analysis complete.
+Completed

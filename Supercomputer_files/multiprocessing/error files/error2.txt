@@ -1,0 +1,3 @@
++ python main.py
+slurmstepd: error: *** JOB 30779524 ON o0518 CANCELLED AT 2024-04-30T02:14:55 DUE TO TIME LIMIT ***
+slurmstepd: error: Detected 285 oom_kill events in StepId=30779524.batch. Some of the step tasks have been OOM Killed.

@@ -1,0 +1,1906 @@
+Loading graphdata
+Computing size ...
+Number of nodes n: 18772
+Number of edges m: 198110
+Computing size ...
+Number of nodes n (of LBC): 15929
+Number of edges m (of LBC): 193978
+Computing distance matrix ...
+Computing alpha-i metric (of LBC) ...
+Setting up pool object and with arguments
+map_async function being called
+Entering while loop until results are ready
+The current number of edges in the queue is 0 out of 193978
+The number of active processes is 29
+Process 12358 is alive: True
+Process 12405 is alive: True
+Process 12390 is alive: True
+Process 12376 is alive: True
+Process 12360 is alive: True
+Process 12407 is alive: True
+Process 12392 is alive: True
+Process 12378 is alive: True
+Process 12362 is alive: True
+Process 12409 is alive: True
+Process 12395 is alive: True
+Process 12380 is alive: True
+Process 12365 is alive: True
+Process 12411 is alive: True
+Process 12397 is alive: True
+Process 12382 is alive: True
+Process 12367 is alive: True
+Process 12399 is alive: True
+Process 12384 is alive: True
+Process 12370 is alive: True
+Process 12349 is alive: True
+Process 12401 is alive: True
+Process 12386 is alive: True
+Process 12372 is alive: True
+Process 12354 is alive: True
+Process 12403 is alive: True
+Process 12356 is alive: True
+Process 12388 is alive: True
+Process 12374 is alive: True
+RAM memory % used: 16.8
+RAM Used (GB): 20.527947776
+Elapsed time: 18.33982539176941
+The current number of edges in the queue is 3 out of 193978
+The number of active processes is 29
+Process 12358 is alive: True
+Process 12405 is alive: True
+Process 12390 is alive: True
+Process 12376 is alive: True
+Process 12360 is alive: True
+Process 12407 is alive: True
+Process 12392 is alive: True
+Process 12378 is alive: True
+Process 12362 is alive: True
+Process 12409 is alive: True
+Process 12395 is alive: True
+Process 12380 is alive: True
+Process 12365 is alive: True
+Process 12411 is alive: True
+Process 12397 is alive: True
+Process 12382 is alive: True
+Process 12367 is alive: True
+Process 12399 is alive: True
+Process 12384 is alive: True
+Process 12370 is alive: True
+Process 12349 is alive: True
+Process 12401 is alive: True
+Process 12386 is alive: True
+Process 12372 is alive: True
+Process 12354 is alive: True
+Process 12403 is alive: True
+Process 12356 is alive: True
+Process 12388 is alive: True
+Process 12374 is alive: True
+RAM memory % used: 38.3
+RAM Used (GB): 49.487507456
+Elapsed time: 50.846227169036865
+The current number of edges in the queue is 23 out of 193978
+The number of active processes is 29
+Process 12358 is alive: True
+Process 12405 is alive: True
+Process 12390 is alive: True
+Process 12376 is alive: True
+Process 12360 is alive: True
+Process 12407 is alive: True
+Process 12392 is alive: True
+Process 12378 is alive: True
+Process 12362 is alive: True
+Process 12409 is alive: True
+Process 12395 is alive: True
+Process 12380 is alive: True
+Process 12365 is alive: True
+Process 12411 is alive: True
+Process 12397 is alive: True
+Process 12382 is alive: True
+Process 12367 is alive: True
+Process 12399 is alive: True
+Process 12384 is alive: True
+Process 12370 is alive: True
+Process 12349 is alive: True
+Process 12401 is alive: True
+Process 12386 is alive: True
+Process 12372 is alive: True
+Process 12354 is alive: True
+Process 12403 is alive: True
+Process 12356 is alive: True
+Process 12388 is alive: True
+Process 12374 is alive: True
+RAM memory % used: 64.9
+RAM Used (GB): 85.49541888
+Elapsed time: 86.22618365287781
+The current number of edges in the queue is 33 out of 193978
+The number of active processes is 29
+Process 12358 is alive: True
+Process 12405 is alive: True
+Process 12390 is alive: True
+Process 12376 is alive: True
+Process 12360 is alive: True
+Process 12407 is alive: True
+Process 12392 is alive: True
+Process 12378 is alive: True
+Process 12362 is alive: True
+Process 12409 is alive: True
+Process 12395 is alive: True
+Process 12380 is alive: True
+Process 12365 is alive: True
+Process 12411 is alive: True
+Process 12397 is alive: True
+Process 12382 is alive: True
+Process 12367 is alive: True
+Process 12399 is alive: True
+Process 12384 is alive: True
+Process 12370 is alive: True
+Process 12349 is alive: True
+Process 12401 is alive: True
+Process 12386 is alive: True
+Process 12372 is alive: True
+Process 12354 is alive: True
+Process 12403 is alive: True
+Process 12356 is alive: True
+Process 12388 is alive: True
+Process 12374 is alive: True
+RAM memory % used: 91.2
+RAM Used (GB): 120.969310208
+Elapsed time: 121.13742136955261
+The current number of edges in the queue is 39 out of 193978
+The number of active processes is 28
+Process 12358 is alive: True
+Process 12405 is alive: True
+Process 12390 is alive: True
+Process 12376 is alive: True
+Process 12360 is alive: True
+Process 12407 is alive: True
+Process 12392 is alive: True
+Process 12378 is alive: True
+Process 12362 is alive: True
+Process 12409 is alive: True
+Process 12395 is alive: True
+Process 12380 is alive: True
+Process 12411 is alive: True
+Process 12397 is alive: True
+Process 12382 is alive: True
+Process 12367 is alive: True
+Process 12399 is alive: True
+Process 12384 is alive: True
+Process 12370 is alive: True
+Process 12349 is alive: True
+Process 12401 is alive: True
+Process 12386 is alive: True
+Process 12372 is alive: True
+Process 12354 is alive: True
+Process 12403 is alive: True
+Process 12356 is alive: True
+Process 12388 is alive: True
+Process 12374 is alive: True
+RAM memory % used: 88.7
+RAM Used (GB): 118.703497216
+Elapsed time: 154.85281896591187
+The current number of edges in the queue is 55 out of 193978
+The number of active processes is 28
+Process 12358 is alive: True
+Process 12405 is alive: True
+Process 12390 is alive: True
+Process 12376 is alive: True
+Process 12360 is alive: True
+Process 12407 is alive: True
+Process 12392 is alive: True
+Process 12378 is alive: True
+Process 12362 is alive: True
+Process 12779 is alive: True
+Process 12409 is alive: True
+Process 12395 is alive: True
+Process 12380 is alive: True
+Process 12411 is alive: True
+Process 12397 is alive: True
+Process 12382 is alive: True
+Process 12399 is alive: True
+Process 12384 is alive: True
+Process 12370 is alive: True
+Process 12349 is alive: True
+Process 12401 is alive: True
+Process 12386 is alive: True
+Process 12372 is alive: True
+Process 12354 is alive: True
+Process 12403 is alive: True
+Process 12356 is alive: True
+Process 12388 is alive: True
+Process 12374 is alive: True
+RAM memory % used: 94.0
+RAM Used (GB): 126.402236416
+Elapsed time: 201.06086945533752
+The current number of edges in the queue is 57 out of 193978
+The number of active processes is 29
+Process 12358 is alive: True
+Process 12405 is alive: True
+Process 12390 is alive: True
+Process 12376 is alive: True
+Process 12360 is alive: True
+Process 12865 is alive: True
+Process 12407 is alive: True
+Process 12392 is alive: True
+Process 12378 is alive: True
+Process 12779 is alive: True
+Process 12989 is alive: True
+Process 12409 is alive: True
+Process 12395 is alive: True
+Process 12380 is alive: True
+Process 12411 is alive: True
+Process 12397 is alive: True
+Process 12382 is alive: True
+Process 12399 is alive: True
+Process 12952 is alive: True
+Process 12384 is alive: True
+Process 12349 is alive: True
+Process 12401 is alive: True
+Process 12386 is alive: True
+Process 12372 is alive: True
+Process 12354 is alive: True
+Process 12403 is alive: True
+Process 12356 is alive: True
+Process 12388 is alive: True
+Process 12374 is alive: True
+RAM memory % used: 92.8
+RAM Used (GB): 124.512894976
+Elapsed time: 244.2079348564148
+The current number of edges in the queue is 61 out of 193978
+The number of active processes is 28
+Process 12358 is alive: True
+Process 12405 is alive: True
+Process 12390 is alive: True
+Process 12376 is alive: True
+Process 12360 is alive: True
+Process 12865 is alive: True
+Process 12407 is alive: True
+Process 12392 is alive: True
+Process 12378 is alive: True
+Process 12779 is alive: True
+Process 12989 is alive: True
+Process 12409 is alive: True
+Process 12395 is alive: True
+Process 13027 is alive: True
+Process 12380 is alive: True
+Process 12411 is alive: True
+Process 12397 is alive: True
+Process 12382 is alive: True
+Process 12399 is alive: True
+Process 12952 is alive: True
+Process 12384 is alive: True
+Process 12349 is alive: True
+Process 12401 is alive: True
+Process 12386 is alive: True
+Process 12354 is alive: True
+Process 12403 is alive: True
+Process 12356 is alive: True
+Process 12388 is alive: True
+RAM memory % used: 94.6
+RAM Used (GB): 126.923288576
+Elapsed time: 284.5694189071655
+The current number of edges in the queue is 80 out of 193978
+The number of active processes is 28
+Process 12358 is alive: True
+Process 12405 is alive: True
+Process 12390 is alive: True
+Process 12360 is alive: True
+Process 12865 is alive: True
+Process 12407 is alive: True
+Process 12392 is alive: True
+Process 12779 is alive: True
+Process 12989 is alive: True
+Process 12409 is alive: True
+Process 12395 is alive: True
+Process 13027 is alive: True
+Process 12380 is alive: True
+Process 12411 is alive: True
+Process 12397 is alive: True
+Process 12382 is alive: True
+Process 12399 is alive: True
+Process 12952 is alive: True
+Process 12384 is alive: True
+Process 12349 is alive: True
+Process 13076 is alive: True
+Process 12401 is alive: True
+Process 12386 is alive: True
+Process 12354 is alive: True
+Process 12403 is alive: True
+Process 12356 is alive: True
+Process 12388 is alive: True
+Process 13112 is alive: True
+RAM memory % used: 97.0
+RAM Used (GB): 130.164129792
+Elapsed time: 327.1043236255646
+The current number of edges in the queue is 90 out of 193978
+The number of active processes is 28
+Process 12358 is alive: True
+Process 12405 is alive: True
+Process 12390 is alive: True
+Process 12360 is alive: True
+Process 12865 is alive: True
+Process 12407 is alive: True
+Process 12392 is alive: True
+Process 13192 is alive: True
+Process 12779 is alive: True
+Process 12989 is alive: True
+Process 12409 is alive: True
+Process 12395 is alive: True
+Process 13027 is alive: True
+Process 12411 is alive: True
+Process 12397 is alive: True
+Process 12399 is alive: True
+Process 12952 is alive: True
+Process 12384 is alive: True
+Process 12349 is alive: True
+Process 13076 is alive: True
+Process 12401 is alive: True
+Process 12386 is alive: True
+Process 12354 is alive: True
+Process 12403 is alive: True
+Process 13139 is alive: True
+Process 12356 is alive: True
+Process 12388 is alive: True
+Process 13112 is alive: True
+RAM memory % used: 92.9
+RAM Used (GB): 123.626827776
+Elapsed time: 370.2961781024933
+The current number of edges in the queue is 92 out of 193978
+The number of active processes is 28
+Process 12358 is alive: True
+Process 12405 is alive: True
+Process 12390 is alive: True
+Process 12360 is alive: True
+Process 12865 is alive: True
+Process 12407 is alive: True
+Process 12392 is alive: True
+Process 13192 is alive: True
+Process 12779 is alive: True
+Process 12989 is alive: True
+Process 13225 is alive: True
+Process 12409 is alive: True
+Process 12395 is alive: True
+Process 13027 is alive: True
+Process 13333 is alive: True
+Process 12411 is alive: True
+Process 12397 is alive: True
+Process 13230 is alive: True
+Process 12399 is alive: True
+Process 12952 is alive: True
+Process 12349 is alive: True
+Process 13076 is alive: True
+Process 12401 is alive: True
+Process 12354 is alive: True
+Process 12403 is alive: True
+Process 13139 is alive: True
+Process 12356 is alive: True
+Process 13112 is alive: True
+RAM memory % used: 87.9
+RAM Used (GB): 117.918609408
+Elapsed time: 409.2585771083832
+The current number of edges in the queue is 92 out of 193978
+The number of active processes is 28
+Process 12358 is alive: True
+Process 12405 is alive: True
+Process 12865 is alive: True
+Process 12407 is alive: True
+Process 12392 is alive: True
+Process 13192 is alive: True
+Process 12779 is alive: True
+Process 12989 is alive: True
+Process 13225 is alive: True
+Process 12409 is alive: True
+Process 12395 is alive: True
+Process 13027 is alive: True
+Process 13405 is alive: True
+Process 13333 is alive: True
+Process 12411 is alive: True
+Process 12397 is alive: True
+Process 13230 is alive: True
+Process 12399 is alive: True
+Process 12952 is alive: True
+Process 12349 is alive: True
+Process 13076 is alive: True
+Process 12401 is alive: True
+Process 12354 is alive: True
+Process 13439 is alive: True
+Process 12403 is alive: True
+Process 13139 is alive: True
+Process 12356 is alive: True
+Process 13112 is alive: True
+RAM memory % used: 90.7
+RAM Used (GB): 122.059812864
+Elapsed time: 449.2075455188751
+The current number of edges in the queue is 94 out of 193978
+The number of active processes is 28
+Process 12358 is alive: True
+Process 12405 is alive: True
+Process 13547 is alive: True
+Process 12865 is alive: True
+Process 12407 is alive: True
+Process 13192 is alive: True
+Process 12779 is alive: True
+Process 12989 is alive: True
+Process 13225 is alive: True
+Process 12409 is alive: True
+Process 13027 is alive: True
+Process 13405 is alive: True
+Process 13333 is alive: True
+Process 12411 is alive: True
+Process 12397 is alive: True
+Process 13230 is alive: True
+Process 12399 is alive: True
+Process 12952 is alive: True
+Process 12349 is alive: True
+Process 13076 is alive: True
+Process 12401 is alive: True
+Process 12354 is alive: True
+Process 13439 is alive: True
+Process 12403 is alive: True
+Process 13139 is alive: True
+Process 12356 is alive: True
+Process 13476 is alive: True
+Process 13112 is alive: True
+RAM memory % used: 92.6
+RAM Used (GB): 124.295172096
+Elapsed time: 487.42121958732605
+The current number of edges in the queue is 94 out of 193978
+The number of active processes is 28
+Process 12358 is alive: True
+Process 12405 is alive: True
+Process 13547 is alive: True
+Process 12865 is alive: True
+Process 13578 is alive: True
+Process 12407 is alive: True
+Process 13192 is alive: True
+Process 12779 is alive: True
+Process 12989 is alive: True
+Process 13225 is alive: True
+Process 12409 is alive: True
+Process 13618 is alive: True
+Process 13027 is alive: True
+Process 13405 is alive: True
+Process 13333 is alive: True
+Process 12411 is alive: True
+Process 13230 is alive: True
+Process 12952 is alive: True
+Process 12349 is alive: True
+Process 13076 is alive: True
+Process 12401 is alive: True
+Process 12354 is alive: True
+Process 13439 is alive: True
+Process 12403 is alive: True
+Process 13139 is alive: True
+Process 12356 is alive: True
+Process 13476 is alive: True
+Process 13112 is alive: True
+RAM memory % used: 95.0
+RAM Used (GB): 127.504908288
+Elapsed time: 527.196638584137
+The current number of edges in the queue is 98 out of 193978
+The number of active processes is 28
+Process 12358 is alive: True
+Process 12405 is alive: True
+Process 13547 is alive: True
+Process 12865 is alive: True
+Process 13578 is alive: True
+Process 12407 is alive: True
+Process 13192 is alive: True
+Process 12779 is alive: True
+Process 12989 is alive: True
+Process 13225 is alive: True
+Process 12409 is alive: True
+Process 13618 is alive: True
+Process 13027 is alive: True
+Process 13405 is alive: True
+Process 13333 is alive: True
+Process 13697 is alive: True
+Process 12411 is alive: True
+Process 13230 is alive: True
+Process 13730 is alive: True
+Process 12952 is alive: True
+Process 12349 is alive: True
+Process 13076 is alive: True
+Process 12354 is alive: True
+Process 13439 is alive: True
+Process 13139 is alive: True
+Process 12356 is alive: True
+Process 13476 is alive: True
+Process 13112 is alive: True
+RAM memory % used: 97.9
+RAM Used (GB): 131.558260736
+Elapsed time: 569.1342391967773
+The current number of edges in the queue is 101 out of 193978
+The number of active processes is 28
+Process 12358 is alive: True
+Process 13547 is alive: True
+Process 12865 is alive: True
+Process 13578 is alive: True
+Process 13192 is alive: True
+Process 12779 is alive: True
+Process 12989 is alive: True
+Process 13225 is alive: True
+Process 13618 is alive: True
+Process 13027 is alive: True
+Process 13405 is alive: True
+Process 13333 is alive: True
+Process 13697 is alive: True
+Process 12411 is alive: True
+Process 13230 is alive: True
+Process 13730 is alive: True
+Process 12952 is alive: True
+Process 12349 is alive: True
+Process 13757 is alive: True
+Process 13076 is alive: True
+Process 12354 is alive: True
+Process 13835 is alive: True
+Process 13439 is alive: True
+Process 13834 is alive: True
+Process 13139 is alive: True
+Process 12356 is alive: True
+Process 13476 is alive: True
+Process 13112 is alive: True
+RAM memory % used: 87.3
+RAM Used (GB): 117.078376448
+Elapsed time: 614.0935423374176
+The current number of edges in the queue is 103 out of 193978
+The number of active processes is 29
+Process 12358 is alive: True
+Process 13547 is alive: True
+Process 13960 is alive: True
+Process 12865 is alive: True
+Process 13578 is alive: True
+Process 13939 is alive: True
+Process 13192 is alive: True
+Process 12989 is alive: True
+Process 13225 is alive: True
+Process 13618 is alive: True
+Process 13027 is alive: True
+Process 13405 is alive: True
+Process 13333 is alive: True
+Process 13697 is alive: True
+Process 13876 is alive: True
+Process 13230 is alive: True
+Process 13730 is alive: True
+Process 12952 is alive: True
+Process 12349 is alive: True
+Process 13757 is alive: True
+Process 13076 is alive: True
+Process 12354 is alive: True
+Process 13835 is alive: True
+Process 13439 is alive: True
+Process 13834 is alive: True
+Process 13139 is alive: True
+Process 12356 is alive: True
+Process 13476 is alive: True
+Process 13112 is alive: True
+RAM memory % used: 87.8
+RAM Used (GB): 117.771636736
+Elapsed time: 654.587854385376
+The current number of edges in the queue is 103 out of 193978
+The number of active processes is 28
+Process 12358 is alive: True
+Process 13547 is alive: True
+Process 13960 is alive: True
+Process 13578 is alive: True
+Process 13939 is alive: True
+Process 13192 is alive: True
+Process 12989 is alive: True
+Process 13225 is alive: True
+Process 13618 is alive: True
+Process 13027 is alive: True
+Process 13405 is alive: True
+Process 13333 is alive: True
+Process 13995 is alive: True
+Process 13697 is alive: True
+Process 13876 is alive: True
+Process 13230 is alive: True
+Process 13730 is alive: True
+Process 12349 is alive: True
+Process 13757 is alive: True
+Process 13076 is alive: True
+Process 12354 is alive: True
+Process 13835 is alive: True
+Process 13439 is alive: True
+Process 13834 is alive: True
+Process 13139 is alive: True
+Process 12356 is alive: True
+Process 13476 is alive: True
+Process 13112 is alive: True
+RAM memory % used: 88.4
+RAM Used (GB): 118.9983232
+Elapsed time: 697.3345420360565
+The current number of edges in the queue is 137 out of 193978
+The number of active processes is 28
+Process 12358 is alive: True
+Process 13547 is alive: True
+Process 13960 is alive: True
+Process 13578 is alive: True
+Process 13939 is alive: True
+Process 13192 is alive: True
+Process 13225 is alive: True
+Process 13618 is alive: True
+Process 13405 is alive: True
+Process 13333 is alive: True
+Process 13995 is alive: True
+Process 13697 is alive: True
+Process 13876 is alive: True
+Process 13230 is alive: True
+Process 14048 is alive: True
+Process 14074 is alive: True
+Process 13730 is alive: True
+Process 12349 is alive: True
+Process 13757 is alive: True
+Process 13076 is alive: True
+Process 12354 is alive: True
+Process 13835 is alive: True
+Process 13439 is alive: True
+Process 13834 is alive: True
+Process 13139 is alive: True
+Process 12356 is alive: True
+Process 13476 is alive: True
+Process 13112 is alive: True
+RAM memory % used: 87.8
+RAM Used (GB): 118.157410304
+Elapsed time: 739.5187933444977
+The current number of edges in the queue is 141 out of 193978
+The number of active processes is 28
+Process 12358 is alive: True
+Process 13547 is alive: True
+Process 13960 is alive: True
+Process 13578 is alive: True
+Process 13939 is alive: True
+Process 13192 is alive: True
+Process 14124 is alive: True
+Process 14226 is alive: True
+Process 13225 is alive: True
+Process 13618 is alive: True
+Process 13405 is alive: True
+Process 13333 is alive: True
+Process 13995 is alive: True
+Process 13697 is alive: True
+Process 13876 is alive: True
+Process 13230 is alive: True
+Process 14048 is alive: True
+Process 14074 is alive: True
+Process 13730 is alive: True
+Process 12349 is alive: True
+Process 13757 is alive: True
+Process 12354 is alive: True
+Process 13835 is alive: True
+Process 13439 is alive: True
+Process 13834 is alive: True
+Process 13139 is alive: True
+Process 12356 is alive: True
+Process 13476 is alive: True
+RAM memory % used: 87.9
+RAM Used (GB): 118.312873984
+Elapsed time: 781.4507944583893
+The current number of edges in the queue is 142 out of 193978
+The number of active processes is 28
+Process 12358 is alive: True
+Process 13547 is alive: True
+Process 13960 is alive: True
+Process 13578 is alive: True
+Process 13939 is alive: True
+Process 14124 is alive: True
+Process 14226 is alive: True
+Process 13225 is alive: True
+Process 14252 is alive: True
+Process 13618 is alive: True
+Process 13405 is alive: True
+Process 13333 is alive: True
+Process 13995 is alive: True
+Process 13697 is alive: True
+Process 13876 is alive: True
+Process 13230 is alive: True
+Process 14048 is alive: True
+Process 14074 is alive: True
+Process 13730 is alive: True
+Process 12349 is alive: True
+Process 13757 is alive: True
+Process 14287 is alive: True
+Process 12354 is alive: True
+Process 13835 is alive: True
+Process 13439 is alive: True
+Process 13834 is alive: True
+Process 12356 is alive: True
+Process 13476 is alive: True
+RAM memory % used: 87.4
+RAM Used (GB): 117.70984448
+Elapsed time: 823.5443632602692
+The current number of edges in the queue is 143 out of 193978
+The number of active processes is 28
+Process 12358 is alive: True
+Process 13547 is alive: True
+Process 13960 is alive: True
+Process 13578 is alive: True
+Process 13939 is alive: True
+Process 14124 is alive: True
+Process 14379 is alive: True
+Process 14346 is alive: True
+Process 14226 is alive: True
+Process 14252 is alive: True
+Process 13618 is alive: True
+Process 13405 is alive: True
+Process 13333 is alive: True
+Process 13995 is alive: True
+Process 13697 is alive: True
+Process 13876 is alive: True
+Process 14048 is alive: True
+Process 14074 is alive: True
+Process 13730 is alive: True
+Process 12349 is alive: True
+Process 13757 is alive: True
+Process 14287 is alive: True
+Process 12354 is alive: True
+Process 13835 is alive: True
+Process 13439 is alive: True
+Process 13834 is alive: True
+Process 12356 is alive: True
+Process 13476 is alive: True
+RAM memory % used: 89.1
+RAM Used (GB): 119.73894144
+Elapsed time: 866.1823337078094
+The current number of edges in the queue is 144 out of 193978
+The number of active processes is 28
+Process 12358 is alive: True
+Process 13547 is alive: True
+Process 13960 is alive: True
+Process 13578 is alive: True
+Process 13939 is alive: True
+Process 14124 is alive: True
+Process 14379 is alive: True
+Process 14346 is alive: True
+Process 14226 is alive: True
+Process 14252 is alive: True
+Process 13618 is alive: True
+Process 13995 is alive: True
+Process 13697 is alive: True
+Process 13876 is alive: True
+Process 14477 is alive: True
+Process 14048 is alive: True
+Process 14074 is alive: True
+Process 13730 is alive: True
+Process 12349 is alive: True
+Process 13757 is alive: True
+Process 14287 is alive: True
+Process 12354 is alive: True
+Process 13835 is alive: True
+Process 13439 is alive: True
+Process 14419 is alive: True
+Process 13834 is alive: True
+Process 12356 is alive: True
+Process 13476 is alive: True
+RAM memory % used: 88.4
+RAM Used (GB): 118.827134976
+Elapsed time: 908.095486164093
+The current number of edges in the queue is 144 out of 193978
+The number of active processes is 28
+Process 12358 is alive: True
+Process 13547 is alive: True
+Process 13960 is alive: True
+Process 14535 is alive: True
+Process 13578 is alive: True
+Process 13939 is alive: True
+Process 14124 is alive: True
+Process 14379 is alive: True
+Process 14346 is alive: True
+Process 14226 is alive: True
+Process 14252 is alive: True
+Process 13618 is alive: True
+Process 13995 is alive: True
+Process 13697 is alive: True
+Process 14509 is alive: True
+Process 13876 is alive: True
+Process 14477 is alive: True
+Process 14048 is alive: True
+Process 14074 is alive: True
+Process 13730 is alive: True
+Process 12349 is alive: True
+Process 13757 is alive: True
+Process 14287 is alive: True
+Process 12354 is alive: True
+Process 13835 is alive: True
+Process 14419 is alive: True
+Process 13834 is alive: True
+Process 12356 is alive: True
+RAM memory % used: 88.8
+RAM Used (GB): 119.500468224
+Elapsed time: 950.5514287948608
+The current number of edges in the queue is 145 out of 193978
+The number of active processes is 28
+Process 12358 is alive: True
+Process 13960 is alive: True
+Process 14535 is alive: True
+Process 13939 is alive: True
+Process 14124 is alive: True
+Process 14379 is alive: True
+Process 14346 is alive: True
+Process 14226 is alive: True
+Process 14252 is alive: True
+Process 13618 is alive: True
+Process 13995 is alive: True
+Process 13697 is alive: True
+Process 14509 is alive: True
+Process 13876 is alive: True
+Process 14477 is alive: True
+Process 14048 is alive: True
+Process 14074 is alive: True
+Process 13730 is alive: True
+Process 12349 is alive: True
+Process 13757 is alive: True
+Process 14643 is alive: True
+Process 14287 is alive: True
+Process 14606 is alive: True
+Process 12354 is alive: True
+Process 13835 is alive: True
+Process 14419 is alive: True
+Process 13834 is alive: True
+Process 12356 is alive: True
+RAM memory % used: 88.4
+RAM Used (GB): 118.842400768
+Elapsed time: 992.5191173553467
+The current number of edges in the queue is 150 out of 193978
+The number of active processes is 28
+Process 12358 is alive: True
+Process 13960 is alive: True
+Process 14535 is alive: True
+Process 14751 is alive: True
+Process 13939 is alive: True
+Process 14124 is alive: True
+Process 14379 is alive: True
+Process 14346 is alive: True
+Process 14226 is alive: True
+Process 14252 is alive: True
+Process 13995 is alive: True
+Process 14509 is alive: True
+Process 13876 is alive: True
+Process 14477 is alive: True
+Process 14048 is alive: True
+Process 14074 is alive: True
+Process 13730 is alive: True
+Process 14790 is alive: True
+Process 12349 is alive: True
+Process 13757 is alive: True
+Process 14643 is alive: True
+Process 14287 is alive: True
+Process 14606 is alive: True
+Process 12354 is alive: True
+Process 13835 is alive: True
+Process 14419 is alive: True
+Process 13834 is alive: True
+Process 12356 is alive: True
+RAM memory % used: 87.4
+RAM Used (GB): 117.74029824
+Elapsed time: 1031.874398469925
+The current number of edges in the queue is 151 out of 193978
+The number of active processes is 28
+Process 12358 is alive: True
+Process 13960 is alive: True
+Process 14535 is alive: True
+Process 14751 is alive: True
+Process 13939 is alive: True
+Process 14820 is alive: True
+Process 14124 is alive: True
+Process 14379 is alive: True
+Process 14346 is alive: True
+Process 14226 is alive: True
+Process 14252 is alive: True
+Process 13995 is alive: True
+Process 14856 is alive: True
+Process 14509 is alive: True
+Process 13876 is alive: True
+Process 14477 is alive: True
+Process 14048 is alive: True
+Process 14074 is alive: True
+Process 14790 is alive: True
+Process 12349 is alive: True
+Process 14643 is alive: True
+Process 14287 is alive: True
+Process 14606 is alive: True
+Process 12354 is alive: True
+Process 13835 is alive: True
+Process 14419 is alive: True
+Process 13834 is alive: True
+Process 12356 is alive: True
+RAM memory % used: 88.3
+RAM Used (GB): 118.905667584
+Elapsed time: 1071.2384984493256
+The current number of edges in the queue is 152 out of 193978
+The number of active processes is 28
+Process 12358 is alive: True
+Process 13960 is alive: True
+Process 14535 is alive: True
+Process 14751 is alive: True
+Process 13939 is alive: True
+Process 14820 is alive: True
+Process 14124 is alive: True
+Process 14379 is alive: True
+Process 14346 is alive: True
+Process 14226 is alive: True
+Process 14252 is alive: True
+Process 13995 is alive: True
+Process 14856 is alive: True
+Process 14509 is alive: True
+Process 13876 is alive: True
+Process 14477 is alive: True
+Process 14048 is alive: True
+Process 14074 is alive: True
+Process 14922 is alive: True
+Process 14790 is alive: True
+Process 12349 is alive: True
+Process 14956 is alive: True
+Process 14643 is alive: True
+Process 14287 is alive: True
+Process 14606 is alive: True
+Process 12354 is alive: True
+Process 14419 is alive: True
+Process 12356 is alive: True
+RAM memory % used: 90.4
+RAM Used (GB): 121.781936128
+Elapsed time: 1113.7285478115082
+The current number of edges in the queue is 154 out of 193978
+The number of active processes is 29
+Process 12358 is alive: True
+Process 13960 is alive: True
+Process 14535 is alive: True
+Process 14751 is alive: True
+Process 14820 is alive: True
+Process 14124 is alive: True
+Process 14379 is alive: True
+Process 14346 is alive: True
+Process 14226 is alive: True
+Process 14252 is alive: True
+Process 13995 is alive: True
+Process 14856 is alive: True
+Process 14509 is alive: True
+Process 14477 is alive: True
+Process 14048 is alive: True
+Process 14074 is alive: True
+Process 14922 is alive: True
+Process 14790 is alive: True
+Process 12349 is alive: True
+Process 14956 is alive: True
+Process 14643 is alive: True
+Process 14287 is alive: True
+Process 14606 is alive: True
+Process 15025 is alive: True
+Process 15137 is alive: True
+Process 12354 is alive: True
+Process 14419 is alive: True
+Process 15099 is alive: True
+Process 12356 is alive: True
+RAM memory % used: 89.8
+RAM Used (GB): 120.681078784
+Elapsed time: 1156.0002648830414
+The current number of edges in the queue is 156 out of 193978
+The number of active processes is 29
+Process 12358 is alive: True
+Process 14535 is alive: True
+Process 14751 is alive: True
+Process 14820 is alive: True
+Process 14124 is alive: True
+Process 15181 is alive: True
+Process 14379 is alive: True
+Process 14346 is alive: True
+Process 14226 is alive: True
+Process 14252 is alive: True
+Process 14856 is alive: True
+Process 14509 is alive: True
+Process 15209 is alive: True
+Process 14477 is alive: True
+Process 14048 is alive: True
+Process 14074 is alive: True
+Process 14922 is alive: True
+Process 14790 is alive: True
+Process 12349 is alive: True
+Process 14956 is alive: True
+Process 14643 is alive: True
+Process 14287 is alive: True
+Process 14606 is alive: True
+Process 15025 is alive: True
+Process 15137 is alive: True
+Process 12354 is alive: True
+Process 14419 is alive: True
+Process 15099 is alive: True
+Process 12356 is alive: True
+RAM memory % used: 89.8
+RAM Used (GB): 120.702226432
+Elapsed time: 1197.1007163524628
+The current number of edges in the queue is 159 out of 193978
+The number of active processes is 28
+Process 12358 is alive: True
+Process 14535 is alive: True
+Process 14751 is alive: True
+Process 14820 is alive: True
+Process 14124 is alive: True
+Process 15181 is alive: True
+Process 14379 is alive: True
+Process 14346 is alive: True
+Process 14226 is alive: True
+Process 14252 is alive: True
+Process 15257 is alive: True
+Process 14856 is alive: True
+Process 14509 is alive: True
+Process 15209 is alive: True
+Process 14477 is alive: True
+Process 14922 is alive: True
+Process 14790 is alive: True
+Process 12349 is alive: True
+Process 14956 is alive: True
+Process 14643 is alive: True
+Process 14287 is alive: True
+Process 14606 is alive: True
+Process 15025 is alive: True
+Process 15137 is alive: True
+Process 12354 is alive: True
+Process 14419 is alive: True
+Process 15099 is alive: True
+Process 12356 is alive: True
+RAM memory % used: 89.9
+RAM Used (GB): 120.850960384
+Elapsed time: 1239.972596168518
+The current number of edges in the queue is 160 out of 193978
+The number of active processes is 28
+Process 12358 is alive: True
+Process 14535 is alive: True
+Process 14751 is alive: True
+Process 14820 is alive: True
+Process 15181 is alive: True
+Process 14379 is alive: True
+Process 14346 is alive: True
+Process 14252 is alive: True
+Process 15257 is alive: True
+Process 14856 is alive: True
+Process 14509 is alive: True
+Process 15209 is alive: True
+Process 14477 is alive: True
+Process 15310 is alive: True
+Process 15336 is alive: True
+Process 14922 is alive: True
+Process 14790 is alive: True
+Process 12349 is alive: True
+Process 14956 is alive: True
+Process 14643 is alive: True
+Process 14287 is alive: True
+Process 14606 is alive: True
+Process 15025 is alive: True
+Process 15137 is alive: True
+Process 12354 is alive: True
+Process 14419 is alive: True
+Process 15099 is alive: True
+Process 12356 is alive: True
+RAM memory % used: 89.4
+RAM Used (GB): 120.181583872
+Elapsed time: 1282.6151101589203
+The current number of edges in the queue is 163 out of 193978
+The number of active processes is 28
+Process 12358 is alive: True
+Process 14535 is alive: True
+Process 14751 is alive: True
+Process 14820 is alive: True
+Process 15181 is alive: True
+Process 14379 is alive: True
+Process 14346 is alive: True
+Process 15450 is alive: True
+Process 15371 is alive: True
+Process 15257 is alive: True
+Process 14856 is alive: True
+Process 14509 is alive: True
+Process 15209 is alive: True
+Process 14477 is alive: True
+Process 15310 is alive: True
+Process 15336 is alive: True
+Process 14922 is alive: True
+Process 14790 is alive: True
+Process 12349 is alive: True
+Process 14956 is alive: True
+Process 14643 is alive: True
+Process 14606 is alive: True
+Process 15025 is alive: True
+Process 15137 is alive: True
+Process 12354 is alive: True
+Process 14419 is alive: True
+Process 15099 is alive: True
+Process 12356 is alive: True
+RAM memory % used: 89.9
+RAM Used (GB): 121.083240448
+Elapsed time: 1324.3851141929626
+The current number of edges in the queue is 163 out of 193978
+The number of active processes is 28
+Process 12358 is alive: True
+Process 14535 is alive: True
+Process 14751 is alive: True
+Process 14820 is alive: True
+Process 15181 is alive: True
+Process 15450 is alive: True
+Process 15371 is alive: True
+Process 15473 is alive: True
+Process 15257 is alive: True
+Process 14856 is alive: True
+Process 14509 is alive: True
+Process 15209 is alive: True
+Process 14477 is alive: True
+Process 15310 is alive: True
+Process 15336 is alive: True
+Process 14922 is alive: True
+Process 14790 is alive: True
+Process 12349 is alive: True
+Process 14956 is alive: True
+Process 14643 is alive: True
+Process 14606 is alive: True
+Process 15025 is alive: True
+Process 15137 is alive: True
+Process 12354 is alive: True
+Process 14419 is alive: True
+Process 15099 is alive: True
+Process 12356 is alive: True
+Process 15546 is alive: True
+RAM memory % used: 89.7
+RAM Used (GB): 120.765280256
+Elapsed time: 1364.027319431305
+The current number of edges in the queue is 163 out of 193978
+The number of active processes is 28
+Process 12358 is alive: True
+Process 14535 is alive: True
+Process 14751 is alive: True
+Process 15647 is alive: True
+Process 14820 is alive: True
+Process 15181 is alive: True
+Process 15450 is alive: True
+Process 15371 is alive: True
+Process 15473 is alive: True
+Process 15257 is alive: True
+Process 14856 is alive: True
+Process 14509 is alive: True
+Process 15624 is alive: True
+Process 15209 is alive: True
+Process 15310 is alive: True
+Process 15336 is alive: True
+Process 14922 is alive: True
+Process 14790 is alive: True
+Process 12349 is alive: True
+Process 14956 is alive: True
+Process 14643 is alive: True
+Process 14606 is alive: True
+Process 15025 is alive: True
+Process 15137 is alive: True
+Process 12354 is alive: True
+Process 15099 is alive: True
+Process 12356 is alive: True
+Process 15546 is alive: True
+RAM memory % used: 89.2
+RAM Used (GB): 119.93567232
+Elapsed time: 1403.6967933177948
+The current number of edges in the queue is 163 out of 193978
+The number of active processes is 28
+Process 12358 is alive: True
+Process 14751 is alive: True
+Process 15678 is alive: True
+Process 15647 is alive: True
+Process 14820 is alive: True
+Process 15181 is alive: True
+Process 15450 is alive: True
+Process 15371 is alive: True
+Process 15473 is alive: True
+Process 15257 is alive: True
+Process 14856 is alive: True
+Process 15624 is alive: True
+Process 15209 is alive: True
+Process 15740 is alive: True
+Process 15310 is alive: True
+Process 15336 is alive: True
+Process 14922 is alive: True
+Process 14790 is alive: True
+Process 12349 is alive: True
+Process 14956 is alive: True
+Process 14643 is alive: True
+Process 14606 is alive: True
+Process 15025 is alive: True
+Process 15137 is alive: True
+Process 12354 is alive: True
+Process 15099 is alive: True
+Process 12356 is alive: True
+Process 15546 is alive: True
+RAM memory % used: 89.0
+RAM Used (GB): 119.571968
+Elapsed time: 1442.7786750793457
+The current number of edges in the queue is 164 out of 193978
+The number of active processes is 28
+Process 12358 is alive: True
+Process 15763 is alive: True
+Process 14751 is alive: True
+Process 15678 is alive: True
+Process 15647 is alive: True
+Process 14820 is alive: True
+Process 15181 is alive: True
+Process 15450 is alive: True
+Process 15371 is alive: True
+Process 15473 is alive: True
+Process 15257 is alive: True
+Process 14856 is alive: True
+Process 15808 is alive: True
+Process 15624 is alive: True
+Process 15209 is alive: True
+Process 15740 is alive: True
+Process 15310 is alive: True
+Process 15336 is alive: True
+Process 14922 is alive: True
+Process 14790 is alive: True
+Process 12349 is alive: True
+Process 14956 is alive: True
+Process 15025 is alive: True
+Process 15137 is alive: True
+Process 12354 is alive: True
+Process 15099 is alive: True
+Process 12356 is alive: True
+Process 15546 is alive: True
+RAM memory % used: 88.8
+RAM Used (GB): 119.320154112
+Elapsed time: 1480.6320152282715
+The current number of edges in the queue is 166 out of 193978
+The number of active processes is 28
+Process 12358 is alive: True
+Process 15763 is alive: True
+Process 15678 is alive: True
+Process 15647 is alive: True
+Process 14820 is alive: True
+Process 15181 is alive: True
+Process 15450 is alive: True
+Process 15371 is alive: True
+Process 15473 is alive: True
+Process 15883 is alive: True
+Process 15257 is alive: True
+Process 14856 is alive: True
+Process 15808 is alive: True
+Process 15624 is alive: True
+Process 15209 is alive: True
+Process 15740 is alive: True
+Process 15310 is alive: True
+Process 15336 is alive: True
+Process 14922 is alive: True
+Process 12349 is alive: True
+Process 14956 is alive: True
+Process 15908 is alive: True
+Process 15025 is alive: True
+Process 15137 is alive: True
+Process 12354 is alive: True
+Process 15099 is alive: True
+Process 12356 is alive: True
+Process 15546 is alive: True
+RAM memory % used: 88.5
+RAM Used (GB): 119.239380992
+Elapsed time: 1519.6259701251984
+The current number of edges in the queue is 166 out of 193978
+The number of active processes is 28
+Process 12358 is alive: True
+Process 15763 is alive: True
+Process 15678 is alive: True
+Process 15647 is alive: True
+Process 15989 is alive: True
+Process 15181 is alive: True
+Process 15450 is alive: True
+Process 15371 is alive: True
+Process 15473 is alive: True
+Process 15883 is alive: True
+Process 15257 is alive: True
+Process 15808 is alive: True
+Process 15624 is alive: True
+Process 15209 is alive: True
+Process 15740 is alive: True
+Process 15310 is alive: True
+Process 15336 is alive: True
+Process 14922 is alive: True
+Process 12349 is alive: True
+Process 14956 is alive: True
+Process 15908 is alive: True
+Process 15025 is alive: True
+Process 15137 is alive: True
+Process 12354 is alive: True
+Process 15099 is alive: True
+Process 12356 is alive: True
+Process 15944 is alive: True
+Process 15546 is alive: True
+RAM memory % used: 88.5
+RAM Used (GB): 119.244427264
+Elapsed time: 1557.5838780403137
+The current number of edges in the queue is 168 out of 193978
+The number of active processes is 28
+Process 12358 is alive: True
+Process 16063 is alive: True
+Process 15763 is alive: True
+Process 15678 is alive: True
+Process 15647 is alive: True
+Process 15989 is alive: True
+Process 15181 is alive: True
+Process 15450 is alive: True
+Process 15371 is alive: True
+Process 15473 is alive: True
+Process 15883 is alive: True
+Process 15257 is alive: True
+Process 15808 is alive: True
+Process 15624 is alive: True
+Process 15209 is alive: True
+Process 15740 is alive: True
+Process 15310 is alive: True
+Process 15336 is alive: True
+Process 16010 is alive: True
+Process 12349 is alive: True
+Process 15908 is alive: True
+Process 15025 is alive: True
+Process 15137 is alive: True
+Process 12354 is alive: True
+Process 15099 is alive: True
+Process 12356 is alive: True
+Process 15944 is alive: True
+Process 15546 is alive: True
+RAM memory % used: 88.6
+RAM Used (GB): 119.387049984
+Elapsed time: 1597.3303246498108
+The current number of edges in the queue is 168 out of 193978
+The number of active processes is 28
+Process 12358 is alive: True
+Process 16063 is alive: True
+Process 15763 is alive: True
+Process 15678 is alive: True
+Process 15647 is alive: True
+Process 15989 is alive: True
+Process 15181 is alive: True
+Process 16190 is alive: True
+Process 15450 is alive: True
+Process 15371 is alive: True
+Process 15473 is alive: True
+Process 15883 is alive: True
+Process 15257 is alive: True
+Process 16169 is alive: True
+Process 15808 is alive: True
+Process 15624 is alive: True
+Process 15209 is alive: True
+Process 15740 is alive: True
+Process 15310 is alive: True
+Process 15336 is alive: True
+Process 16010 is alive: True
+Process 12349 is alive: True
+Process 15908 is alive: True
+Process 15137 is alive: True
+Process 12354 is alive: True
+Process 12356 is alive: True
+Process 15944 is alive: True
+Process 15546 is alive: True
+RAM memory % used: 88.8
+RAM Used (GB): 119.324229632
+Elapsed time: 1635.762851715088
+The current number of edges in the queue is 168 out of 193978
+The number of active processes is 29
+Process 12358 is alive: True
+Process 16063 is alive: True
+Process 15763 is alive: True
+Process 15678 is alive: True
+Process 15647 is alive: True
+Process 15989 is alive: True
+Process 16190 is alive: True
+Process 15450 is alive: True
+Process 15371 is alive: True
+Process 15473 is alive: True
+Process 15883 is alive: True
+Process 15257 is alive: True
+Process 16169 is alive: True
+Process 15808 is alive: True
+Process 15624 is alive: True
+Process 15209 is alive: True
+Process 15740 is alive: True
+Process 15310 is alive: True
+Process 15336 is alive: True
+Process 16010 is alive: True
+Process 12349 is alive: True
+Process 16222 is alive: True
+Process 15908 is alive: True
+Process 16345 is alive: True
+Process 12354 is alive: True
+Process 16284 is alive: True
+Process 12356 is alive: True
+Process 15944 is alive: True
+Process 15546 is alive: True
+RAM memory % used: 89.0
+RAM Used (GB): 119.56256768
+Elapsed time: 1675.5582113265991
+The current number of edges in the queue is 169 out of 193978
+The number of active processes is 29
+Process 12358 is alive: True
+Process 16063 is alive: True
+Process 15763 is alive: True
+Process 15678 is alive: True
+Process 15647 is alive: True
+Process 15989 is alive: True
+Process 16464 is alive: True
+Process 16190 is alive: True
+Process 15450 is alive: True
+Process 15371 is alive: True
+Process 15473 is alive: True
+Process 15883 is alive: True
+Process 16169 is alive: True
+Process 15808 is alive: True
+Process 15624 is alive: True
+Process 15740 is alive: True
+Process 15310 is alive: True
+Process 15336 is alive: True
+Process 16010 is alive: True
+Process 12349 is alive: True
+Process 16222 is alive: True
+Process 15908 is alive: True
+Process 16345 is alive: True
+Process 12354 is alive: True
+Process 16399 is alive: True
+Process 16284 is alive: True
+Process 12356 is alive: True
+Process 15944 is alive: True
+Process 15546 is alive: True
+RAM memory % used: 89.3
+RAM Used (GB): 120.06418432
+Elapsed time: 1717.1794700622559
+The current number of edges in the queue is 170 out of 193978
+The number of active processes is 28
+Process 12358 is alive: True
+Process 16063 is alive: True
+Process 15763 is alive: True
+Process 15678 is alive: True
+Process 15647 is alive: True
+Process 15989 is alive: True
+Process 16464 is alive: True
+Process 16190 is alive: True
+Process 15450 is alive: True
+Process 15371 is alive: True
+Process 15473 is alive: True
+Process 15883 is alive: True
+Process 16498 is alive: True
+Process 16169 is alive: True
+Process 15808 is alive: True
+Process 15624 is alive: True
+Process 15740 is alive: True
+Process 16010 is alive: True
+Process 12349 is alive: True
+Process 16222 is alive: True
+Process 15908 is alive: True
+Process 16345 is alive: True
+Process 12354 is alive: True
+Process 16399 is alive: True
+Process 16284 is alive: True
+Process 12356 is alive: True
+Process 15944 is alive: True
+Process 15546 is alive: True
+RAM memory % used: 88.7
+RAM Used (GB): 119.1493632
+Elapsed time: 1757.7994322776794
+The current number of edges in the queue is 170 out of 193978
+The number of active processes is 28
+Process 12358 is alive: True
+Process 16063 is alive: True
+Process 15763 is alive: True
+Process 15678 is alive: True
+Process 15647 is alive: True
+Process 15989 is alive: True
+Process 16464 is alive: True
+Process 16190 is alive: True
+Process 16530 is alive: True
+Process 15473 is alive: True
+Process 15883 is alive: True
+Process 16498 is alive: True
+Process 16169 is alive: True
+Process 15808 is alive: True
+Process 15624 is alive: True
+Process 15740 is alive: True
+Process 16573 is alive: True
+Process 16010 is alive: True
+Process 12349 is alive: True
+Process 16222 is alive: True
+Process 15908 is alive: True
+Process 16345 is alive: True
+Process 12354 is alive: True
+Process 16399 is alive: True
+Process 16284 is alive: True
+Process 12356 is alive: True
+Process 15944 is alive: True
+Process 15546 is alive: True
+RAM memory % used: 89.2
+RAM Used (GB): 119.846281216
+Elapsed time: 1796.4047152996063
+The current number of edges in the queue is 177 out of 193978
+The number of active processes is 28
+Process 12358 is alive: True
+Process 16063 is alive: True
+Process 15763 is alive: True
+Process 16600 is alive: True
+Process 15678 is alive: True
+Process 15647 is alive: True
+Process 15989 is alive: True
+Process 16464 is alive: True
+Process 16190 is alive: True
+Process 16709 is alive: True
+Process 16530 is alive: True
+Process 15883 is alive: True
+Process 16498 is alive: True
+Process 16169 is alive: True
+Process 15808 is alive: True
+Process 15624 is alive: True
+Process 15740 is alive: True
+Process 16573 is alive: True
+Process 16010 is alive: True
+Process 12349 is alive: True
+Process 16222 is alive: True
+Process 15908 is alive: True
+Process 16345 is alive: True
+Process 12354 is alive: True
+Process 16399 is alive: True
+Process 16284 is alive: True
+Process 12356 is alive: True
+Process 15944 is alive: True
+RAM memory % used: 89.2
+RAM Used (GB): 120.081657856
+Elapsed time: 1838.0917506217957
+The current number of edges in the queue is 177 out of 193978
+The number of active processes is 28
+Process 12358 is alive: True
+Process 16063 is alive: True
+Process 15763 is alive: True
+Process 16600 is alive: True
+Process 15678 is alive: True
+Process 15989 is alive: True
+Process 16464 is alive: True
+Process 16190 is alive: True
+Process 16709 is alive: True
+Process 16530 is alive: True
+Process 16756 is alive: True
+Process 15883 is alive: True
+Process 16498 is alive: True
+Process 16169 is alive: True
+Process 15808 is alive: True
+Process 15740 is alive: True
+Process 16573 is alive: True
+Process 16010 is alive: True
+Process 12349 is alive: True
+Process 16222 is alive: True
+Process 15908 is alive: True
+Process 16345 is alive: True
+Process 16810 is alive: True
+Process 12354 is alive: True
+Process 16399 is alive: True
+Process 16284 is alive: True
+Process 12356 is alive: True
+Process 15944 is alive: True
+RAM memory % used: 89.2
+RAM Used (GB): 119.884500992
+Elapsed time: 1879.7277915477753
+The current number of edges in the queue is 178 out of 193978
+The number of active processes is 28
+Process 12358 is alive: True
+Process 16063 is alive: True
+Process 15763 is alive: True
+Process 16600 is alive: True
+Process 15989 is alive: True
+Process 16464 is alive: True
+Process 16190 is alive: True
+Process 16709 is alive: True
+Process 16530 is alive: True
+Process 16756 is alive: True
+Process 15883 is alive: True
+Process 16498 is alive: True
+Process 16169 is alive: True
+Process 16859 is alive: True
+Process 15808 is alive: True
+Process 16573 is alive: True
+Process 16010 is alive: True
+Process 12349 is alive: True
+Process 16222 is alive: True
+Process 15908 is alive: True
+Process 16345 is alive: True
+Process 16907 is alive: True
+Process 16810 is alive: True
+Process 12354 is alive: True
+Process 16399 is alive: True
+Process 16284 is alive: True
+Process 12356 is alive: True
+Process 15944 is alive: True
+RAM memory % used: 89.2
+RAM Used (GB): 120.154628096
+Elapsed time: 1922.419053554535
+The current number of edges in the queue is 180 out of 193978
+The number of active processes is 29
+Process 12358 is alive: True
+Process 16063 is alive: True
+Process 16932 is alive: True
+Process 16600 is alive: True
+Process 15989 is alive: True
+Process 16464 is alive: True
+Process 16190 is alive: True
+Process 16709 is alive: True
+Process 17063 is alive: True
+Process 16530 is alive: True
+Process 16756 is alive: True
+Process 15883 is alive: True
+Process 16498 is alive: True
+Process 16169 is alive: True
+Process 16859 is alive: True
+Process 16573 is alive: True
+Process 16979 is alive: True
+Process 16010 is alive: True
+Process 12349 is alive: True
+Process 16222 is alive: True
+Process 15908 is alive: True
+Process 16345 is alive: True
+Process 16907 is alive: True
+Process 16810 is alive: True
+Process 12354 is alive: True
+Process 16399 is alive: True
+Process 16284 is alive: True
+Process 12356 is alive: True
+Process 15944 is alive: True
+RAM memory % used: 89.6
+RAM Used (GB): 120.384208896
+Elapsed time: 1964.7893216609955
+The current number of edges in the queue is 180 out of 193978
+The number of active processes is 28
+Process 12358 is alive: True
+Process 16063 is alive: True
+Process 16932 is alive: True
+Process 16600 is alive: True
+Process 15989 is alive: True
+Process 16464 is alive: True
+Process 16190 is alive: True
+Process 16709 is alive: True
+Process 17063 is alive: True
+Process 16530 is alive: True
+Process 16756 is alive: True
+Process 16498 is alive: True
+Process 16169 is alive: True
+Process 16859 is alive: True
+Process 17086 is alive: True
+Process 16573 is alive: True
+Process 16979 is alive: True
+Process 16010 is alive: True
+Process 12349 is alive: True
+Process 16222 is alive: True
+Process 16345 is alive: True
+Process 16907 is alive: True
+Process 16810 is alive: True
+Process 12354 is alive: True
+Process 16399 is alive: True
+Process 16284 is alive: True
+Process 12356 is alive: True
+Process 15944 is alive: True
+RAM memory % used: 88.9
+RAM Used (GB): 119.465484288
+Elapsed time: 2005.9839489459991
+The current number of edges in the queue is 182 out of 193978
+The number of active processes is 28
+Process 12358 is alive: True
+Process 16063 is alive: True
+Process 17117 is alive: True
+Process 16932 is alive: True
+Process 16600 is alive: True
+Process 16464 is alive: True
+Process 16190 is alive: True
+Process 16709 is alive: True
+Process 17063 is alive: True
+Process 16530 is alive: True
+Process 16756 is alive: True
+Process 16498 is alive: True
+Process 16169 is alive: True
+Process 16859 is alive: True
+Process 17086 is alive: True
+Process 16573 is alive: True
+Process 16979 is alive: True
+Process 16010 is alive: True
+Process 12349 is alive: True
+Process 16222 is alive: True
+Process 17202 is alive: True
+Process 16345 is alive: True
+Process 16907 is alive: True
+Process 16810 is alive: True
+Process 12354 is alive: True
+Process 16399 is alive: True
+Process 16284 is alive: True
+Process 12356 is alive: True
+RAM memory % used: 88.7
+RAM Used (GB): 119.21301504
+Elapsed time: 2045.9649181365967
+The current number of edges in the queue is 182 out of 193978
+The number of active processes is 28
+Process 12358 is alive: True
+Process 17117 is alive: True
+Process 16932 is alive: True
+Process 16600 is alive: True
+Process 17239 is alive: True
+Process 16464 is alive: True
+Process 16190 is alive: True
+Process 16709 is alive: True
+Process 17063 is alive: True
+Process 16530 is alive: True
+Process 16756 is alive: True
+Process 16498 is alive: True
+Process 16169 is alive: True
+Process 16859 is alive: True
+Process 17086 is alive: True
+Process 16573 is alive: True
+Process 16979 is alive: True
+Process 12349 is alive: True
+Process 16222 is alive: True
+Process 17202 is alive: True
+Process 16345 is alive: True
+Process 16907 is alive: True
+Process 17275 is alive: True
+Process 16810 is alive: True
+Process 12354 is alive: True
+Process 16399 is alive: True
+Process 16284 is alive: True
+Process 12356 is alive: True
+RAM memory % used: 89.0
+RAM Used (GB): 119.613177856
+Elapsed time: 2084.5885531902313
+The current number of edges in the queue is 183 out of 193978
+The number of active processes is 29
+Process 12358 is alive: True
+Process 17117 is alive: True
+Process 17383 is alive: True
+Process 16932 is alive: True
+Process 16600 is alive: True
+Process 17239 is alive: True
+Process 16464 is alive: True
+Process 16709 is alive: True
+Process 17063 is alive: True
+Process 16530 is alive: True
+Process 16756 is alive: True
+Process 17359 is alive: True
+Process 17326 is alive: True
+Process 16498 is alive: True
+Process 16859 is alive: True
+Process 17086 is alive: True
+Process 16573 is alive: True
+Process 16979 is alive: True
+Process 12349 is alive: True
+Process 16222 is alive: True
+Process 17202 is alive: True
+Process 16345 is alive: True
+Process 16907 is alive: True
+Process 17275 is alive: True
+Process 16810 is alive: True
+Process 12354 is alive: True
+Process 16399 is alive: True
+Process 16284 is alive: True
+Process 12356 is alive: True
+RAM memory % used: 89.4
+RAM Used (GB): 120.155693056
+Elapsed time: 2126.490694999695
+The current number of edges in the queue is 184 out of 193978
+The number of active processes is 28
+Process 12358 is alive: True
+Process 17117 is alive: True
+Process 17383 is alive: True
+Process 16932 is alive: True
+Process 16600 is alive: True
+Process 17239 is alive: True
+Process 16464 is alive: True
+Process 16709 is alive: True
+Process 17063 is alive: True
+Process 16530 is alive: True
+Process 16756 is alive: True
+Process 17359 is alive: True
+Process 17326 is alive: True
+Process 16498 is alive: True
+Process 16859 is alive: True
+Process 17086 is alive: True
+Process 16573 is alive: True
+Process 16979 is alive: True
+Process 17434 is alive: True
+Process 12349 is alive: True
+Process 17202 is alive: True
+Process 16345 is alive: True
+Process 16907 is alive: True
+Process 17275 is alive: True
+Process 16810 is alive: True
+Process 12354 is alive: True
+Process 16399 is alive: True
+Process 12356 is alive: True
+RAM memory % used: 89.4
+RAM Used (GB): 120.45907968
+Elapsed time: 2168.8676199913025
+The current number of edges in the queue is 185 out of 193978
+The number of active processes is 29
+Process 12358 is alive: True
+Process 17117 is alive: True
+Process 17383 is alive: True
+Process 16932 is alive: True
+Process 16600 is alive: True
+Process 17239 is alive: True
+Process 16464 is alive: True
+Process 16709 is alive: True
+Process 17063 is alive: True
+Process 16530 is alive: True
+Process 16756 is alive: True
+Process 17359 is alive: True
+Process 17326 is alive: True
+Process 16498 is alive: True
+Process 16859 is alive: True
+Process 17086 is alive: True
+Process 17637 is alive: True
+Process 16573 is alive: True
+Process 17468 is alive: True
+Process 16979 is alive: True
+Process 17434 is alive: True
+Process 12349 is alive: True
+Process 17202 is alive: True
+Process 16907 is alive: True
+Process 17275 is alive: True
+Process 16810 is alive: True
+Process 12354 is alive: True
+Process 17565 is alive: True
+Process 12356 is alive: True
+RAM memory % used: 88.4
+RAM Used (GB): 118.825734144
+Elapsed time: 2208.5690746307373
+The current number of edges in the queue is 186 out of 193978
+The number of active processes is 28
+Process 12358 is alive: True
+Process 17117 is alive: True
+Process 17383 is alive: True
+Process 16932 is alive: True
+Process 16600 is alive: True
+Process 17239 is alive: True
+Process 16709 is alive: True
+Process 17063 is alive: True
+Process 16530 is alive: True
+Process 16756 is alive: True
+Process 17359 is alive: True
+Process 17326 is alive: True
+Process 16859 is alive: True
+Process 17086 is alive: True
+Process 17637 is alive: True
+Process 16573 is alive: True
+Process 17468 is alive: True
+Process 16979 is alive: True
+Process 17434 is alive: True
+Process 12349 is alive: True
+Process 17202 is alive: True
+Process 16907 is alive: True
+Process 17275 is alive: True
+Process 16810 is alive: True
+Process 12354 is alive: True
+Process 17670 is alive: True
+Process 17565 is alive: True
+Process 12356 is alive: True
+RAM memory % used: 88.5
+RAM Used (GB): 118.969389056
+Elapsed time: 2247.1093237400055
+The current number of edges in the queue is 188 out of 193978
+The number of active processes is 28
+Process 12358 is alive: True
+Process 17117 is alive: True
+Process 17383 is alive: True
+Process 16932 is alive: True
+Process 16600 is alive: True
+Process 17239 is alive: True
+Process 17767 is alive: True
+Process 16709 is alive: True
+Process 17063 is alive: True
+Process 16756 is alive: True
+Process 17359 is alive: True
+Process 17326 is alive: True
+Process 16859 is alive: True
+Process 17086 is alive: True
+Process 17637 is alive: True
+Process 17468 is alive: True
+Process 16979 is alive: True
+Process 17434 is alive: True
+Process 12349 is alive: True
+Process 17202 is alive: True
+Process 16907 is alive: True
+Process 17275 is alive: True
+Process 16810 is alive: True
+Process 17694 is alive: True
+Process 12354 is alive: True
+Process 17670 is alive: True
+Process 17565 is alive: True
+Process 12356 is alive: True
+RAM memory % used: 88.6
+RAM Used (GB): 119.083270144
+Elapsed time: 2284.516355752945
